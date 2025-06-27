@@ -1,0 +1,6 @@
+[core]
+    remote = aicltr
+    autostage = true
+['remote "aicltr"']
+    url = s3://biopolymers
+    endpointurl = http://77.234.216.102:9999

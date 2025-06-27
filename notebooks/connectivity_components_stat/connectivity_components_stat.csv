@@ -1,0 +1,16268 @@
+component_id,nodes_count,component_labels
+0,531606,"[
+  [protein],
+  [rna],
+  [dna],
+  [peptide],
+  [small_molecule]
+]"
+164057,1659,"[
+  [protein]
+]"
+164068,957,"[
+  [protein]
+]"
+null,824,"[
+  [disease]
+]"
+202855,424,"[
+  [protein],
+  [small_molecule]
+]"
+164038,383,"[
+  [protein]
+]"
+164539,273,"[
+  [protein]
+]"
+185753,249,"[
+  [protein],
+  [dna],
+  [small_molecule]
+]"
+198480,216,"[
+  [rna],
+  [small_molecule]
+]"
+165391,211,"[
+  [protein]
+]"
+202837,201,"[
+  [protein],
+  [small_molecule]
+]"
+165982,155,"[
+  [protein],
+  [peptide]
+]"
+164437,141,"[
+  [protein]
+]"
+202726,131,"[
+  [protein],
+  [small_molecule]
+]"
+164019,127,"[
+  [protein]
+]"
+164061,112,"[
+  [protein],
+  [peptide]
+]"
+167917,111,"[
+  [protein]
+]"
+182736,98,"[
+  [rna],
+  [dna],
+  [small_molecule]
+]"
+182747,90,"[
+  [rna],
+  [small_molecule]
+]"
+202848,89,"[
+  [protein],
+  [small_molecule]
+]"
+165855,86,"[
+  [protein]
+]"
+166987,78,"[
+  [protein]
+]"
+203151,78,"[
+  [protein],
+  [small_molecule]
+]"
+202862,74,"[
+  [protein],
+  [small_molecule]
+]"
+164048,73,"[
+  [protein]
+]"
+182741,73,"[
+  [rna],
+  [dna],
+  [small_molecule]
+]"
+164078,72,"[
+  [protein]
+]"
+167277,68,"[
+  [protein]
+]"
+182754,68,"[
+  [rna],
+  [dna],
+  [small_molecule]
+]"
+164014,67,"[
+  [protein]
+]"
+165469,66,"[
+  [protein],
+  [peptide]
+]"
+203075,64,"[
+  [protein],
+  [small_molecule]
+]"
+165398,63,"[
+  [protein]
+]"
+164927,61,"[
+  [protein]
+]"
+165816,58,"[
+  [protein]
+]"
+164362,57,"[
+  [protein]
+]"
+202889,56,"[
+  [protein],
+  [small_molecule]
+]"
+184044,55,"[
+  [protein],
+  [dna]
+]"
+164440,53,"[
+  [protein]
+]"
+184244,53,"[
+  [protein],
+  [dna]
+]"
+168098,52,"[
+  [protein]
+]"
+164820,51,"[
+  [protein]
+]"
+184162,49,"[
+  [protein],
+  [dna]
+]"
+165426,48,"[
+  [protein],
+  [peptide]
+]"
+202413,48,"[
+  [protein],
+  [small_molecule]
+]"
+167481,47,"[
+  [protein]
+]"
+184023,47,"[
+  [protein],
+  [dna]
+]"
+166739,46,"[
+  [protein]
+]"
+158272,46,"[
+  [protein],
+  [small_molecule]
+]"
+202836,46,"[
+  [protein],
+  [small_molecule]
+]"
+184157,45,"[
+  [protein],
+  [dna]
+]"
+184584,45,"[
+  [protein],
+  [dna]
+]"
+166275,43,"[
+  [protein]
+]"
+168001,43,"[
+  [protein]
+]"
+184009,42,"[
+  [peptide],
+  [protein],
+  [dna]
+]"
+164736,41,"[
+  [protein]
+]"
+167820,41,"[
+  [protein]
+]"
+166407,40,"[
+  [protein]
+]"
+167139,40,"[
+  [protein]
+]"
+201700,40,"[
+  [protein],
+  [small_molecule]
+]"
+167086,38,"[
+  [protein]
+]"
+174185,38,"[
+  [protein],
+  [peptide]
+]"
+168735,37,"[
+  [protein],
+  [peptide]
+]"
+164089,36,"[
+  [protein],
+  [peptide]
+]"
+164361,36,"[
+  [protein]
+]"
+166038,36,"[
+  [protein]
+]"
+184180,36,"[
+  [protein],
+  [dna]
+]"
+184259,36,"[
+  [protein],
+  [dna]
+]"
+165883,35,"[
+  [protein]
+]"
+168302,35,"[
+  [protein]
+]"
+184352,35,"[
+  [protein],
+  [dna]
+]"
+164532,33,"[
+  [protein]
+]"
+166605,33,"[
+  [protein]
+]"
+167875,33,"[
+  [protein]
+]"
+164000,32,"[
+  [protein]
+]"
+165811,32,"[
+  [protein]
+]"
+168262,32,"[
+  [protein]
+]"
+164024,31,"[
+  [protein]
+]"
+164812,31,"[
+  [protein]
+]"
+168101,31,"[
+  [protein],
+  [peptide]
+]"
+184661,31,"[
+  [protein],
+  [dna]
+]"
+164225,30,"[
+  [protein]
+]"
+165401,30,"[
+  [protein]
+]"
+167029,30,"[
+  [protein]
+]"
+168016,30,"[
+  [protein]
+]"
+164069,29,"[
+  [protein]
+]"
+164452,29,"[
+  [protein]
+]"
+164004,28,"[
+  [protein]
+]"
+164146,28,"[
+  [protein]
+]"
+168069,28,"[
+  [protein]
+]"
+182576,28,"[
+  [rna],
+  [small_molecule]
+]"
+198497,28,"[
+  [rna],
+  [small_molecule]
+]"
+200324,28,"[
+  [protein],
+  [small_molecule]
+]"
+202970,28,"[
+  [protein],
+  [small_molecule]
+]"
+164064,27,"[
+  [protein]
+]"
+168011,27,"[
+  [protein]
+]"
+174317,27,"[
+  [protein],
+  [peptide]
+]"
+182737,27,"[
+  [rna],
+  [small_molecule]
+]"
+198479,27,"[
+  [rna],
+  [small_molecule]
+]"
+164052,26,"[
+  [protein]
+]"
+174306,26,"[
+  [protein],
+  [peptide]
+]"
+182746,26,"[
+  [rna],
+  [small_molecule]
+]"
+184210,26,"[
+  [protein],
+  [dna]
+]"
+93379,26,"[
+  [protein],
+  [small_molecule]
+]"
+202843,26,"[
+  [protein],
+  [small_molecule]
+]"
+164727,25,"[
+  [protein]
+]"
+165143,25,"[
+  [protein]
+]"
+167952,25,"[
+  [protein]
+]"
+164377,24,"[
+  [protein]
+]"
+165639,24,"[
+  [protein]
+]"
+168053,24,"[
+  [protein]
+]"
+174050,24,"[
+  [protein],
+  [peptide]
+]"
+182819,24,"[
+  [rna],
+  [small_molecule]
+]"
+183194,24,"[
+  [rna],
+  [dna],
+  [small_molecule]
+]"
+184291,24,"[
+  [protein],
+  [dna]
+]"
+191685,24,"[
+  [protein],
+  [dna],
+  [small_molecule]
+]"
+164017,23,"[
+  [protein]
+]"
+164270,23,"[
+  [protein]
+]"
+164483,23,"[
+  [protein]
+]"
+165080,23,"[
+  [protein]
+]"
+165645,23,"[
+  [protein]
+]"
+185147,23,"[
+  [peptide],
+  [protein],
+  [dna]
+]"
+203036,23,"[
+  [protein],
+  [small_molecule]
+]"
+166471,22,"[
+  [protein]
+]"
+166774,22,"[
+  [protein]
+]"
+167795,22,"[
+  [protein]
+]"
+183093,22,"[
+  [dna],
+  [small_molecule]
+]"
+184045,22,"[
+  [protein],
+  [dna]
+]"
+164740,21,"[
+  [protein]
+]"
+168039,21,"[
+  [protein]
+]"
+168310,21,"[
+  [protein]
+]"
+168809,21,"[
+  [protein]
+]"
+168983,21,"[
+  [protein]
+]"
+179289,21,"[
+  [protein]
+]"
+200039,21,"[
+  [protein],
+  [small_molecule]
+]"
+202787,21,"[
+  [protein],
+  [small_molecule]
+]"
+203239,21,"[
+  [protein],
+  [small_molecule]
+]"
+164438,20,"[
+  [protein]
+]"
+164673,20,"[
+  [protein]
+]"
+165102,20,"[
+  [protein]
+]"
+165579,20,"[
+  [protein]
+]"
+168142,20,"[
+  [protein]
+]"
+203015,20,"[
+  [protein],
+  [small_molecule]
+]"
+164244,19,"[
+  [protein]
+]"
+165245,19,"[
+  [protein]
+]"
+165312,19,"[
+  [protein]
+]"
+166360,19,"[
+  [protein]
+]"
+167350,19,"[
+  [protein]
+]"
+167935,19,"[
+  [protein]
+]"
+179284,19,"[
+  [protein]
+]"
+107791,19,"[
+  [protein],
+  [small_molecule]
+]"
+164041,18,"[
+  [protein]
+]"
+164750,18,"[
+  [protein]
+]"
+166134,18,"[
+  [protein]
+]"
+166363,18,"[
+  [protein]
+]"
+166801,18,"[
+  [protein]
+]"
+168030,18,"[
+  [protein]
+]"
+174102,18,"[
+  [protein],
+  [peptide]
+]"
+174289,18,"[
+  [protein],
+  [peptide]
+]"
+175342,18,"[
+  [protein],
+  [small_molecule]
+]"
+184016,18,"[
+  [protein],
+  [dna]
+]"
+164229,17,"[
+  [protein]
+]"
+164233,17,"[
+  [protein]
+]"
+164469,17,"[
+  [protein]
+]"
+164576,17,"[
+  [protein]
+]"
+164602,17,"[
+  [protein]
+]"
+165193,17,"[
+  [protein]
+]"
+165928,17,"[
+  [protein]
+]"
+167123,17,"[
+  [protein]
+]"
+167964,17,"[
+  [protein]
+]"
+168010,17,"[
+  [protein]
+]"
+175419,17,"[
+  [protein],
+  [small_molecule]
+]"
+176571,17,"[
+  [protein]
+]"
+184159,17,"[
+  [protein],
+  [dna]
+]"
+164646,16,"[
+  [protein],
+  [peptide]
+]"
+164810,16,"[
+  [protein]
+]"
+164861,16,"[
+  [protein]
+]"
+165032,16,"[
+  [protein]
+]"
+165033,16,"[
+  [protein]
+]"
+165693,16,"[
+  [protein]
+]"
+166099,16,"[
+  [protein]
+]"
+167825,16,"[
+  [protein]
+]"
+168122,16,"[
+  [protein]
+]"
+174332,16,"[
+  [protein],
+  [peptide]
+]"
+182534,16,"[
+  [rna],
+  [small_molecule]
+]"
+184017,16,"[
+  [protein],
+  [dna]
+]"
+25782,16,"[
+  [protein],
+  [small_molecule]
+]"
+165769,15,"[
+  [protein]
+]"
+165945,15,"[
+  [protein]
+]"
+167005,15,"[
+  [protein],
+  [peptide]
+]"
+167873,15,"[
+  [protein]
+]"
+167967,15,"[
+  [protein]
+]"
+168148,15,"[
+  [protein]
+]"
+168595,15,"[
+  [protein],
+  [peptide]
+]"
+174165,15,"[
+  [protein],
+  [peptide]
+]"
+176587,15,"[
+  [protein]
+]"
+182517,15,"[
+  [rna],
+  [small_molecule]
+]"
+184103,15,"[
+  [protein],
+  [dna]
+]"
+189682,15,"[
+  [protein],
+  [dna]
+]"
+203179,15,"[
+  [protein],
+  [small_molecule]
+]"
+164119,14,"[
+  [protein]
+]"
+164157,14,"[
+  [protein]
+]"
+164198,14,"[
+  [protein]
+]"
+164446,14,"[
+  [protein]
+]"
+166798,14,"[
+  [protein]
+]"
+167296,14,"[
+  [protein]
+]"
+167736,14,"[
+  [protein]
+]"
+167797,14,"[
+  [protein]
+]"
+167815,14,"[
+  [protein]
+]"
+167978,14,"[
+  [protein]
+]"
+168179,14,"[
+  [protein]
+]"
+168238,14,"[
+  [protein]
+]"
+168364,14,"[
+  [protein]
+]"
+169487,14,"[
+  [protein]
+]"
+174108,14,"[
+  [protein],
+  [peptide]
+]"
+174319,14,"[
+  [protein],
+  [peptide]
+]"
+174411,14,"[
+  [protein],
+  [peptide]
+]"
+184426,14,"[
+  [protein],
+  [dna]
+]"
+185167,14,"[
+  [protein],
+  [dna]
+]"
+187359,14,"[
+  [protein],
+  [dna]
+]"
+189777,14,"[
+  [protein],
+  [dna]
+]"
+163974,13,"[
+  [protein]
+]"
+165168,13,"[
+  [protein]
+]"
+166486,13,"[
+  [protein]
+]"
+166560,13,"[
+  [protein]
+]"
+167379,13,"[
+  [protein]
+]"
+167817,13,"[
+  [protein]
+]"
+167953,13,"[
+  [protein]
+]"
+168054,13,"[
+  [protein]
+]"
+168150,13,"[
+  [protein]
+]"
+168299,13,"[
+  [protein]
+]"
+168311,13,"[
+  [protein]
+]"
+168994,13,"[
+  [protein]
+]"
+169248,13,"[
+  [protein]
+]"
+174421,13,"[
+  [protein],
+  [peptide]
+]"
+182518,13,"[
+  [rna],
+  [small_molecule]
+]"
+182529,13,"[
+  [rna],
+  [small_molecule]
+]"
+182845,13,"[
+  [rna],
+  [small_molecule]
+]"
+182856,13,"[
+  [rna],
+  [small_molecule]
+]"
+186197,13,"[
+  [protein],
+  [dna]
+]"
+198640,13,"[
+  [rna],
+  [small_molecule]
+]"
+202714,13,"[
+  [protein],
+  [small_molecule]
+]"
+203177,13,"[
+  [protein],
+  [small_molecule]
+]"
+164002,12,"[
+  [protein]
+]"
+164547,12,"[
+  [protein]
+]"
+164748,12,"[
+  [protein]
+]"
+166974,12,"[
+  [protein]
+]"
+167244,12,"[
+  [protein]
+]"
+167801,12,"[
+  [protein]
+]"
+167811,12,"[
+  [protein]
+]"
+167840,12,"[
+  [protein]
+]"
+167863,12,"[
+  [protein]
+]"
+168559,12,"[
+  [protein]
+]"
+168762,12,"[
+  [protein]
+]"
+174288,12,"[
+  [protein],
+  [peptide]
+]"
+174385,12,"[
+  [protein],
+  [peptide]
+]"
+175428,12,"[
+  [protein],
+  [small_molecule]
+]"
+182908,12,"[
+  [dna],
+  [small_molecule]
+]"
+184356,12,"[
+  [peptide],
+  [dna]
+]"
+184778,12,"[
+  [protein],
+  [dna]
+]"
+188609,12,"[
+  [protein],
+  [dna]
+]"
+200093,12,"[
+  [protein],
+  [small_molecule]
+]"
+164032,11,"[
+  [protein]
+]"
+164083,11,"[
+  [protein],
+  [peptide]
+]"
+164162,11,"[
+  [protein]
+]"
+164557,11,"[
+  [protein],
+  [peptide]
+]"
+165750,11,"[
+  [protein]
+]"
+165833,11,"[
+  [protein]
+]"
+166202,11,"[
+  [protein]
+]"
+166247,11,"[
+  [protein]
+]"
+167804,11,"[
+  [protein]
+]"
+167818,11,"[
+  [protein]
+]"
+167839,11,"[
+  [protein]
+]"
+167911,11,"[
+  [protein]
+]"
+167946,11,"[
+  [protein]
+]"
+167968,11,"[
+  [protein]
+]"
+168009,11,"[
+  [protein]
+]"
+168219,11,"[
+  [protein]
+]"
+168388,11,"[
+  [protein]
+]"
+168435,11,"[
+  [protein]
+]"
+168604,11,"[
+  [protein]
+]"
+168619,11,"[
+  [protein],
+  [peptide]
+]"
+168733,11,"[
+  [protein]
+]"
+168743,11,"[
+  [protein]
+]"
+168779,11,"[
+  [protein]
+]"
+169444,11,"[
+  [protein]
+]"
+174278,11,"[
+  [protein],
+  [peptide]
+]"
+174576,11,"[
+  [protein],
+  [peptide]
+]"
+179280,11,"[
+  [protein]
+]"
+184181,11,"[
+  [peptide],
+  [protein],
+  [dna]
+]"
+192069,11,"[
+  [protein],
+  [dna]
+]"
+198611,11,"[
+  [rna],
+  [small_molecule]
+]"
+164012,10,"[
+  [protein]
+]"
+164027,10,"[
+  [protein]
+]"
+164221,10,"[
+  [protein]
+]"
+164240,10,"[
+  [protein]
+]"
+165258,10,"[
+  [protein],
+  [peptide]
+]"
+165440,10,"[
+  [protein]
+]"
+165943,10,"[
+  [protein]
+]"
+165979,10,"[
+  [protein],
+  [peptide]
+]"
+166338,10,"[
+  [protein]
+]"
+166580,10,"[
+  [protein]
+]"
+167404,10,"[
+  [protein]
+]"
+167470,10,"[
+  [protein]
+]"
+167677,10,"[
+  [protein]
+]"
+167793,10,"[
+  [protein]
+]"
+167799,10,"[
+  [protein]
+]"
+167833,10,"[
+  [protein]
+]"
+167870,10,"[
+  [protein]
+]"
+167886,10,"[
+  [protein]
+]"
+167926,10,"[
+  [protein]
+]"
+167979,10,"[
+  [protein]
+]"
+168004,10,"[
+  [protein]
+]"
+168032,10,"[
+  [protein]
+]"
+168163,10,"[
+  [protein]
+]"
+168222,10,"[
+  [protein],
+  [peptide]
+]"
+168245,10,"[
+  [protein],
+  [peptide]
+]"
+168281,10,"[
+  [protein]
+]"
+168307,10,"[
+  [protein]
+]"
+168437,10,"[
+  [protein]
+]"
+168455,10,"[
+  [protein]
+]"
+168520,10,"[
+  [protein]
+]"
+168592,10,"[
+  [protein]
+]"
+168678,10,"[
+  [protein]
+]"
+168834,10,"[
+  [protein]
+]"
+174083,10,"[
+  [protein],
+  [peptide]
+]"
+174804,10,"[
+  [protein],
+  [peptide]
+]"
+175480,10,"[
+  [protein],
+  [small_molecule]
+]"
+182750,10,"[
+  [rna],
+  [small_molecule]
+]"
+184033,10,"[
+  [protein],
+  [dna]
+]"
+184365,10,"[
+  [protein],
+  [dna]
+]"
+184425,10,"[
+  [protein],
+  [dna]
+]"
+184578,10,"[
+  [protein],
+  [dna]
+]"
+184633,10,"[
+  [protein],
+  [dna]
+]"
+184707,10,"[
+  [protein],
+  [dna]
+]"
+184728,10,"[
+  [protein],
+  [dna]
+]"
+185126,10,"[
+  [protein],
+  [dna]
+]"
+185128,10,"[
+  [protein],
+  [dna]
+]"
+185690,10,"[
+  [protein],
+  [dna]
+]"
+186098,10,"[
+  [protein],
+  [peptide],
+  [dna]
+]"
+189669,10,"[
+  [protein],
+  [dna]
+]"
+198487,10,"[
+  [rna],
+  [small_molecule]
+]"
+198635,10,"[
+  [rna],
+  [small_molecule]
+]"
+81337,10,"[
+  [protein],
+  [small_molecule]
+]"
+202251,10,"[
+  [protein],
+  [small_molecule]
+]"
+202535,10,"[
+  [protein],
+  [small_molecule]
+]"
+163968,9,"[
+  [protein]
+]"
+164238,9,"[
+  [protein]
+]"
+164340,9,"[
+  [protein]
+]"
+164481,9,"[
+  [protein]
+]"
+164915,9,"[
+  [protein]
+]"
+164983,9,"[
+  [protein]
+]"
+165068,9,"[
+  [protein]
+]"
+165189,9,"[
+  [protein]
+]"
+165279,9,"[
+  [protein]
+]"
+165610,9,"[
+  [protein]
+]"
+165852,9,"[
+  [protein]
+]"
+166132,9,"[
+  [protein]
+]"
+166228,9,"[
+  [protein]
+]"
+166530,9,"[
+  [protein]
+]"
+166691,9,"[
+  [protein]
+]"
+166716,9,"[
+  [protein]
+]"
+166947,9,"[
+  [protein]
+]"
+167317,9,"[
+  [protein]
+]"
+167367,9,"[
+  [protein],
+  [peptide]
+]"
+167654,9,"[
+  [protein]
+]"
+167826,9,"[
+  [protein]
+]"
+167872,9,"[
+  [protein]
+]"
+167898,9,"[
+  [protein]
+]"
+167951,9,"[
+  [protein]
+]"
+167956,9,"[
+  [protein]
+]"
+167976,9,"[
+  [protein],
+  [peptide]
+]"
+167988,9,"[
+  [protein],
+  [peptide]
+]"
+168026,9,"[
+  [protein]
+]"
+168064,9,"[
+  [protein]
+]"
+168100,9,"[
+  [protein]
+]"
+168106,9,"[
+  [protein]
+]"
+168168,9,"[
+  [protein]
+]"
+168170,9,"[
+  [protein],
+  [peptide]
+]"
+168229,9,"[
+  [protein],
+  [peptide]
+]"
+168261,9,"[
+  [protein]
+]"
+168306,9,"[
+  [protein]
+]"
+168313,9,"[
+  [protein],
+  [peptide]
+]"
+168342,9,"[
+  [protein]
+]"
+168356,9,"[
+  [protein]
+]"
+168484,9,"[
+  [protein]
+]"
+168656,9,"[
+  [protein]
+]"
+168786,9,"[
+  [protein]
+]"
+168791,9,"[
+  [protein]
+]"
+169012,9,"[
+  [protein]
+]"
+169023,9,"[
+  [protein]
+]"
+169066,9,"[
+  [protein]
+]"
+169291,9,"[
+  [protein]
+]"
+169481,9,"[
+  [protein],
+  [peptide]
+]"
+169609,9,"[
+  [protein]
+]"
+169701,9,"[
+  [protein]
+]"
+174260,9,"[
+  [protein],
+  [peptide]
+]"
+174296,9,"[
+  [protein],
+  [peptide]
+]"
+174337,9,"[
+  [protein],
+  [peptide]
+]"
+174339,9,"[
+  [protein],
+  [peptide]
+]"
+174355,9,"[
+  [protein],
+  [peptide]
+]"
+174378,9,"[
+  [protein],
+  [peptide]
+]"
+174390,9,"[
+  [protein],
+  [peptide]
+]"
+174531,9,"[
+  [protein],
+  [peptide]
+]"
+174579,9,"[
+  [protein],
+  [peptide]
+]"
+174632,9,"[
+  [protein],
+  [peptide]
+]"
+175357,9,"[
+  [protein],
+  [small_molecule]
+]"
+175441,9,"[
+  [protein],
+  [small_molecule]
+]"
+175445,9,"[
+  [protein],
+  [small_molecule]
+]"
+175461,9,"[
+  [protein],
+  [small_molecule]
+]"
+175493,9,"[
+  [protein],
+  [small_molecule]
+]"
+182807,9,"[
+  [rna],
+  [small_molecule]
+]"
+182893,9,"[
+  [rna],
+  [small_molecule]
+]"
+184155,9,"[
+  [protein],
+  [dna]
+]"
+184526,9,"[
+  [protein],
+  [dna]
+]"
+184657,9,"[
+  [protein],
+  [dna]
+]"
+184881,9,"[
+  [protein],
+  [dna]
+]"
+185282,9,"[
+  [protein],
+  [dna]
+]"
+198502,9,"[
+  [rna],
+  [small_molecule]
+]"
+75095,9,"[
+  [protein],
+  [peptide],
+  [small_molecule]
+]"
+164087,8,"[
+  [protein]
+]"
+164088,8,"[
+  [protein]
+]"
+164322,8,"[
+  [protein]
+]"
+164348,8,"[
+  [protein]
+]"
+164665,8,"[
+  [protein]
+]"
+164744,8,"[
+  [protein]
+]"
+165157,8,"[
+  [protein]
+]"
+165471,8,"[
+  [protein]
+]"
+165611,8,"[
+  [protein]
+]"
+165714,8,"[
+  [protein]
+]"
+166035,8,"[
+  [protein],
+  [peptide]
+]"
+166111,8,"[
+  [protein]
+]"
+166655,8,"[
+  [protein]
+]"
+167233,8,"[
+  [protein]
+]"
+167234,8,"[
+  [protein]
+]"
+167376,8,"[
+  [protein]
+]"
+167453,8,"[
+  [protein]
+]"
+167635,8,"[
+  [protein]
+]"
+167659,8,"[
+  [protein],
+  [peptide]
+]"
+167798,8,"[
+  [protein]
+]"
+167800,8,"[
+  [protein]
+]"
+167805,8,"[
+  [protein]
+]"
+167874,8,"[
+  [protein]
+]"
+167878,8,"[
+  [protein]
+]"
+167888,8,"[
+  [protein]
+]"
+168012,8,"[
+  [protein]
+]"
+168384,8,"[
+  [protein]
+]"
+168445,8,"[
+  [protein],
+  [peptide]
+]"
+168623,8,"[
+  [protein],
+  [peptide]
+]"
+168670,8,"[
+  [protein],
+  [peptide]
+]"
+168712,8,"[
+  [protein]
+]"
+168936,8,"[
+  [protein],
+  [peptide]
+]"
+169119,8,"[
+  [protein]
+]"
+169168,8,"[
+  [protein]
+]"
+169258,8,"[
+  [protein]
+]"
+169412,8,"[
+  [protein]
+]"
+169661,8,"[
+  [protein]
+]"
+170689,8,"[
+  [protein]
+]"
+174232,8,"[
+  [protein],
+  [peptide]
+]"
+174359,8,"[
+  [protein],
+  [peptide]
+]"
+175388,8,"[
+  [protein],
+  [small_molecule]
+]"
+175479,8,"[
+  [protein],
+  [small_molecule]
+]"
+182651,8,"[
+  [rna],
+  [small_molecule]
+]"
+182779,8,"[
+  [rna],
+  [small_molecule]
+]"
+184415,8,"[
+  [protein],
+  [dna]
+]"
+185632,8,"[
+  [protein],
+  [dna]
+]"
+185857,8,"[
+  [protein],
+  [dna]
+]"
+186173,8,"[
+  [protein],
+  [dna]
+]"
+186491,8,"[
+  [protein],
+  [dna]
+]"
+199011,8,"[
+  [rna],
+  [small_molecule]
+]"
+199028,8,"[
+  [rna],
+  [small_molecule]
+]"
+202059,8,"[
+  [protein],
+  [small_molecule]
+]"
+202140,8,"[
+  [protein],
+  [small_molecule]
+]"
+163994,7,"[
+  [protein]
+]"
+164053,7,"[
+  [protein]
+]"
+164105,7,"[
+  [protein]
+]"
+164186,7,"[
+  [protein]
+]"
+164328,7,"[
+  [protein]
+]"
+164614,7,"[
+  [protein]
+]"
+164635,7,"[
+  [protein]
+]"
+164730,7,"[
+  [protein]
+]"
+164911,7,"[
+  [protein],
+  [peptide]
+]"
+164934,7,"[
+  [protein]
+]"
+165062,7,"[
+  [protein]
+]"
+165159,7,"[
+  [protein]
+]"
+165375,7,"[
+  [protein]
+]"
+165810,7,"[
+  [protein]
+]"
+165846,7,"[
+  [protein]
+]"
+166070,7,"[
+  [protein]
+]"
+166073,7,"[
+  [protein]
+]"
+166190,7,"[
+  [protein]
+]"
+166199,7,"[
+  [protein]
+]"
+166213,7,"[
+  [protein]
+]"
+166216,7,"[
+  [protein],
+  [peptide]
+]"
+166401,7,"[
+  [protein]
+]"
+166468,7,"[
+  [protein]
+]"
+166629,7,"[
+  [protein]
+]"
+166820,7,"[
+  [protein]
+]"
+166834,7,"[
+  [protein],
+  [peptide]
+]"
+167406,7,"[
+  [protein]
+]"
+167418,7,"[
+  [protein]
+]"
+167428,7,"[
+  [protein]
+]"
+167451,7,"[
+  [protein]
+]"
+167536,7,"[
+  [protein]
+]"
+167660,7,"[
+  [protein]
+]"
+167802,7,"[
+  [protein]
+]"
+167910,7,"[
+  [protein]
+]"
+167971,7,"[
+  [protein]
+]"
+167984,7,"[
+  [protein]
+]"
+168049,7,"[
+  [protein]
+]"
+168080,7,"[
+  [protein]
+]"
+168166,7,"[
+  [protein]
+]"
+168212,7,"[
+  [protein]
+]"
+168247,7,"[
+  [protein]
+]"
+168272,7,"[
+  [protein]
+]"
+168347,7,"[
+  [protein]
+]"
+168438,7,"[
+  [protein]
+]"
+168441,7,"[
+  [protein]
+]"
+168621,7,"[
+  [protein]
+]"
+168766,7,"[
+  [protein]
+]"
+168790,7,"[
+  [protein]
+]"
+168824,7,"[
+  [protein]
+]"
+168875,7,"[
+  [protein]
+]"
+168981,7,"[
+  [protein]
+]"
+169276,7,"[
+  [protein]
+]"
+169320,7,"[
+  [protein]
+]"
+169505,7,"[
+  [protein]
+]"
+169628,7,"[
+  [protein]
+]"
+169908,7,"[
+  [protein]
+]"
+170198,7,"[
+  [protein]
+]"
+171840,7,"[
+  [protein]
+]"
+174072,7,"[
+  [protein],
+  [peptide]
+]"
+174100,7,"[
+  [protein],
+  [peptide]
+]"
+174166,7,"[
+  [protein],
+  [peptide]
+]"
+174270,7,"[
+  [protein],
+  [peptide]
+]"
+174285,7,"[
+  [protein],
+  [peptide]
+]"
+174297,7,"[
+  [protein],
+  [peptide]
+]"
+174298,7,"[
+  [protein],
+  [peptide]
+]"
+174556,7,"[
+  [protein],
+  [peptide]
+]"
+176604,7,"[
+  [protein]
+]"
+182791,7,"[
+  [rna],
+  [small_molecule]
+]"
+182826,7,"[
+  [rna],
+  [small_molecule]
+]"
+182834,7,"[
+  [rna],
+  [small_molecule]
+]"
+183162,7,"[
+  [rna],
+  [dna],
+  [small_molecule]
+]"
+183175,7,"[
+  [dna],
+  [small_molecule]
+]"
+183184,7,"[
+  [dna],
+  [rna],
+  [small_molecule]
+]"
+183312,7,"[
+  [dna],
+  [small_molecule]
+]"
+184223,7,"[
+  [protein],
+  [dna]
+]"
+184557,7,"[
+  [protein],
+  [dna]
+]"
+190879,7,"[
+  [protein],
+  [dna]
+]"
+192058,7,"[
+  [protein],
+  [dna]
+]"
+198470,7,"[
+  [rna],
+  [small_molecule]
+]"
+198704,7,"[
+  [rna],
+  [small_molecule]
+]"
+198709,7,"[
+  [rna],
+  [small_molecule]
+]"
+198719,7,"[
+  [rna],
+  [small_molecule]
+]"
+81814,7,"[
+  [protein],
+  [small_molecule]
+]"
+17834,7,"[
+  [protein],
+  [small_molecule]
+]"
+164355,6,"[
+  [protein]
+]"
+164376,6,"[
+  [protein]
+]"
+164442,6,"[
+  [protein]
+]"
+164458,6,"[
+  [protein]
+]"
+164598,6,"[
+  [protein]
+]"
+164653,6,"[
+  [protein]
+]"
+164705,6,"[
+  [protein]
+]"
+164710,6,"[
+  [protein]
+]"
+164717,6,"[
+  [protein]
+]"
+164826,6,"[
+  [protein]
+]"
+164892,6,"[
+  [protein]
+]"
+164922,6,"[
+  [protein]
+]"
+165020,6,"[
+  [protein]
+]"
+165567,6,"[
+  [protein]
+]"
+165660,6,"[
+  [protein]
+]"
+165729,6,"[
+  [protein]
+]"
+165831,6,"[
+  [protein]
+]"
+165876,6,"[
+  [protein]
+]"
+166044,6,"[
+  [protein]
+]"
+166057,6,"[
+  [protein]
+]"
+166230,6,"[
+  [protein]
+]"
+166763,6,"[
+  [protein]
+]"
+167668,6,"[
+  [protein]
+]"
+167783,6,"[
+  [protein],
+  [peptide]
+]"
+167789,6,"[
+  [protein]
+]"
+167828,6,"[
+  [protein]
+]"
+167836,6,"[
+  [protein]
+]"
+167861,6,"[
+  [protein]
+]"
+167862,6,"[
+  [protein]
+]"
+167947,6,"[
+  [protein],
+  [peptide]
+]"
+167991,6,"[
+  [protein]
+]"
+168006,6,"[
+  [protein],
+  [peptide]
+]"
+168073,6,"[
+  [protein]
+]"
+168255,6,"[
+  [protein]
+]"
+168266,6,"[
+  [protein]
+]"
+168276,6,"[
+  [protein]
+]"
+168287,6,"[
+  [protein],
+  [peptide]
+]"
+168374,6,"[
+  [protein]
+]"
+168424,6,"[
+  [protein]
+]"
+168543,6,"[
+  [protein]
+]"
+168594,6,"[
+  [protein]
+]"
+168686,6,"[
+  [protein]
+]"
+168777,6,"[
+  [protein]
+]"
+168868,6,"[
+  [protein]
+]"
+168922,6,"[
+  [protein]
+]"
+168951,6,"[
+  [protein]
+]"
+169051,6,"[
+  [protein],
+  [peptide]
+]"
+169303,6,"[
+  [protein]
+]"
+169326,6,"[
+  [protein]
+]"
+169383,6,"[
+  [protein]
+]"
+169395,6,"[
+  [protein]
+]"
+169452,6,"[
+  [protein]
+]"
+169456,6,"[
+  [protein]
+]"
+169618,6,"[
+  [protein]
+]"
+169678,6,"[
+  [protein]
+]"
+169930,6,"[
+  [protein]
+]"
+170028,6,"[
+  [protein]
+]"
+170060,6,"[
+  [protein]
+]"
+170161,6,"[
+  [protein]
+]"
+170672,6,"[
+  [protein]
+]"
+171121,6,"[
+  [protein]
+]"
+174011,6,"[
+  [protein],
+  [peptide]
+]"
+174046,6,"[
+  [protein],
+  [peptide]
+]"
+174078,6,"[
+  [protein],
+  [peptide]
+]"
+174256,6,"[
+  [protein],
+  [peptide]
+]"
+174276,6,"[
+  [protein],
+  [peptide]
+]"
+174290,6,"[
+  [protein],
+  [peptide]
+]"
+174318,6,"[
+  [protein],
+  [peptide]
+]"
+174350,6,"[
+  [protein],
+  [peptide]
+]"
+174354,6,"[
+  [protein],
+  [peptide]
+]"
+174361,6,"[
+  [protein],
+  [peptide]
+]"
+174362,6,"[
+  [protein],
+  [peptide]
+]"
+174377,6,"[
+  [protein],
+  [peptide]
+]"
+174381,6,"[
+  [protein],
+  [peptide]
+]"
+174408,6,"[
+  [protein],
+  [peptide]
+]"
+174447,6,"[
+  [protein],
+  [peptide]
+]"
+174470,6,"[
+  [protein],
+  [peptide]
+]"
+174591,6,"[
+  [protein],
+  [peptide]
+]"
+174956,6,"[
+  [protein],
+  [peptide]
+]"
+175420,6,"[
+  [protein],
+  [small_molecule]
+]"
+175421,6,"[
+  [protein],
+  [small_molecule]
+]"
+175527,6,"[
+  [protein],
+  [small_molecule]
+]"
+182712,6,"[
+  [rna],
+  [small_molecule]
+]"
+182815,6,"[
+  [rna],
+  [small_molecule]
+]"
+182924,6,"[
+  [dna],
+  [rna],
+  [small_molecule]
+]"
+183077,6,"[
+  [dna],
+  [small_molecule]
+]"
+183178,6,"[
+  [dna],
+  [small_molecule]
+]"
+184116,6,"[
+  [protein],
+  [dna]
+]"
+184317,6,"[
+  [protein],
+  [peptide],
+  [dna]
+]"
+184402,6,"[
+  [protein],
+  [dna]
+]"
+184493,6,"[
+  [protein],
+  [dna]
+]"
+184528,6,"[
+  [protein],
+  [dna]
+]"
+184565,6,"[
+  [protein],
+  [dna]
+]"
+184581,6,"[
+  [protein],
+  [dna]
+]"
+184594,6,"[
+  [protein],
+  [dna]
+]"
+184802,6,"[
+  [protein],
+  [dna]
+]"
+184902,6,"[
+  [protein],
+  [dna]
+]"
+185082,6,"[
+  [protein],
+  [dna]
+]"
+185105,6,"[
+  [protein],
+  [dna]
+]"
+185121,6,"[
+  [protein],
+  [dna]
+]"
+185316,6,"[
+  [protein],
+  [dna]
+]"
+185317,6,"[
+  [protein],
+  [dna]
+]"
+185349,6,"[
+  [protein],
+  [dna]
+]"
+185591,6,"[
+  [protein],
+  [dna]
+]"
+185614,6,"[
+  [protein],
+  [dna]
+]"
+185640,6,"[
+  [protein],
+  [dna]
+]"
+185993,6,"[
+  [protein],
+  [dna]
+]"
+186199,6,"[
+  [protein],
+  [dna]
+]"
+186219,6,"[
+  [protein],
+  [dna]
+]"
+186281,6,"[
+  [protein],
+  [dna]
+]"
+186288,6,"[
+  [protein],
+  [dna]
+]"
+186465,6,"[
+  [peptide],
+  [dna]
+]"
+186650,6,"[
+  [protein],
+  [dna]
+]"
+186704,6,"[
+  [protein],
+  [dna]
+]"
+186807,6,"[
+  [protein],
+  [dna]
+]"
+198478,6,"[
+  [rna],
+  [small_molecule]
+]"
+198605,6,"[
+  [rna],
+  [small_molecule]
+]"
+199005,6,"[
+  [rna],
+  [small_molecule]
+]"
+199024,6,"[
+  [rna],
+  [small_molecule]
+]"
+81395,6,"[
+  [protein],
+  [small_molecule]
+]"
+23825,6,"[
+  [protein],
+  [small_molecule]
+]"
+163984,5,"[
+  [protein]
+]"
+163992,5,"[
+  [protein]
+]"
+163993,5,"[
+  [protein]
+]"
+163995,5,"[
+  [protein],
+  [peptide]
+]"
+163996,5,"[
+  [protein]
+]"
+164023,5,"[
+  [protein]
+]"
+164127,5,"[
+  [protein]
+]"
+164155,5,"[
+  [protein]
+]"
+164388,5,"[
+  [protein]
+]"
+164392,5,"[
+  [protein]
+]"
+164436,5,"[
+  [protein]
+]"
+164466,5,"[
+  [protein]
+]"
+164477,5,"[
+  [protein]
+]"
+164585,5,"[
+  [protein]
+]"
+164641,5,"[
+  [protein]
+]"
+164642,5,"[
+  [protein]
+]"
+164666,5,"[
+  [protein]
+]"
+164708,5,"[
+  [protein]
+]"
+164721,5,"[
+  [protein]
+]"
+164728,5,"[
+  [protein]
+]"
+164760,5,"[
+  [protein]
+]"
+164956,5,"[
+  [protein]
+]"
+165094,5,"[
+  [protein]
+]"
+165098,5,"[
+  [protein]
+]"
+165122,5,"[
+  [protein]
+]"
+165138,5,"[
+  [protein]
+]"
+165153,5,"[
+  [protein]
+]"
+165184,5,"[
+  [protein]
+]"
+165240,5,"[
+  [protein]
+]"
+165242,5,"[
+  [protein]
+]"
+165289,5,"[
+  [protein]
+]"
+165371,5,"[
+  [protein]
+]"
+165390,5,"[
+  [protein]
+]"
+165474,5,"[
+  [protein],
+  [peptide]
+]"
+165476,5,"[
+  [protein]
+]"
+165739,5,"[
+  [protein]
+]"
+165824,5,"[
+  [protein]
+]"
+166349,5,"[
+  [protein]
+]"
+166419,5,"[
+  [protein]
+]"
+166562,5,"[
+  [protein]
+]"
+166601,5,"[
+  [protein]
+]"
+166965,5,"[
+  [protein]
+]"
+167266,5,"[
+  [protein]
+]"
+167359,5,"[
+  [protein]
+]"
+167380,5,"[
+  [protein]
+]"
+167405,5,"[
+  [protein]
+]"
+167673,5,"[
+  [protein]
+]"
+167791,5,"[
+  [protein]
+]"
+167812,5,"[
+  [protein]
+]"
+167819,5,"[
+  [protein]
+]"
+167866,5,"[
+  [protein]
+]"
+167900,5,"[
+  [protein]
+]"
+167902,5,"[
+  [protein]
+]"
+167909,5,"[
+  [protein]
+]"
+167937,5,"[
+  [protein]
+]"
+167938,5,"[
+  [protein],
+  [peptide]
+]"
+167969,5,"[
+  [protein]
+]"
+167975,5,"[
+  [protein]
+]"
+168031,5,"[
+  [protein],
+  [peptide]
+]"
+168125,5,"[
+  [protein]
+]"
+168181,5,"[
+  [protein]
+]"
+168187,5,"[
+  [protein]
+]"
+168193,5,"[
+  [protein]
+]"
+168207,5,"[
+  [protein]
+]"
+168286,5,"[
+  [protein]
+]"
+168312,5,"[
+  [protein],
+  [peptide]
+]"
+168365,5,"[
+  [protein]
+]"
+168443,5,"[
+  [protein]
+]"
+168475,5,"[
+  [protein]
+]"
+168527,5,"[
+  [protein]
+]"
+168549,5,"[
+  [protein]
+]"
+168572,5,"[
+  [protein]
+]"
+168606,5,"[
+  [protein],
+  [peptide]
+]"
+168614,5,"[
+  [protein]
+]"
+168669,5,"[
+  [protein]
+]"
+168676,5,"[
+  [protein]
+]"
+168699,5,"[
+  [protein]
+]"
+168710,5,"[
+  [protein]
+]"
+168722,5,"[
+  [protein]
+]"
+168739,5,"[
+  [protein]
+]"
+168755,5,"[
+  [protein]
+]"
+168837,5,"[
+  [protein]
+]"
+168843,5,"[
+  [protein]
+]"
+168905,5,"[
+  [protein],
+  [peptide]
+]"
+169008,5,"[
+  [protein],
+  [peptide]
+]"
+169042,5,"[
+  [protein],
+  [peptide]
+]"
+169160,5,"[
+  [protein]
+]"
+169237,5,"[
+  [protein]
+]"
+169292,5,"[
+  [protein]
+]"
+169319,5,"[
+  [protein]
+]"
+169362,5,"[
+  [protein]
+]"
+169363,5,"[
+  [protein]
+]"
+169473,5,"[
+  [protein]
+]"
+169554,5,"[
+  [protein],
+  [peptide]
+]"
+169590,5,"[
+  [protein]
+]"
+169689,5,"[
+  [protein]
+]"
+169733,5,"[
+  [protein]
+]"
+169828,5,"[
+  [protein]
+]"
+170091,5,"[
+  [protein]
+]"
+170165,5,"[
+  [protein]
+]"
+170300,5,"[
+  [protein]
+]"
+170356,5,"[
+  [protein]
+]"
+170412,5,"[
+  [protein]
+]"
+170509,5,"[
+  [protein]
+]"
+170557,5,"[
+  [protein],
+  [peptide]
+]"
+170561,5,"[
+  [protein]
+]"
+170566,5,"[
+  [protein]
+]"
+170798,5,"[
+  [protein]
+]"
+171079,5,"[
+  [protein]
+]"
+171113,5,"[
+  [protein]
+]"
+171149,5,"[
+  [protein]
+]"
+171226,5,"[
+  [protein]
+]"
+171437,5,"[
+  [protein]
+]"
+171506,5,"[
+  [protein]
+]"
+171599,5,"[
+  [protein],
+  [peptide]
+]"
+171620,5,"[
+  [protein]
+]"
+171778,5,"[
+  [protein]
+]"
+172379,5,"[
+  [protein]
+]"
+174000,5,"[
+  [protein],
+  [peptide]
+]"
+174030,5,"[
+  [protein],
+  [peptide]
+]"
+174036,5,"[
+  [protein],
+  [peptide]
+]"
+174064,5,"[
+  [protein],
+  [peptide]
+]"
+174081,5,"[
+  [protein],
+  [peptide]
+]"
+174092,5,"[
+  [protein],
+  [peptide]
+]"
+174096,5,"[
+  [protein],
+  [peptide]
+]"
+174146,5,"[
+  [protein],
+  [peptide]
+]"
+174209,5,"[
+  [protein],
+  [peptide]
+]"
+174222,5,"[
+  [protein],
+  [peptide]
+]"
+174224,5,"[
+  [protein],
+  [peptide]
+]"
+174277,5,"[
+  [protein],
+  [peptide]
+]"
+174280,5,"[
+  [protein],
+  [peptide]
+]"
+174302,5,"[
+  [protein],
+  [peptide]
+]"
+174309,5,"[
+  [protein],
+  [peptide]
+]"
+174321,5,"[
+  [protein],
+  [peptide]
+]"
+174334,5,"[
+  [protein],
+  [peptide]
+]"
+174349,5,"[
+  [protein],
+  [peptide]
+]"
+174397,5,"[
+  [protein],
+  [peptide]
+]"
+174402,5,"[
+  [protein],
+  [peptide]
+]"
+174436,5,"[
+  [protein],
+  [peptide]
+]"
+174439,5,"[
+  [protein],
+  [peptide]
+]"
+174445,5,"[
+  [protein],
+  [peptide]
+]"
+174476,5,"[
+  [protein],
+  [peptide]
+]"
+174512,5,"[
+  [protein],
+  [peptide]
+]"
+174526,5,"[
+  [protein],
+  [peptide]
+]"
+174540,5,"[
+  [protein],
+  [peptide]
+]"
+174628,5,"[
+  [protein],
+  [peptide]
+]"
+174757,5,"[
+  [protein],
+  [peptide]
+]"
+174788,5,"[
+  [protein],
+  [peptide]
+]"
+174818,5,"[
+  [protein]
+]"
+174850,5,"[
+  [protein],
+  [peptide]
+]"
+174885,5,"[
+  [protein],
+  [peptide]
+]"
+175417,5,"[
+  [protein],
+  [small_molecule]
+]"
+175418,5,"[
+  [protein],
+  [small_molecule]
+]"
+175458,5,"[
+  [protein],
+  [small_molecule]
+]"
+175467,5,"[
+  [protein],
+  [small_molecule]
+]"
+175473,5,"[
+  [protein],
+  [small_molecule],
+  [dna]
+]"
+175482,5,"[
+  [protein],
+  [small_molecule]
+]"
+175489,5,"[
+  [protein],
+  [small_molecule]
+]"
+175506,5,"[
+  [protein],
+  [small_molecule]
+]"
+175508,5,"[
+  [protein],
+  [small_molecule]
+]"
+175538,5,"[
+  [protein],
+  [small_molecule]
+]"
+175549,5,"[
+  [protein],
+  [small_molecule]
+]"
+175550,5,"[
+  [protein],
+  [small_molecule]
+]"
+175565,5,"[
+  [protein],
+  [small_molecule]
+]"
+182664,5,"[
+  [rna],
+  [small_molecule]
+]"
+182684,5,"[
+  [rna],
+  [small_molecule]
+]"
+182759,5,"[
+  [rna],
+  [small_molecule]
+]"
+182765,5,"[
+  [rna],
+  [small_molecule]
+]"
+182793,5,"[
+  [rna],
+  [small_molecule]
+]"
+182802,5,"[
+  [rna],
+  [small_molecule]
+]"
+183134,5,"[
+  [dna],
+  [small_molecule]
+]"
+183185,5,"[
+  [dna],
+  [small_molecule]
+]"
+183225,5,"[
+  [dna],
+  [small_molecule]
+]"
+183229,5,"[
+  [dna],
+  [small_molecule]
+]"
+184043,5,"[
+  [protein],
+  [dna]
+]"
+184494,5,"[
+  [protein],
+  [dna]
+]"
+184559,5,"[
+  [protein],
+  [dna]
+]"
+185548,5,"[
+  [protein],
+  [dna]
+]"
+185569,5,"[
+  [protein],
+  [dna]
+]"
+186077,5,"[
+  [protein],
+  [peptide],
+  [dna]
+]"
+198606,5,"[
+  [rna],
+  [small_molecule]
+]"
+70768,5,"[
+  [protein],
+  [small_molecule]
+]"
+91370,5,"[
+  [protein],
+  [small_molecule]
+]"
+202491,5,"[
+  [protein],
+  [small_molecule]
+]"
+202563,5,"[
+  [protein],
+  [small_molecule]
+]"
+202671,5,"[
+  [protein],
+  [small_molecule]
+]"
+116161,5,"[
+  [protein]
+]"
+164049,4,"[
+  [protein]
+]"
+164308,4,"[
+  [protein]
+]"
+164326,4,"[
+  [protein]
+]"
+164334,4,"[
+  [protein]
+]"
+164459,4,"[
+  [protein]
+]"
+164813,4,"[
+  [protein]
+]"
+164931,4,"[
+  [protein]
+]"
+164986,4,"[
+  [protein]
+]"
+165091,4,"[
+  [protein]
+]"
+165099,4,"[
+  [protein]
+]"
+165124,4,"[
+  [protein]
+]"
+165139,4,"[
+  [protein]
+]"
+165165,4,"[
+  [protein]
+]"
+165190,4,"[
+  [protein]
+]"
+165297,4,"[
+  [protein]
+]"
+165325,4,"[
+  [protein]
+]"
+165423,4,"[
+  [protein]
+]"
+165559,4,"[
+  [protein]
+]"
+165637,4,"[
+  [protein]
+]"
+165654,4,"[
+  [protein]
+]"
+165882,4,"[
+  [protein]
+]"
+165906,4,"[
+  [protein]
+]"
+165921,4,"[
+  [protein]
+]"
+166030,4,"[
+  [protein]
+]"
+166047,4,"[
+  [protein]
+]"
+166186,4,"[
+  [protein]
+]"
+166196,4,"[
+  [protein]
+]"
+166287,4,"[
+  [protein]
+]"
+166397,4,"[
+  [protein]
+]"
+166414,4,"[
+  [protein]
+]"
+166455,4,"[
+  [protein]
+]"
+166465,4,"[
+  [protein]
+]"
+166483,4,"[
+  [protein]
+]"
+166641,4,"[
+  [protein]
+]"
+166680,4,"[
+  [protein]
+]"
+166785,4,"[
+  [protein]
+]"
+167012,4,"[
+  [protein]
+]"
+167037,4,"[
+  [protein]
+]"
+167118,4,"[
+  [protein]
+]"
+167348,4,"[
+  [protein]
+]"
+167382,4,"[
+  [protein]
+]"
+167459,4,"[
+  [protein]
+]"
+167906,4,"[
+  [protein]
+]"
+167981,4,"[
+  [protein]
+]"
+168033,4,"[
+  [protein]
+]"
+168043,4,"[
+  [protein]
+]"
+168135,4,"[
+  [protein]
+]"
+168201,4,"[
+  [protein]
+]"
+168209,4,"[
+  [protein]
+]"
+168221,4,"[
+  [protein]
+]"
+168227,4,"[
+  [protein]
+]"
+168258,4,"[
+  [protein]
+]"
+168324,4,"[
+  [protein],
+  [peptide]
+]"
+168391,4,"[
+  [protein],
+  [peptide]
+]"
+168412,4,"[
+  [protein]
+]"
+168426,4,"[
+  [protein]
+]"
+168447,4,"[
+  [protein]
+]"
+168449,4,"[
+  [protein]
+]"
+168454,4,"[
+  [protein]
+]"
+168461,4,"[
+  [protein]
+]"
+168535,4,"[
+  [protein]
+]"
+168622,4,"[
+  [protein]
+]"
+168664,4,"[
+  [protein]
+]"
+168667,4,"[
+  [protein]
+]"
+168668,4,"[
+  [protein]
+]"
+168671,4,"[
+  [protein]
+]"
+168695,4,"[
+  [protein]
+]"
+168719,4,"[
+  [protein]
+]"
+168724,4,"[
+  [protein]
+]"
+168741,4,"[
+  [protein]
+]"
+168792,4,"[
+  [protein]
+]"
+168832,4,"[
+  [protein],
+  [peptide]
+]"
+168852,4,"[
+  [protein]
+]"
+168858,4,"[
+  [protein]
+]"
+168955,4,"[
+  [protein]
+]"
+169013,4,"[
+  [protein]
+]"
+169098,4,"[
+  [protein]
+]"
+169106,4,"[
+  [protein]
+]"
+169172,4,"[
+  [protein]
+]"
+169212,4,"[
+  [protein]
+]"
+169219,4,"[
+  [protein]
+]"
+169289,4,"[
+  [protein]
+]"
+169301,4,"[
+  [protein]
+]"
+169324,4,"[
+  [protein]
+]"
+169353,4,"[
+  [protein]
+]"
+169358,4,"[
+  [protein]
+]"
+169414,4,"[
+  [protein]
+]"
+169458,4,"[
+  [protein]
+]"
+169470,4,"[
+  [protein]
+]"
+169530,4,"[
+  [protein]
+]"
+169664,4,"[
+  [protein]
+]"
+169858,4,"[
+  [protein]
+]"
+169875,4,"[
+  [protein]
+]"
+169887,4,"[
+  [protein]
+]"
+169938,4,"[
+  [protein]
+]"
+170186,4,"[
+  [protein]
+]"
+170210,4,"[
+  [protein]
+]"
+170304,4,"[
+  [protein]
+]"
+170322,4,"[
+  [protein]
+]"
+170504,4,"[
+  [protein]
+]"
+170655,4,"[
+  [protein]
+]"
+170761,4,"[
+  [protein]
+]"
+170793,4,"[
+  [protein]
+]"
+170860,4,"[
+  [protein]
+]"
+170897,4,"[
+  [protein]
+]"
+170928,4,"[
+  [protein]
+]"
+171271,4,"[
+  [protein],
+  [peptide]
+]"
+171547,4,"[
+  [protein]
+]"
+171570,4,"[
+  [protein]
+]"
+171572,4,"[
+  [protein]
+]"
+171707,4,"[
+  [protein]
+]"
+171773,4,"[
+  [protein]
+]"
+171776,4,"[
+  [protein],
+  [peptide]
+]"
+171947,4,"[
+  [protein]
+]"
+172050,4,"[
+  [protein]
+]"
+172074,4,"[
+  [protein]
+]"
+172091,4,"[
+  [protein]
+]"
+172243,4,"[
+  [protein],
+  [peptide]
+]"
+172318,4,"[
+  [protein]
+]"
+172430,4,"[
+  [protein]
+]"
+172567,4,"[
+  [protein]
+]"
+173296,4,"[
+  [protein]
+]"
+174019,4,"[
+  [protein]
+]"
+174089,4,"[
+  [protein],
+  [peptide]
+]"
+174106,4,"[
+  [protein],
+  [peptide]
+]"
+174366,4,"[
+  [protein],
+  [peptide]
+]"
+174379,4,"[
+  [protein],
+  [peptide]
+]"
+174387,4,"[
+  [protein],
+  [peptide]
+]"
+174417,4,"[
+  [protein],
+  [peptide]
+]"
+174419,4,"[
+  [protein],
+  [peptide]
+]"
+174461,4,"[
+  [protein],
+  [peptide]
+]"
+174511,4,"[
+  [protein],
+  [peptide]
+]"
+174535,4,"[
+  [protein],
+  [peptide]
+]"
+174565,4,"[
+  [protein],
+  [peptide]
+]"
+174570,4,"[
+  [protein],
+  [peptide]
+]"
+174590,4,"[
+  [protein],
+  [peptide]
+]"
+174702,4,"[
+  [protein],
+  [peptide]
+]"
+174724,4,"[
+  [protein],
+  [peptide]
+]"
+174799,4,"[
+  [protein],
+  [peptide]
+]"
+174833,4,"[
+  [protein],
+  [peptide]
+]"
+174892,4,"[
+  [protein],
+  [peptide]
+]"
+174923,4,"[
+  [protein],
+  [peptide]
+]"
+174990,4,"[
+  [protein],
+  [peptide]
+]"
+175396,4,"[
+  [protein],
+  [small_molecule]
+]"
+175415,4,"[
+  [protein],
+  [small_molecule]
+]"
+175437,4,"[
+  [protein],
+  [small_molecule]
+]"
+175442,4,"[
+  [protein],
+  [small_molecule]
+]"
+175452,4,"[
+  [protein],
+  [small_molecule]
+]"
+175470,4,"[
+  [protein],
+  [small_molecule]
+]"
+175475,4,"[
+  [protein],
+  [small_molecule]
+]"
+175476,4,"[
+  [protein],
+  [small_molecule]
+]"
+175485,4,"[
+  [protein],
+  [small_molecule]
+]"
+175539,4,"[
+  [protein],
+  [small_molecule]
+]"
+175687,4,"[
+  [protein],
+  [small_molecule]
+]"
+182539,4,"[
+  [rna],
+  [small_molecule]
+]"
+182609,4,"[
+  [rna],
+  [small_molecule]
+]"
+182634,4,"[
+  [rna],
+  [small_molecule]
+]"
+182655,4,"[
+  [rna],
+  [small_molecule]
+]"
+182696,4,"[
+  [rna],
+  [small_molecule]
+]"
+182749,4,"[
+  [rna],
+  [small_molecule]
+]"
+182763,4,"[
+  [rna],
+  [small_molecule]
+]"
+182945,4,"[
+  [dna],
+  [small_molecule]
+]"
+183070,4,"[
+  [dna],
+  [rna],
+  [small_molecule]
+]"
+183090,4,"[
+  [dna],
+  [small_molecule]
+]"
+183165,4,"[
+  [dna],
+  [small_molecule]
+]"
+183168,4,"[
+  [dna],
+  [small_molecule]
+]"
+183173,4,"[
+  [dna],
+  [small_molecule]
+]"
+183332,4,"[
+  [dna],
+  [small_molecule]
+]"
+183334,4,"[
+  [rna],
+  [small_molecule]
+]"
+184137,4,"[
+  [protein],
+  [dna]
+]"
+184151,4,"[
+  [protein],
+  [dna]
+]"
+184161,4,"[
+  [protein],
+  [dna]
+]"
+184479,4,"[
+  [peptide],
+  [protein],
+  [dna]
+]"
+184524,4,"[
+  [protein],
+  [dna]
+]"
+184600,4,"[
+  [protein],
+  [dna]
+]"
+184807,4,"[
+  [protein],
+  [dna]
+]"
+184811,4,"[
+  [protein],
+  [dna]
+]"
+184856,4,"[
+  [protein],
+  [dna]
+]"
+184890,4,"[
+  [protein],
+  [dna]
+]"
+184894,4,"[
+  [protein],
+  [dna]
+]"
+185028,4,"[
+  [protein],
+  [dna]
+]"
+185098,4,"[
+  [protein],
+  [dna]
+]"
+185109,4,"[
+  [protein],
+  [dna]
+]"
+185131,4,"[
+  [protein],
+  [dna]
+]"
+185144,4,"[
+  [protein],
+  [dna]
+]"
+185173,4,"[
+  [protein],
+  [dna]
+]"
+185246,4,"[
+  [protein],
+  [dna]
+]"
+185255,4,"[
+  [protein],
+  [dna]
+]"
+185279,4,"[
+  [protein],
+  [dna]
+]"
+185434,4,"[
+  [protein],
+  [dna]
+]"
+185486,4,"[
+  [protein],
+  [peptide],
+  [dna]
+]"
+185700,4,"[
+  [protein],
+  [peptide],
+  [dna]
+]"
+185720,4,"[
+  [peptide],
+  [dna]
+]"
+185840,4,"[
+  [protein],
+  [dna]
+]"
+186036,4,"[
+  [protein],
+  [dna]
+]"
+186056,4,"[
+  [protein],
+  [dna]
+]"
+186221,4,"[
+  [protein],
+  [dna]
+]"
+186266,4,"[
+  [protein],
+  [dna]
+]"
+186322,4,"[
+  [protein],
+  [dna]
+]"
+186326,4,"[
+  [protein],
+  [dna]
+]"
+186341,4,"[
+  [peptide],
+  [dna]
+]"
+186397,4,"[
+  [protein],
+  [dna]
+]"
+186444,4,"[
+  [protein],
+  [dna]
+]"
+186612,4,"[
+  [protein],
+  [dna]
+]"
+186640,4,"[
+  [protein],
+  [dna]
+]"
+186812,4,"[
+  [protein],
+  [dna]
+]"
+186830,4,"[
+  [protein],
+  [dna]
+]"
+186937,4,"[
+  [protein],
+  [dna]
+]"
+186953,4,"[
+  [protein],
+  [dna]
+]"
+186975,4,"[
+  [protein],
+  [dna]
+]"
+187188,4,"[
+  [protein],
+  [dna]
+]"
+187456,4,"[
+  [protein],
+  [dna]
+]"
+187881,4,"[
+  [protein],
+  [dna]
+]"
+187990,4,"[
+  [protein],
+  [dna]
+]"
+188145,4,"[
+  [protein],
+  [dna]
+]"
+188241,4,"[
+  [protein],
+  [dna]
+]"
+188313,4,"[
+  [protein],
+  [dna]
+]"
+188391,4,"[
+  [protein],
+  [dna]
+]"
+189039,4,"[
+  [protein],
+  [dna]
+]"
+189788,4,"[
+  [protein],
+  [dna]
+]"
+191095,4,"[
+  [protein],
+  [dna]
+]"
+198482,4,"[
+  [rna],
+  [small_molecule]
+]"
+198485,4,"[
+  [rna],
+  [small_molecule]
+]"
+198510,4,"[
+  [rna],
+  [small_molecule]
+]"
+198633,4,"[
+  [rna],
+  [small_molecule]
+]"
+198634,4,"[
+  [rna],
+  [small_molecule]
+]"
+199026,4,"[
+  [rna],
+  [small_molecule]
+]"
+202370,4,"[
+  [protein],
+  [small_molecule]
+]"
+202558,4,"[
+  [protein],
+  [small_molecule]
+]"
+113501,4,"[
+  [protein]
+]"
+59600,4,"[
+  [protein]
+]"
+146617,4,"[
+  [protein]
+]"
+64711,4,"[
+  [protein]
+]"
+163972,3,"[
+  [protein]
+]"
+163977,3,"[
+  [protein]
+]"
+163979,3,"[
+  [protein]
+]"
+163988,3,"[
+  [protein]
+]"
+164055,3,"[
+  [protein]
+]"
+164070,3,"[
+  [protein]
+]"
+164073,3,"[
+  [protein]
+]"
+164075,3,"[
+  [protein]
+]"
+164081,3,"[
+  [protein]
+]"
+164115,3,"[
+  [protein]
+]"
+164190,3,"[
+  [protein]
+]"
+164231,3,"[
+  [protein]
+]"
+164260,3,"[
+  [protein]
+]"
+164286,3,"[
+  [protein]
+]"
+164295,3,"[
+  [protein]
+]"
+164304,3,"[
+  [protein]
+]"
+164306,3,"[
+  [protein]
+]"
+164419,3,"[
+  [protein]
+]"
+164432,3,"[
+  [protein]
+]"
+164433,3,"[
+  [protein]
+]"
+164462,3,"[
+  [protein]
+]"
+164512,3,"[
+  [protein]
+]"
+164530,3,"[
+  [protein]
+]"
+164651,3,"[
+  [protein]
+]"
+164671,3,"[
+  [protein]
+]"
+164702,3,"[
+  [protein]
+]"
+164706,3,"[
+  [protein]
+]"
+164719,3,"[
+  [protein]
+]"
+164856,3,"[
+  [protein]
+]"
+164883,3,"[
+  [protein]
+]"
+164888,3,"[
+  [protein]
+]"
+164920,3,"[
+  [protein]
+]"
+164963,3,"[
+  [protein]
+]"
+164965,3,"[
+  [protein]
+]"
+164967,3,"[
+  [protein]
+]"
+165117,3,"[
+  [protein]
+]"
+165151,3,"[
+  [protein]
+]"
+165182,3,"[
+  [protein]
+]"
+165287,3,"[
+  [protein]
+]"
+165293,3,"[
+  [protein]
+]"
+165322,3,"[
+  [protein],
+  [peptide]
+]"
+165399,3,"[
+  [protein]
+]"
+165457,3,"[
+  [protein]
+]"
+165477,3,"[
+  [protein]
+]"
+165556,3,"[
+  [protein]
+]"
+165570,3,"[
+  [protein]
+]"
+165572,3,"[
+  [protein]
+]"
+165591,3,"[
+  [protein]
+]"
+165617,3,"[
+  [protein]
+]"
+165633,3,"[
+  [protein]
+]"
+165652,3,"[
+  [protein]
+]"
+165664,3,"[
+  [protein]
+]"
+165687,3,"[
+  [protein]
+]"
+165734,3,"[
+  [protein]
+]"
+165743,3,"[
+  [protein]
+]"
+165745,3,"[
+  [protein]
+]"
+165901,3,"[
+  [protein]
+]"
+166033,3,"[
+  [protein]
+]"
+166087,3,"[
+  [protein]
+]"
+166096,3,"[
+  [protein]
+]"
+166100,3,"[
+  [protein]
+]"
+166123,3,"[
+  [protein]
+]"
+166189,3,"[
+  [protein]
+]"
+166221,3,"[
+  [protein],
+  [peptide]
+]"
+166242,3,"[
+  [protein]
+]"
+166372,3,"[
+  [protein]
+]"
+166374,3,"[
+  [protein]
+]"
+166453,3,"[
+  [protein]
+]"
+166550,3,"[
+  [protein]
+]"
+166557,3,"[
+  [protein]
+]"
+166617,3,"[
+  [protein]
+]"
+166669,3,"[
+  [protein]
+]"
+166671,3,"[
+  [protein]
+]"
+166724,3,"[
+  [protein]
+]"
+166783,3,"[
+  [protein]
+]"
+166799,3,"[
+  [protein]
+]"
+166815,3,"[
+  [protein]
+]"
+166818,3,"[
+  [protein]
+]"
+166832,3,"[
+  [protein]
+]"
+166853,3,"[
+  [protein]
+]"
+166927,3,"[
+  [protein]
+]"
+166945,3,"[
+  [protein]
+]"
+167010,3,"[
+  [protein]
+]"
+167017,3,"[
+  [protein]
+]"
+167179,3,"[
+  [protein]
+]"
+167190,3,"[
+  [protein]
+]"
+167192,3,"[
+  [protein]
+]"
+167242,3,"[
+  [protein]
+]"
+167290,3,"[
+  [protein]
+]"
+167462,3,"[
+  [protein],
+  [peptide]
+]"
+167513,3,"[
+  [protein]
+]"
+167592,3,"[
+  [protein]
+]"
+167598,3,"[
+  [protein]
+]"
+167633,3,"[
+  [protein]
+]"
+167803,3,"[
+  [protein]
+]"
+167821,3,"[
+  [protein]
+]"
+167835,3,"[
+  [protein]
+]"
+167848,3,"[
+  [protein]
+]"
+167920,3,"[
+  [protein],
+  [peptide]
+]"
+167923,3,"[
+  [protein],
+  [peptide]
+]"
+167928,3,"[
+  [protein]
+]"
+167949,3,"[
+  [protein]
+]"
+167950,3,"[
+  [protein]
+]"
+167973,3,"[
+  [protein]
+]"
+167986,3,"[
+  [protein]
+]"
+168000,3,"[
+  [protein]
+]"
+168023,3,"[
+  [protein]
+]"
+168047,3,"[
+  [protein],
+  [peptide]
+]"
+168068,3,"[
+  [protein]
+]"
+168077,3,"[
+  [protein]
+]"
+168085,3,"[
+  [protein]
+]"
+168099,3,"[
+  [protein]
+]"
+168104,3,"[
+  [protein]
+]"
+168112,3,"[
+  [protein]
+]"
+168116,3,"[
+  [protein]
+]"
+168119,3,"[
+  [protein]
+]"
+168143,3,"[
+  [protein]
+]"
+168149,3,"[
+  [protein]
+]"
+168169,3,"[
+  [protein],
+  [peptide]
+]"
+168177,3,"[
+  [protein],
+  [peptide]
+]"
+168191,3,"[
+  [protein]
+]"
+168233,3,"[
+  [protein]
+]"
+168237,3,"[
+  [protein]
+]"
+168243,3,"[
+  [protein]
+]"
+168256,3,"[
+  [protein]
+]"
+168257,3,"[
+  [protein]
+]"
+168328,3,"[
+  [protein]
+]"
+168335,3,"[
+  [protein]
+]"
+168341,3,"[
+  [protein]
+]"
+168344,3,"[
+  [protein]
+]"
+168380,3,"[
+  [protein]
+]"
+168389,3,"[
+  [protein]
+]"
+168398,3,"[
+  [protein],
+  [peptide]
+]"
+168400,3,"[
+  [protein]
+]"
+168415,3,"[
+  [protein]
+]"
+168419,3,"[
+  [protein]
+]"
+168436,3,"[
+  [protein]
+]"
+168456,3,"[
+  [protein]
+]"
+168458,3,"[
+  [protein]
+]"
+168470,3,"[
+  [protein]
+]"
+168481,3,"[
+  [protein]
+]"
+168501,3,"[
+  [protein]
+]"
+168513,3,"[
+  [protein]
+]"
+168522,3,"[
+  [protein]
+]"
+168538,3,"[
+  [protein]
+]"
+168553,3,"[
+  [protein]
+]"
+168589,3,"[
+  [protein]
+]"
+168627,3,"[
+  [protein]
+]"
+168657,3,"[
+  [protein]
+]"
+168690,3,"[
+  [protein],
+  [peptide]
+]"
+168708,3,"[
+  [protein]
+]"
+168758,3,"[
+  [protein]
+]"
+168759,3,"[
+  [protein]
+]"
+168770,3,"[
+  [protein]
+]"
+168780,3,"[
+  [protein]
+]"
+168807,3,"[
+  [protein]
+]"
+168847,3,"[
+  [protein]
+]"
+168862,3,"[
+  [protein]
+]"
+168904,3,"[
+  [protein]
+]"
+168925,3,"[
+  [protein],
+  [peptide]
+]"
+168929,3,"[
+  [protein]
+]"
+168933,3,"[
+  [protein]
+]"
+168958,3,"[
+  [protein]
+]"
+168963,3,"[
+  [protein]
+]"
+168976,3,"[
+  [protein]
+]"
+168982,3,"[
+  [protein]
+]"
+168987,3,"[
+  [protein]
+]"
+168991,3,"[
+  [protein]
+]"
+168995,3,"[
+  [protein]
+]"
+169007,3,"[
+  [protein]
+]"
+169017,3,"[
+  [protein]
+]"
+169024,3,"[
+  [protein]
+]"
+169135,3,"[
+  [protein],
+  [peptide]
+]"
+169170,3,"[
+  [protein]
+]"
+169187,3,"[
+  [protein]
+]"
+169286,3,"[
+  [protein]
+]"
+169294,3,"[
+  [protein],
+  [peptide]
+]"
+169304,3,"[
+  [protein]
+]"
+169305,3,"[
+  [protein]
+]"
+169325,3,"[
+  [protein]
+]"
+169332,3,"[
+  [protein]
+]"
+169345,3,"[
+  [protein]
+]"
+169409,3,"[
+  [protein]
+]"
+169413,3,"[
+  [protein]
+]"
+169418,3,"[
+  [protein]
+]"
+169466,3,"[
+  [protein]
+]"
+169508,3,"[
+  [protein],
+  [peptide]
+]"
+169565,3,"[
+  [protein]
+]"
+169571,3,"[
+  [protein]
+]"
+169572,3,"[
+  [protein]
+]"
+169574,3,"[
+  [protein]
+]"
+169575,3,"[
+  [protein]
+]"
+169633,3,"[
+  [protein]
+]"
+169665,3,"[
+  [protein]
+]"
+169683,3,"[
+  [protein],
+  [peptide]
+]"
+169688,3,"[
+  [protein]
+]"
+169705,3,"[
+  [protein]
+]"
+169706,3,"[
+  [protein]
+]"
+169725,3,"[
+  [protein]
+]"
+169779,3,"[
+  [protein]
+]"
+169781,3,"[
+  [protein]
+]"
+169782,3,"[
+  [protein]
+]"
+169798,3,"[
+  [protein]
+]"
+169806,3,"[
+  [protein]
+]"
+169808,3,"[
+  [protein]
+]"
+169817,3,"[
+  [protein]
+]"
+169852,3,"[
+  [protein]
+]"
+169880,3,"[
+  [protein]
+]"
+169953,3,"[
+  [protein]
+]"
+169962,3,"[
+  [protein]
+]"
+169993,3,"[
+  [protein],
+  [peptide]
+]"
+170011,3,"[
+  [protein]
+]"
+170017,3,"[
+  [protein]
+]"
+170059,3,"[
+  [protein]
+]"
+170111,3,"[
+  [protein]
+]"
+170113,3,"[
+  [protein]
+]"
+170132,3,"[
+  [protein]
+]"
+170145,3,"[
+  [protein]
+]"
+170156,3,"[
+  [protein]
+]"
+170193,3,"[
+  [protein]
+]"
+170220,3,"[
+  [protein]
+]"
+170281,3,"[
+  [protein]
+]"
+170289,3,"[
+  [protein]
+]"
+170335,3,"[
+  [protein]
+]"
+170350,3,"[
+  [protein]
+]"
+170352,3,"[
+  [protein]
+]"
+170425,3,"[
+  [protein]
+]"
+170446,3,"[
+  [protein]
+]"
+170526,3,"[
+  [protein],
+  [peptide]
+]"
+170611,3,"[
+  [protein]
+]"
+170616,3,"[
+  [protein]
+]"
+170624,3,"[
+  [protein]
+]"
+170651,3,"[
+  [protein]
+]"
+170684,3,"[
+  [protein]
+]"
+170778,3,"[
+  [protein]
+]"
+170788,3,"[
+  [protein],
+  [peptide]
+]"
+170958,3,"[
+  [protein]
+]"
+171009,3,"[
+  [protein]
+]"
+171097,3,"[
+  [protein]
+]"
+171165,3,"[
+  [protein]
+]"
+171182,3,"[
+  [protein]
+]"
+171183,3,"[
+  [protein]
+]"
+171284,3,"[
+  [protein]
+]"
+171368,3,"[
+  [protein]
+]"
+171398,3,"[
+  [protein]
+]"
+171422,3,"[
+  [protein]
+]"
+171466,3,"[
+  [protein]
+]"
+171514,3,"[
+  [protein]
+]"
+171544,3,"[
+  [protein]
+]"
+171567,3,"[
+  [protein]
+]"
+171579,3,"[
+  [protein]
+]"
+171627,3,"[
+  [protein]
+]"
+171641,3,"[
+  [protein]
+]"
+171669,3,"[
+  [protein]
+]"
+171722,3,"[
+  [protein]
+]"
+171727,3,"[
+  [protein]
+]"
+171731,3,"[
+  [protein]
+]"
+171835,3,"[
+  [protein]
+]"
+171837,3,"[
+  [protein]
+]"
+171952,3,"[
+  [protein]
+]"
+172008,3,"[
+  [protein]
+]"
+172025,3,"[
+  [protein]
+]"
+172028,3,"[
+  [protein]
+]"
+172132,3,"[
+  [protein]
+]"
+172139,3,"[
+  [protein]
+]"
+172310,3,"[
+  [protein]
+]"
+172378,3,"[
+  [protein]
+]"
+172386,3,"[
+  [protein]
+]"
+172425,3,"[
+  [protein]
+]"
+172434,3,"[
+  [protein]
+]"
+172527,3,"[
+  [protein]
+]"
+172583,3,"[
+  [protein],
+  [peptide]
+]"
+172614,3,"[
+  [protein]
+]"
+172637,3,"[
+  [protein]
+]"
+172649,3,"[
+  [protein]
+]"
+172657,3,"[
+  [protein]
+]"
+172667,3,"[
+  [protein]
+]"
+172716,3,"[
+  [protein]
+]"
+172794,3,"[
+  [protein]
+]"
+172808,3,"[
+  [protein]
+]"
+172925,3,"[
+  [protein]
+]"
+173204,3,"[
+  [protein]
+]"
+173264,3,"[
+  [protein]
+]"
+173455,3,"[
+  [protein]
+]"
+174004,3,"[
+  [protein],
+  [peptide]
+]"
+174022,3,"[
+  [protein],
+  [peptide]
+]"
+174025,3,"[
+  [protein],
+  [peptide]
+]"
+174034,3,"[
+  [protein],
+  [peptide]
+]"
+174042,3,"[
+  [protein],
+  [peptide]
+]"
+174044,3,"[
+  [protein],
+  [peptide]
+]"
+174060,3,"[
+  [protein],
+  [peptide]
+]"
+174068,3,"[
+  [protein],
+  [peptide]
+]"
+174087,3,"[
+  [protein],
+  [peptide]
+]"
+174104,3,"[
+  [protein],
+  [peptide]
+]"
+174142,3,"[
+  [protein],
+  [peptide]
+]"
+174157,3,"[
+  [protein],
+  [peptide]
+]"
+174183,3,"[
+  [protein],
+  [peptide]
+]"
+174229,3,"[
+  [protein],
+  [peptide]
+]"
+174241,3,"[
+  [protein],
+  [peptide]
+]"
+174254,3,"[
+  [protein],
+  [peptide]
+]"
+174281,3,"[
+  [protein],
+  [peptide]
+]"
+174284,3,"[
+  [protein],
+  [peptide]
+]"
+174292,3,"[
+  [protein],
+  [peptide]
+]"
+174293,3,"[
+  [protein],
+  [peptide]
+]"
+174303,3,"[
+  [protein],
+  [peptide]
+]"
+174310,3,"[
+  [protein],
+  [peptide]
+]"
+174311,3,"[
+  [protein],
+  [peptide]
+]"
+174316,3,"[
+  [protein],
+  [peptide]
+]"
+174323,3,"[
+  [protein],
+  [peptide]
+]"
+174324,3,"[
+  [protein],
+  [peptide]
+]"
+174325,3,"[
+  [protein],
+  [peptide]
+]"
+174327,3,"[
+  [protein],
+  [peptide]
+]"
+174342,3,"[
+  [protein],
+  [peptide]
+]"
+174346,3,"[
+  [protein],
+  [peptide]
+]"
+174348,3,"[
+  [protein],
+  [peptide]
+]"
+174357,3,"[
+  [protein],
+  [peptide]
+]"
+174364,3,"[
+  [protein],
+  [peptide]
+]"
+174369,3,"[
+  [protein],
+  [peptide]
+]"
+174380,3,"[
+  [protein],
+  [peptide]
+]"
+174389,3,"[
+  [protein],
+  [peptide]
+]"
+174395,3,"[
+  [protein],
+  [peptide]
+]"
+174403,3,"[
+  [protein],
+  [peptide]
+]"
+174410,3,"[
+  [protein],
+  [peptide]
+]"
+174426,3,"[
+  [protein],
+  [peptide]
+]"
+174429,3,"[
+  [protein],
+  [peptide]
+]"
+174433,3,"[
+  [protein],
+  [peptide]
+]"
+174446,3,"[
+  [protein],
+  [peptide]
+]"
+174448,3,"[
+  [protein],
+  [peptide]
+]"
+174458,3,"[
+  [protein],
+  [peptide]
+]"
+174475,3,"[
+  [protein],
+  [peptide]
+]"
+174477,3,"[
+  [protein],
+  [peptide]
+]"
+174482,3,"[
+  [protein],
+  [peptide]
+]"
+174485,3,"[
+  [protein],
+  [peptide]
+]"
+174486,3,"[
+  [protein],
+  [peptide]
+]"
+174499,3,"[
+  [protein],
+  [peptide]
+]"
+174502,3,"[
+  [protein],
+  [peptide]
+]"
+174507,3,"[
+  [protein],
+  [peptide]
+]"
+174513,3,"[
+  [protein],
+  [peptide]
+]"
+174517,3,"[
+  [protein],
+  [peptide]
+]"
+174522,3,"[
+  [protein],
+  [peptide]
+]"
+174536,3,"[
+  [protein],
+  [peptide]
+]"
+174539,3,"[
+  [protein],
+  [peptide]
+]"
+174541,3,"[
+  [protein],
+  [peptide]
+]"
+174550,3,"[
+  [protein],
+  [peptide]
+]"
+174552,3,"[
+  [protein],
+  [peptide]
+]"
+174558,3,"[
+  [protein],
+  [peptide]
+]"
+174561,3,"[
+  [protein],
+  [peptide]
+]"
+174563,3,"[
+  [protein],
+  [peptide]
+]"
+174568,3,"[
+  [protein],
+  [peptide]
+]"
+174580,3,"[
+  [protein],
+  [peptide]
+]"
+174603,3,"[
+  [protein],
+  [peptide]
+]"
+174605,3,"[
+  [protein],
+  [peptide]
+]"
+174612,3,"[
+  [protein],
+  [peptide]
+]"
+174616,3,"[
+  [protein],
+  [peptide]
+]"
+174618,3,"[
+  [protein],
+  [peptide]
+]"
+174629,3,"[
+  [protein],
+  [peptide]
+]"
+174654,3,"[
+  [protein],
+  [peptide]
+]"
+174656,3,"[
+  [protein]
+]"
+174667,3,"[
+  [protein],
+  [peptide]
+]"
+174699,3,"[
+  [protein],
+  [peptide]
+]"
+174712,3,"[
+  [protein],
+  [peptide]
+]"
+174751,3,"[
+  [protein],
+  [peptide]
+]"
+174778,3,"[
+  [protein],
+  [peptide]
+]"
+174787,3,"[
+  [protein],
+  [peptide]
+]"
+174792,3,"[
+  [protein],
+  [peptide]
+]"
+174793,3,"[
+  [protein],
+  [peptide]
+]"
+174805,3,"[
+  [protein],
+  [peptide]
+]"
+174840,3,"[
+  [protein],
+  [peptide]
+]"
+174841,3,"[
+  [protein],
+  [peptide]
+]"
+174846,3,"[
+  [protein],
+  [peptide]
+]"
+174855,3,"[
+  [protein],
+  [peptide]
+]"
+174868,3,"[
+  [protein],
+  [peptide]
+]"
+174914,3,"[
+  [protein],
+  [peptide]
+]"
+174918,3,"[
+  [protein],
+  [peptide]
+]"
+174935,3,"[
+  [protein],
+  [peptide]
+]"
+174952,3,"[
+  [protein],
+  [peptide]
+]"
+174981,3,"[
+  [protein],
+  [peptide]
+]"
+174998,3,"[
+  [protein],
+  [peptide]
+]"
+175089,3,"[
+  [protein],
+  [peptide]
+]"
+175100,3,"[
+  [protein],
+  [peptide]
+]"
+175103,3,"[
+  [protein],
+  [peptide]
+]"
+175108,3,"[
+  [protein],
+  [peptide]
+]"
+175183,3,"[
+  [protein],
+  [peptide]
+]"
+175201,3,"[
+  [protein],
+  [peptide]
+]"
+175314,3,"[
+  [protein],
+  [small_molecule]
+]"
+175344,3,"[
+  [protein],
+  [small_molecule]
+]"
+175346,3,"[
+  [protein],
+  [small_molecule]
+]"
+175351,3,"[
+  [protein],
+  [small_molecule]
+]"
+175353,3,"[
+  [protein],
+  [small_molecule]
+]"
+175407,3,"[
+  [protein],
+  [small_molecule]
+]"
+175416,3,"[
+  [protein],
+  [small_molecule]
+]"
+175424,3,"[
+  [protein],
+  [small_molecule]
+]"
+175425,3,"[
+  [protein],
+  [small_molecule]
+]"
+175430,3,"[
+  [protein],
+  [small_molecule]
+]"
+175432,3,"[
+  [protein],
+  [small_molecule]
+]"
+175438,3,"[
+  [protein],
+  [small_molecule]
+]"
+175439,3,"[
+  [protein],
+  [small_molecule]
+]"
+175440,3,"[
+  [protein],
+  [small_molecule]
+]"
+175444,3,"[
+  [protein],
+  [small_molecule]
+]"
+175447,3,"[
+  [protein],
+  [small_molecule]
+]"
+175451,3,"[
+  [protein],
+  [small_molecule]
+]"
+175453,3,"[
+  [protein],
+  [small_molecule]
+]"
+175457,3,"[
+  [protein],
+  [small_molecule]
+]"
+175460,3,"[
+  [protein],
+  [small_molecule]
+]"
+175463,3,"[
+  [protein],
+  [small_molecule]
+]"
+175469,3,"[
+  [protein],
+  [small_molecule]
+]"
+175484,3,"[
+  [protein],
+  [small_molecule]
+]"
+175501,3,"[
+  [protein],
+  [small_molecule]
+]"
+175503,3,"[
+  [protein],
+  [small_molecule]
+]"
+175512,3,"[
+  [protein],
+  [small_molecule]
+]"
+175521,3,"[
+  [protein],
+  [small_molecule]
+]"
+175525,3,"[
+  [protein],
+  [small_molecule]
+]"
+175530,3,"[
+  [protein],
+  [small_molecule]
+]"
+175533,3,"[
+  [protein],
+  [small_molecule]
+]"
+175543,3,"[
+  [protein],
+  [small_molecule]
+]"
+175544,3,"[
+  [protein],
+  [small_molecule]
+]"
+175553,3,"[
+  [protein],
+  [small_molecule]
+]"
+175554,3,"[
+  [protein],
+  [small_molecule]
+]"
+175563,3,"[
+  [protein],
+  [small_molecule]
+]"
+175591,3,"[
+  [protein],
+  [small_molecule]
+]"
+175593,3,"[
+  [protein],
+  [small_molecule]
+]"
+175597,3,"[
+  [protein],
+  [small_molecule]
+]"
+175607,3,"[
+  [protein],
+  [small_molecule]
+]"
+175612,3,"[
+  [protein],
+  [small_molecule]
+]"
+175617,3,"[
+  [protein],
+  [small_molecule]
+]"
+175623,3,"[
+  [protein],
+  [small_molecule]
+]"
+175631,3,"[
+  [protein],
+  [small_molecule]
+]"
+175633,3,"[
+  [protein],
+  [small_molecule]
+]"
+175654,3,"[
+  [protein],
+  [small_molecule]
+]"
+175655,3,"[
+  [protein],
+  [small_molecule]
+]"
+175669,3,"[
+  [protein],
+  [small_molecule]
+]"
+175677,3,"[
+  [protein],
+  [small_molecule]
+]"
+175756,3,"[
+  [protein],
+  [small_molecule]
+]"
+182599,3,"[
+  [rna],
+  [small_molecule]
+]"
+182601,3,"[
+  [dna],
+  [small_molecule]
+]"
+182617,3,"[
+  [rna],
+  [small_molecule]
+]"
+182621,3,"[
+  [rna],
+  [small_molecule]
+]"
+182623,3,"[
+  [rna],
+  [small_molecule]
+]"
+182627,3,"[
+  [rna],
+  [small_molecule]
+]"
+182629,3,"[
+  [rna],
+  [small_molecule]
+]"
+182637,3,"[
+  [rna],
+  [small_molecule]
+]"
+182638,3,"[
+  [rna],
+  [small_molecule]
+]"
+182648,3,"[
+  [rna],
+  [small_molecule]
+]"
+182678,3,"[
+  [rna],
+  [small_molecule]
+]"
+182716,3,"[
+  [rna],
+  [small_molecule]
+]"
+182739,3,"[
+  [rna],
+  [small_molecule]
+]"
+182740,3,"[
+  [rna],
+  [small_molecule]
+]"
+182776,3,"[
+  [rna],
+  [small_molecule]
+]"
+182777,3,"[
+  [rna],
+  [small_molecule]
+]"
+182789,3,"[
+  [rna],
+  [small_molecule]
+]"
+182797,3,"[
+  [rna],
+  [small_molecule]
+]"
+182806,3,"[
+  [rna],
+  [small_molecule]
+]"
+182920,3,"[
+  [dna],
+  [small_molecule]
+]"
+182922,3,"[
+  [dna],
+  [small_molecule]
+]"
+182938,3,"[
+  [dna],
+  [small_molecule]
+]"
+183131,3,"[
+  [rna],
+  [dna],
+  [small_molecule]
+]"
+183136,3,"[
+  [dna],
+  [small_molecule]
+]"
+183236,3,"[
+  [dna],
+  [small_molecule]
+]"
+183270,3,"[
+  [rna],
+  [small_molecule]
+]"
+183278,3,"[
+  [rna],
+  [small_molecule]
+]"
+183289,3,"[
+  [dna],
+  [small_molecule]
+]"
+183291,3,"[
+  [dna],
+  [small_molecule]
+]"
+183302,3,"[
+  [rna],
+  [small_molecule]
+]"
+183309,3,"[
+  [rna],
+  [small_molecule]
+]"
+183326,3,"[
+  [dna],
+  [small_molecule]
+]"
+183375,3,"[
+  [dna],
+  [small_molecule]
+]"
+184070,3,"[
+  [protein],
+  [dna]
+]"
+184589,3,"[
+  [protein],
+  [dna]
+]"
+185084,3,"[
+  [protein],
+  [dna]
+]"
+185153,3,"[
+  [protein],
+  [dna]
+]"
+185484,3,"[
+  [peptide],
+  [dna]
+]"
+185595,3,"[
+  [protein],
+  [dna]
+]"
+186026,3,"[
+  [peptide],
+  [dna]
+]"
+186185,3,"[
+  [protein],
+  [dna]
+]"
+186315,3,"[
+  [protein],
+  [dna]
+]"
+186367,3,"[
+  [protein],
+  [dna]
+]"
+186724,3,"[
+  [protein],
+  [dna]
+]"
+186774,3,"[
+  [protein],
+  [dna]
+]"
+186952,3,"[
+  [protein],
+  [dna]
+]"
+187302,3,"[
+  [protein],
+  [dna]
+]"
+187323,3,"[
+  [protein],
+  [dna]
+]"
+191151,3,"[
+  [protein],
+  [dna]
+]"
+191167,3,"[
+  [protein],
+  [dna]
+]"
+191297,3,"[
+  [protein],
+  [dna]
+]"
+191707,3,"[
+  [protein],
+  [dna]
+]"
+198476,3,"[
+  [rna],
+  [small_molecule]
+]"
+198493,3,"[
+  [rna],
+  [small_molecule]
+]"
+198494,3,"[
+  [rna],
+  [small_molecule]
+]"
+198496,3,"[
+  [rna],
+  [small_molecule]
+]"
+198607,3,"[
+  [rna],
+  [small_molecule]
+]"
+198630,3,"[
+  [rna],
+  [small_molecule]
+]"
+198700,3,"[
+  [rna],
+  [small_molecule]
+]"
+198702,3,"[
+  [rna],
+  [small_molecule]
+]"
+198710,3,"[
+  [rna],
+  [small_molecule]
+]"
+25745,3,"[
+  [protein],
+  [small_molecule]
+]"
+202199,3,"[
+  [protein],
+  [small_molecule]
+]"
+157378,3,"[
+  [protein]
+]"
+158847,3,"[
+  [protein]
+]"
+158823,3,"[
+  [protein]
+]"
+158757,3,"[
+  [protein]
+]"
+158789,3,"[
+  [protein]
+]"
+420593,3,"[
+  [protein]
+]"
+57114,3,"[
+  [protein]
+]"
+61274,3,"[
+  [protein]
+]"
+164011,2,"[
+  [protein]
+]"
+164016,2,"[
+  [protein]
+]"
+164025,2,"[
+  [protein]
+]"
+164026,2,"[
+  [protein]
+]"
+164077,2,"[
+  [protein]
+]"
+164086,2,"[
+  [protein]
+]"
+164154,2,"[
+  [protein]
+]"
+164161,2,"[
+  [protein]
+]"
+164184,2,"[
+  [protein]
+]"
+164185,2,"[
+  [protein]
+]"
+164204,2,"[
+  [protein]
+]"
+164205,2,"[
+  [protein]
+]"
+164206,2,"[
+  [protein]
+]"
+164218,2,"[
+  [protein]
+]"
+164287,2,"[
+  [protein],
+  [peptide]
+]"
+164288,2,"[
+  [protein]
+]"
+164289,2,"[
+  [protein]
+]"
+164292,2,"[
+  [protein]
+]"
+164294,2,"[
+  [protein]
+]"
+164320,2,"[
+  [protein]
+]"
+164321,2,"[
+  [protein]
+]"
+164337,2,"[
+  [protein]
+]"
+164339,2,"[
+  [protein]
+]"
+164421,2,"[
+  [protein]
+]"
+164422,2,"[
+  [protein]
+]"
+164441,2,"[
+  [protein]
+]"
+164704,2,"[
+  [protein]
+]"
+164816,2,"[
+  [protein]
+]"
+164822,2,"[
+  [protein]
+]"
+164878,2,"[
+  [protein]
+]"
+164885,2,"[
+  [protein]
+]"
+164886,2,"[
+  [protein]
+]"
+164887,2,"[
+  [protein]
+]"
+164902,2,"[
+  [protein]
+]"
+164951,2,"[
+  [protein]
+]"
+165141,2,"[
+  [protein]
+]"
+165164,2,"[
+  [protein]
+]"
+165188,2,"[
+  [protein]
+]"
+165239,2,"[
+  [protein]
+]"
+165241,2,"[
+  [protein],
+  [peptide]
+]"
+165324,2,"[
+  [protein]
+]"
+165427,2,"[
+  [protein]
+]"
+165428,2,"[
+  [protein]
+]"
+165438,2,"[
+  [protein]
+]"
+165439,2,"[
+  [protein]
+]"
+165466,2,"[
+  [protein]
+]"
+165467,2,"[
+  [protein]
+]"
+165468,2,"[
+  [protein]
+]"
+165489,2,"[
+  [protein]
+]"
+165492,2,"[
+  [protein]
+]"
+165498,2,"[
+  [protein]
+]"
+165529,2,"[
+  [protein]
+]"
+165566,2,"[
+  [protein]
+]"
+165584,2,"[
+  [protein]
+]"
+165588,2,"[
+  [protein]
+]"
+165590,2,"[
+  [protein]
+]"
+165625,2,"[
+  [protein]
+]"
+165689,2,"[
+  [protein]
+]"
+165748,2,"[
+  [protein]
+]"
+165749,2,"[
+  [protein]
+]"
+165829,2,"[
+  [protein]
+]"
+165853,2,"[
+  [protein]
+]"
+165881,2,"[
+  [protein]
+]"
+165967,2,"[
+  [protein]
+]"
+166061,2,"[
+  [protein]
+]"
+166062,2,"[
+  [protein]
+]"
+166066,2,"[
+  [protein]
+]"
+166089,2,"[
+  [protein]
+]"
+166122,2,"[
+  [protein]
+]"
+166144,2,"[
+  [protein]
+]"
+166222,2,"[
+  [protein],
+  [peptide]
+]"
+166241,2,"[
+  [protein]
+]"
+166256,2,"[
+  [protein]
+]"
+166263,2,"[
+  [protein]
+]"
+166266,2,"[
+  [protein]
+]"
+166273,2,"[
+  [protein]
+]"
+166274,2,"[
+  [protein]
+]"
+166323,2,"[
+  [protein]
+]"
+166362,2,"[
+  [protein]
+]"
+166429,2,"[
+  [protein]
+]"
+166513,2,"[
+  [protein]
+]"
+166514,2,"[
+  [protein]
+]"
+166526,2,"[
+  [protein]
+]"
+166624,2,"[
+  [protein]
+]"
+166690,2,"[
+  [protein]
+]"
+166734,2,"[
+  [protein]
+]"
+166860,2,"[
+  [protein]
+]"
+166926,2,"[
+  [protein]
+]"
+167080,2,"[
+  [protein]
+]"
+167208,2,"[
+  [protein]
+]"
+167238,2,"[
+  [protein]
+]"
+167245,2,"[
+  [protein]
+]"
+167249,2,"[
+  [protein]
+]"
+167273,2,"[
+  [protein]
+]"
+167289,2,"[
+  [protein]
+]"
+167304,2,"[
+  [protein]
+]"
+167343,2,"[
+  [protein]
+]"
+167347,2,"[
+  [protein]
+]"
+167373,2,"[
+  [protein]
+]"
+167410,2,"[
+  [protein]
+]"
+167411,2,"[
+  [protein]
+]"
+167446,2,"[
+  [protein]
+]"
+167567,2,"[
+  [protein]
+]"
+167658,2,"[
+  [protein]
+]"
+167712,2,"[
+  [protein]
+]"
+167716,2,"[
+  [protein]
+]"
+167756,2,"[
+  [protein]
+]"
+167807,2,"[
+  [protein]
+]"
+167845,2,"[
+  [protein]
+]"
+167852,2,"[
+  [protein]
+]"
+167867,2,"[
+  [protein]
+]"
+167907,2,"[
+  [protein]
+]"
+167959,2,"[
+  [protein]
+]"
+167972,2,"[
+  [protein]
+]"
+168003,2,"[
+  [protein],
+  [peptide]
+]"
+168014,2,"[
+  [protein]
+]"
+168017,2,"[
+  [protein]
+]"
+168065,2,"[
+  [protein]
+]"
+168094,2,"[
+  [protein]
+]"
+168108,2,"[
+  [protein]
+]"
+168121,2,"[
+  [protein]
+]"
+168165,2,"[
+  [protein]
+]"
+168192,2,"[
+  [protein]
+]"
+168205,2,"[
+  [protein]
+]"
+168214,2,"[
+  [protein]
+]"
+168226,2,"[
+  [protein]
+]"
+168242,2,"[
+  [protein],
+  [peptide]
+]"
+168253,2,"[
+  [protein]
+]"
+168346,2,"[
+  [protein]
+]"
+168394,2,"[
+  [protein]
+]"
+168468,2,"[
+  [protein]
+]"
+168551,2,"[
+  [protein]
+]"
+168552,2,"[
+  [protein]
+]"
+168628,2,"[
+  [protein]
+]"
+168650,2,"[
+  [protein]
+]"
+168653,2,"[
+  [protein],
+  [peptide]
+]"
+168705,2,"[
+  [protein]
+]"
+168720,2,"[
+  [protein]
+]"
+168760,2,"[
+  [protein]
+]"
+168793,2,"[
+  [protein]
+]"
+168798,2,"[
+  [protein]
+]"
+168804,2,"[
+  [protein]
+]"
+168911,2,"[
+  [protein]
+]"
+168921,2,"[
+  [protein]
+]"
+168959,2,"[
+  [protein]
+]"
+169112,2,"[
+  [protein]
+]"
+169118,2,"[
+  [protein]
+]"
+169150,2,"[
+  [protein],
+  [peptide]
+]"
+169152,2,"[
+  [protein]
+]"
+169179,2,"[
+  [protein],
+  [peptide]
+]"
+169184,2,"[
+  [protein]
+]"
+169195,2,"[
+  [protein]
+]"
+169201,2,"[
+  [protein]
+]"
+169202,2,"[
+  [protein]
+]"
+169229,2,"[
+  [protein]
+]"
+169230,2,"[
+  [protein]
+]"
+169241,2,"[
+  [protein],
+  [peptide]
+]"
+169243,2,"[
+  [protein],
+  [peptide]
+]"
+169330,2,"[
+  [protein]
+]"
+169350,2,"[
+  [protein]
+]"
+169397,2,"[
+  [protein]
+]"
+169449,2,"[
+  [protein]
+]"
+169490,2,"[
+  [protein]
+]"
+169499,2,"[
+  [protein]
+]"
+169501,2,"[
+  [protein]
+]"
+169544,2,"[
+  [protein]
+]"
+169551,2,"[
+  [protein]
+]"
+169559,2,"[
+  [protein]
+]"
+169601,2,"[
+  [protein]
+]"
+169655,2,"[
+  [protein]
+]"
+169673,2,"[
+  [protein]
+]"
+169684,2,"[
+  [protein]
+]"
+169698,2,"[
+  [protein]
+]"
+169718,2,"[
+  [protein]
+]"
+169726,2,"[
+  [protein]
+]"
+169739,2,"[
+  [protein]
+]"
+169743,2,"[
+  [protein],
+  [peptide]
+]"
+169746,2,"[
+  [protein]
+]"
+169755,2,"[
+  [protein]
+]"
+169768,2,"[
+  [protein]
+]"
+169775,2,"[
+  [protein]
+]"
+169797,2,"[
+  [protein]
+]"
+169809,2,"[
+  [protein]
+]"
+169819,2,"[
+  [protein]
+]"
+169841,2,"[
+  [protein]
+]"
+169873,2,"[
+  [protein]
+]"
+169922,2,"[
+  [protein]
+]"
+169985,2,"[
+  [protein]
+]"
+170042,2,"[
+  [protein]
+]"
+170052,2,"[
+  [protein]
+]"
+170055,2,"[
+  [protein]
+]"
+170075,2,"[
+  [protein]
+]"
+170084,2,"[
+  [protein]
+]"
+170178,2,"[
+  [protein]
+]"
+170239,2,"[
+  [protein]
+]"
+170272,2,"[
+  [protein],
+  [peptide]
+]"
+170282,2,"[
+  [protein]
+]"
+170291,2,"[
+  [protein]
+]"
+170345,2,"[
+  [protein]
+]"
+170455,2,"[
+  [protein]
+]"
+170466,2,"[
+  [protein]
+]"
+170473,2,"[
+  [protein]
+]"
+170484,2,"[
+  [protein],
+  [peptide]
+]"
+170495,2,"[
+  [protein]
+]"
+170551,2,"[
+  [protein]
+]"
+170560,2,"[
+  [protein]
+]"
+170572,2,"[
+  [protein]
+]"
+170621,2,"[
+  [protein]
+]"
+170717,2,"[
+  [protein]
+]"
+170780,2,"[
+  [protein]
+]"
+170796,2,"[
+  [protein]
+]"
+170851,2,"[
+  [protein]
+]"
+170869,2,"[
+  [protein]
+]"
+170931,2,"[
+  [protein]
+]"
+170946,2,"[
+  [protein]
+]"
+170999,2,"[
+  [protein]
+]"
+171063,2,"[
+  [protein]
+]"
+171073,2,"[
+  [protein]
+]"
+171078,2,"[
+  [protein]
+]"
+171082,2,"[
+  [protein]
+]"
+171131,2,"[
+  [protein]
+]"
+171142,2,"[
+  [protein]
+]"
+171174,2,"[
+  [protein]
+]"
+171188,2,"[
+  [protein]
+]"
+171204,2,"[
+  [protein]
+]"
+171231,2,"[
+  [protein]
+]"
+171238,2,"[
+  [protein]
+]"
+171254,2,"[
+  [protein]
+]"
+171288,2,"[
+  [protein]
+]"
+171305,2,"[
+  [protein]
+]"
+171309,2,"[
+  [protein]
+]"
+171458,2,"[
+  [protein]
+]"
+171487,2,"[
+  [protein]
+]"
+171496,2,"[
+  [protein]
+]"
+171533,2,"[
+  [protein]
+]"
+171633,2,"[
+  [protein]
+]"
+171692,2,"[
+  [protein]
+]"
+171698,2,"[
+  [protein]
+]"
+171734,2,"[
+  [protein]
+]"
+171752,2,"[
+  [protein]
+]"
+171779,2,"[
+  [protein]
+]"
+171788,2,"[
+  [protein]
+]"
+171789,2,"[
+  [protein],
+  [peptide]
+]"
+171880,2,"[
+  [protein]
+]"
+171885,2,"[
+  [protein]
+]"
+171917,2,"[
+  [protein]
+]"
+172007,2,"[
+  [protein]
+]"
+172046,2,"[
+  [protein]
+]"
+172051,2,"[
+  [protein],
+  [peptide]
+]"
+172094,2,"[
+  [protein]
+]"
+172105,2,"[
+  [protein]
+]"
+172124,2,"[
+  [protein]
+]"
+172153,2,"[
+  [protein]
+]"
+172155,2,"[
+  [protein]
+]"
+172165,2,"[
+  [protein]
+]"
+172190,2,"[
+  [protein]
+]"
+172213,2,"[
+  [protein]
+]"
+172234,2,"[
+  [protein]
+]"
+172288,2,"[
+  [protein]
+]"
+172349,2,"[
+  [protein]
+]"
+172352,2,"[
+  [protein]
+]"
+172381,2,"[
+  [protein]
+]"
+172382,2,"[
+  [protein]
+]"
+172388,2,"[
+  [protein]
+]"
+172433,2,"[
+  [protein]
+]"
+172435,2,"[
+  [protein]
+]"
+172436,2,"[
+  [protein]
+]"
+172451,2,"[
+  [protein]
+]"
+172475,2,"[
+  [protein]
+]"
+172571,2,"[
+  [protein]
+]"
+172590,2,"[
+  [protein]
+]"
+172626,2,"[
+  [protein]
+]"
+172681,2,"[
+  [protein]
+]"
+172793,2,"[
+  [protein]
+]"
+172844,2,"[
+  [protein]
+]"
+172853,2,"[
+  [protein]
+]"
+172892,2,"[
+  [protein]
+]"
+172893,2,"[
+  [protein]
+]"
+172896,2,"[
+  [protein]
+]"
+172897,2,"[
+  [protein]
+]"
+172930,2,"[
+  [protein]
+]"
+172980,2,"[
+  [protein]
+]"
+172995,2,"[
+  [protein]
+]"
+173033,2,"[
+  [protein]
+]"
+173045,2,"[
+  [protein]
+]"
+173067,2,"[
+  [protein]
+]"
+173080,2,"[
+  [protein]
+]"
+173177,2,"[
+  [protein]
+]"
+173187,2,"[
+  [protein],
+  [peptide]
+]"
+173192,2,"[
+  [protein]
+]"
+173232,2,"[
+  [protein]
+]"
+173252,2,"[
+  [protein],
+  [peptide]
+]"
+173255,2,"[
+  [protein]
+]"
+173276,2,"[
+  [protein]
+]"
+173330,2,"[
+  [protein]
+]"
+173341,2,"[
+  [protein]
+]"
+173367,2,"[
+  [protein]
+]"
+173387,2,"[
+  [protein]
+]"
+173415,2,"[
+  [protein]
+]"
+173421,2,"[
+  [protein]
+]"
+173428,2,"[
+  [protein]
+]"
+173433,2,"[
+  [protein]
+]"
+173470,2,"[
+  [protein]
+]"
+173524,2,"[
+  [protein]
+]"
+173535,2,"[
+  [protein]
+]"
+173564,2,"[
+  [protein]
+]"
+173594,2,"[
+  [protein],
+  [peptide]
+]"
+173597,2,"[
+  [protein]
+]"
+173599,2,"[
+  [protein]
+]"
+173617,2,"[
+  [protein]
+]"
+173657,2,"[
+  [protein]
+]"
+173708,2,"[
+  [protein]
+]"
+173716,2,"[
+  [protein],
+  [peptide]
+]"
+173763,2,"[
+  [protein]
+]"
+173770,2,"[
+  [protein]
+]"
+173792,2,"[
+  [protein]
+]"
+173811,2,"[
+  [protein]
+]"
+173815,2,"[
+  [protein]
+]"
+173832,2,"[
+  [protein]
+]"
+173847,2,"[
+  [protein]
+]"
+173861,2,"[
+  [protein]
+]"
+173871,2,"[
+  [protein]
+]"
+173883,2,"[
+  [protein]
+]"
+173900,2,"[
+  [protein]
+]"
+173907,2,"[
+  [protein]
+]"
+173908,2,"[
+  [protein]
+]"
+173944,2,"[
+  [protein]
+]"
+173964,2,"[
+  [protein]
+]"
+173968,2,"[
+  [protein]
+]"
+173997,2,"[
+  [protein],
+  [peptide]
+]"
+174024,2,"[
+  [protein],
+  [peptide]
+]"
+174027,2,"[
+  [protein],
+  [peptide]
+]"
+174033,2,"[
+  [protein],
+  [peptide]
+]"
+174066,2,"[
+  [protein],
+  [peptide]
+]"
+174067,2,"[
+  [protein],
+  [peptide]
+]"
+174070,2,"[
+  [protein],
+  [peptide]
+]"
+174071,2,"[
+  [protein],
+  [peptide]
+]"
+174127,2,"[
+  [protein],
+  [peptide]
+]"
+174144,2,"[
+  [protein],
+  [peptide]
+]"
+174145,2,"[
+  [protein],
+  [peptide]
+]"
+174150,2,"[
+  [protein],
+  [peptide]
+]"
+174180,2,"[
+  [protein],
+  [peptide]
+]"
+174221,2,"[
+  [protein],
+  [peptide]
+]"
+174228,2,"[
+  [protein],
+  [peptide]
+]"
+174238,2,"[
+  [protein],
+  [peptide]
+]"
+174239,2,"[
+  [protein],
+  [peptide]
+]"
+174240,2,"[
+  [protein],
+  [peptide]
+]"
+174253,2,"[
+  [protein],
+  [peptide]
+]"
+174262,2,"[
+  [protein],
+  [peptide]
+]"
+174263,2,"[
+  [protein],
+  [peptide]
+]"
+174264,2,"[
+  [protein],
+  [peptide]
+]"
+174275,2,"[
+  [protein],
+  [peptide]
+]"
+174286,2,"[
+  [protein],
+  [peptide]
+]"
+174287,2,"[
+  [protein],
+  [peptide]
+]"
+174294,2,"[
+  [protein],
+  [peptide]
+]"
+174300,2,"[
+  [protein],
+  [peptide]
+]"
+174301,2,"[
+  [protein],
+  [peptide]
+]"
+174314,2,"[
+  [protein],
+  [peptide]
+]"
+174329,2,"[
+  [protein],
+  [peptide]
+]"
+174330,2,"[
+  [protein],
+  [peptide]
+]"
+174333,2,"[
+  [protein],
+  [peptide]
+]"
+174352,2,"[
+  [protein],
+  [peptide]
+]"
+174363,2,"[
+  [protein],
+  [peptide]
+]"
+174376,2,"[
+  [protein],
+  [peptide]
+]"
+174383,2,"[
+  [protein],
+  [peptide]
+]"
+174388,2,"[
+  [protein],
+  [peptide]
+]"
+174393,2,"[
+  [protein],
+  [peptide]
+]"
+174414,2,"[
+  [protein],
+  [peptide]
+]"
+174420,2,"[
+  [protein],
+  [peptide]
+]"
+174443,2,"[
+  [protein],
+  [peptide]
+]"
+174455,2,"[
+  [protein],
+  [peptide]
+]"
+174456,2,"[
+  [protein],
+  [peptide]
+]"
+174466,2,"[
+  [protein],
+  [peptide]
+]"
+174483,2,"[
+  [protein],
+  [peptide]
+]"
+174489,2,"[
+  [protein],
+  [peptide]
+]"
+174493,2,"[
+  [protein],
+  [peptide]
+]"
+174530,2,"[
+  [protein],
+  [peptide]
+]"
+174533,2,"[
+  [protein],
+  [peptide]
+]"
+174546,2,"[
+  [protein],
+  [peptide]
+]"
+174555,2,"[
+  [protein],
+  [peptide]
+]"
+174562,2,"[
+  [protein],
+  [peptide]
+]"
+174569,2,"[
+  [protein],
+  [peptide]
+]"
+174577,2,"[
+  [protein],
+  [peptide]
+]"
+174578,2,"[
+  [protein],
+  [peptide]
+]"
+174581,2,"[
+  [protein],
+  [peptide]
+]"
+174584,2,"[
+  [protein],
+  [peptide]
+]"
+174585,2,"[
+  [protein],
+  [peptide]
+]"
+174586,2,"[
+  [protein],
+  [peptide]
+]"
+174593,2,"[
+  [protein],
+  [peptide]
+]"
+174600,2,"[
+  [protein],
+  [peptide]
+]"
+174604,2,"[
+  [protein],
+  [peptide]
+]"
+174606,2,"[
+  [protein],
+  [peptide]
+]"
+174623,2,"[
+  [protein],
+  [peptide]
+]"
+174630,2,"[
+  [protein],
+  [peptide]
+]"
+174643,2,"[
+  [protein],
+  [peptide]
+]"
+174651,2,"[
+  [protein],
+  [peptide]
+]"
+174657,2,"[
+  [protein],
+  [peptide]
+]"
+174675,2,"[
+  [protein],
+  [peptide]
+]"
+174690,2,"[
+  [protein],
+  [peptide]
+]"
+174691,2,"[
+  [protein],
+  [peptide]
+]"
+174711,2,"[
+  [protein],
+  [peptide]
+]"
+174723,2,"[
+  [protein],
+  [peptide]
+]"
+174725,2,"[
+  [protein],
+  [peptide]
+]"
+174739,2,"[
+  [protein],
+  [peptide]
+]"
+174740,2,"[
+  [protein],
+  [peptide]
+]"
+174743,2,"[
+  [protein]
+]"
+174753,2,"[
+  [protein],
+  [peptide]
+]"
+174758,2,"[
+  [protein],
+  [peptide]
+]"
+174761,2,"[
+  [protein]
+]"
+174765,2,"[
+  [protein],
+  [peptide]
+]"
+174767,2,"[
+  [protein],
+  [peptide]
+]"
+174769,2,"[
+  [protein],
+  [peptide]
+]"
+174774,2,"[
+  [protein],
+  [peptide]
+]"
+174775,2,"[
+  [protein],
+  [peptide]
+]"
+174786,2,"[
+  [protein],
+  [peptide]
+]"
+174789,2,"[
+  [protein],
+  [peptide]
+]"
+174809,2,"[
+  [protein],
+  [peptide]
+]"
+174811,2,"[
+  [protein],
+  [peptide]
+]"
+174823,2,"[
+  [protein],
+  [peptide]
+]"
+174837,2,"[
+  [protein],
+  [peptide]
+]"
+174852,2,"[
+  [protein],
+  [peptide]
+]"
+174856,2,"[
+  [protein]
+]"
+174866,2,"[
+  [protein],
+  [peptide]
+]"
+174875,2,"[
+  [protein],
+  [peptide]
+]"
+174877,2,"[
+  [protein],
+  [peptide]
+]"
+174881,2,"[
+  [protein],
+  [peptide]
+]"
+174884,2,"[
+  [protein],
+  [peptide]
+]"
+174902,2,"[
+  [protein],
+  [peptide]
+]"
+174922,2,"[
+  [protein],
+  [peptide]
+]"
+174932,2,"[
+  [protein],
+  [peptide]
+]"
+174944,2,"[
+  [protein],
+  [peptide]
+]"
+174946,2,"[
+  [protein],
+  [peptide]
+]"
+174950,2,"[
+  [protein],
+  [peptide]
+]"
+174953,2,"[
+  [protein],
+  [peptide]
+]"
+174957,2,"[
+  [protein],
+  [peptide]
+]"
+174969,2,"[
+  [protein],
+  [peptide]
+]"
+174973,2,"[
+  [protein],
+  [peptide]
+]"
+174986,2,"[
+  [protein],
+  [peptide]
+]"
+174991,2,"[
+  [protein],
+  [peptide]
+]"
+174992,2,"[
+  [protein],
+  [peptide]
+]"
+175004,2,"[
+  [protein],
+  [peptide]
+]"
+175026,2,"[
+  [protein],
+  [peptide]
+]"
+175027,2,"[
+  [protein],
+  [peptide]
+]"
+175034,2,"[
+  [protein],
+  [peptide]
+]"
+175040,2,"[
+  [protein],
+  [peptide]
+]"
+175042,2,"[
+  [protein],
+  [peptide]
+]"
+175047,2,"[
+  [protein],
+  [peptide]
+]"
+175050,2,"[
+  [protein],
+  [peptide]
+]"
+175057,2,"[
+  [protein],
+  [peptide]
+]"
+175072,2,"[
+  [protein],
+  [peptide]
+]"
+175073,2,"[
+  [protein],
+  [peptide]
+]"
+175092,2,"[
+  [protein],
+  [peptide]
+]"
+175096,2,"[
+  [protein],
+  [peptide]
+]"
+175102,2,"[
+  [protein],
+  [peptide]
+]"
+175115,2,"[
+  [protein],
+  [peptide]
+]"
+175120,2,"[
+  [protein],
+  [peptide]
+]"
+175121,2,"[
+  [protein],
+  [peptide]
+]"
+175124,2,"[
+  [protein],
+  [peptide]
+]"
+175131,2,"[
+  [protein],
+  [peptide]
+]"
+175143,2,"[
+  [protein],
+  [peptide]
+]"
+175144,2,"[
+  [protein],
+  [peptide]
+]"
+175148,2,"[
+  [protein],
+  [peptide]
+]"
+175153,2,"[
+  [protein],
+  [peptide]
+]"
+175157,2,"[
+  [protein],
+  [peptide]
+]"
+175178,2,"[
+  [protein],
+  [peptide]
+]"
+175186,2,"[
+  [protein],
+  [peptide]
+]"
+175189,2,"[
+  [protein],
+  [peptide]
+]"
+175197,2,"[
+  [protein],
+  [peptide]
+]"
+175202,2,"[
+  [protein],
+  [peptide]
+]"
+175229,2,"[
+  [protein],
+  [peptide]
+]"
+175251,2,"[
+  [protein],
+  [peptide]
+]"
+175265,2,"[
+  [protein],
+  [peptide]
+]"
+175283,2,"[
+  [protein],
+  [peptide]
+]"
+175285,2,"[
+  [protein],
+  [peptide]
+]"
+175298,2,"[
+  [protein],
+  [peptide]
+]"
+175312,2,"[
+  [protein],
+  [peptide]
+]"
+175338,2,"[
+  [protein],
+  [small_molecule]
+]"
+175339,2,"[
+  [protein],
+  [small_molecule]
+]"
+175340,2,"[
+  [protein],
+  [small_molecule]
+]"
+175341,2,"[
+  [protein],
+  [small_molecule]
+]"
+175343,2,"[
+  [protein],
+  [small_molecule]
+]"
+175348,2,"[
+  [protein],
+  [small_molecule]
+]"
+175349,2,"[
+  [protein],
+  [small_molecule]
+]"
+175350,2,"[
+  [protein],
+  [small_molecule]
+]"
+175359,2,"[
+  [protein],
+  [small_molecule]
+]"
+175389,2,"[
+  [protein],
+  [small_molecule]
+]"
+175390,2,"[
+  [protein],
+  [small_molecule]
+]"
+175391,2,"[
+  [protein],
+  [small_molecule]
+]"
+175394,2,"[
+  [protein],
+  [small_molecule]
+]"
+175395,2,"[
+  [protein],
+  [small_molecule]
+]"
+175409,2,"[
+  [protein],
+  [small_molecule]
+]"
+175414,2,"[
+  [protein],
+  [small_molecule]
+]"
+175422,2,"[
+  [protein],
+  [small_molecule]
+]"
+175427,2,"[
+  [protein],
+  [small_molecule]
+]"
+175429,2,"[
+  [protein],
+  [small_molecule]
+]"
+175431,2,"[
+  [protein],
+  [small_molecule]
+]"
+175434,2,"[
+  [protein],
+  [small_molecule]
+]"
+175436,2,"[
+  [protein],
+  [small_molecule]
+]"
+175443,2,"[
+  [protein],
+  [small_molecule]
+]"
+175456,2,"[
+  [protein],
+  [small_molecule]
+]"
+175459,2,"[
+  [protein],
+  [small_molecule]
+]"
+175462,2,"[
+  [protein],
+  [small_molecule]
+]"
+175465,2,"[
+  [protein],
+  [small_molecule]
+]"
+175468,2,"[
+  [protein],
+  [small_molecule]
+]"
+175483,2,"[
+  [protein],
+  [small_molecule]
+]"
+175490,2,"[
+  [protein],
+  [small_molecule]
+]"
+175494,2,"[
+  [protein],
+  [small_molecule]
+]"
+175500,2,"[
+  [protein],
+  [small_molecule]
+]"
+175505,2,"[
+  [protein],
+  [small_molecule]
+]"
+175507,2,"[
+  [protein],
+  [small_molecule]
+]"
+175518,2,"[
+  [protein],
+  [small_molecule]
+]"
+175519,2,"[
+  [protein],
+  [small_molecule]
+]"
+175524,2,"[
+  [protein],
+  [small_molecule]
+]"
+175532,2,"[
+  [protein],
+  [small_molecule]
+]"
+175542,2,"[
+  [protein],
+  [small_molecule]
+]"
+175546,2,"[
+  [protein],
+  [small_molecule]
+]"
+175547,2,"[
+  [protein],
+  [small_molecule]
+]"
+175556,2,"[
+  [protein],
+  [small_molecule]
+]"
+175566,2,"[
+  [protein],
+  [small_molecule]
+]"
+175569,2,"[
+  [protein],
+  [small_molecule]
+]"
+175572,2,"[
+  [protein],
+  [small_molecule]
+]"
+175573,2,"[
+  [protein],
+  [small_molecule]
+]"
+175576,2,"[
+  [protein],
+  [small_molecule]
+]"
+175579,2,"[
+  [protein],
+  [small_molecule]
+]"
+175583,2,"[
+  [protein],
+  [small_molecule]
+]"
+175585,2,"[
+  [protein],
+  [small_molecule]
+]"
+175588,2,"[
+  [protein],
+  [small_molecule]
+]"
+175594,2,"[
+  [protein],
+  [small_molecule]
+]"
+175595,2,"[
+  [protein],
+  [small_molecule]
+]"
+175602,2,"[
+  [protein],
+  [small_molecule]
+]"
+175614,2,"[
+  [protein],
+  [small_molecule]
+]"
+175629,2,"[
+  [protein],
+  [small_molecule]
+]"
+175632,2,"[
+  [protein],
+  [small_molecule]
+]"
+175640,2,"[
+  [protein],
+  [small_molecule]
+]"
+175645,2,"[
+  [protein],
+  [small_molecule]
+]"
+175651,2,"[
+  [protein],
+  [small_molecule]
+]"
+175652,2,"[
+  [protein],
+  [small_molecule]
+]"
+175653,2,"[
+  [protein],
+  [small_molecule]
+]"
+175658,2,"[
+  [protein],
+  [small_molecule]
+]"
+175661,2,"[
+  [protein],
+  [small_molecule]
+]"
+175664,2,"[
+  [protein],
+  [small_molecule]
+]"
+175665,2,"[
+  [protein],
+  [small_molecule]
+]"
+175673,2,"[
+  [protein],
+  [small_molecule]
+]"
+175674,2,"[
+  [protein],
+  [small_molecule]
+]"
+175676,2,"[
+  [protein],
+  [small_molecule]
+]"
+175679,2,"[
+  [protein],
+  [small_molecule]
+]"
+175684,2,"[
+  [protein],
+  [small_molecule]
+]"
+175690,2,"[
+  [protein],
+  [small_molecule]
+]"
+175694,2,"[
+  [protein],
+  [small_molecule]
+]"
+175697,2,"[
+  [protein],
+  [small_molecule]
+]"
+175700,2,"[
+  [protein],
+  [small_molecule]
+]"
+175701,2,"[
+  [protein],
+  [small_molecule]
+]"
+175703,2,"[
+  [protein],
+  [small_molecule]
+]"
+175717,2,"[
+  [protein],
+  [small_molecule]
+]"
+175724,2,"[
+  [protein],
+  [small_molecule]
+]"
+175739,2,"[
+  [protein],
+  [small_molecule]
+]"
+175745,2,"[
+  [protein],
+  [small_molecule]
+]"
+175750,2,"[
+  [protein],
+  [small_molecule]
+]"
+175763,2,"[
+  [protein],
+  [small_molecule]
+]"
+182524,2,"[
+  [rna],
+  [small_molecule]
+]"
+182525,2,"[
+  [rna],
+  [small_molecule]
+]"
+182526,2,"[
+  [rna],
+  [small_molecule]
+]"
+182527,2,"[
+  [rna],
+  [small_molecule]
+]"
+182528,2,"[
+  [rna],
+  [small_molecule]
+]"
+182530,2,"[
+  [rna],
+  [small_molecule]
+]"
+182531,2,"[
+  [rna],
+  [small_molecule]
+]"
+182532,2,"[
+  [rna],
+  [small_molecule]
+]"
+182533,2,"[
+  [rna],
+  [small_molecule]
+]"
+182600,2,"[
+  [dna],
+  [small_molecule]
+]"
+182602,2,"[
+  [rna],
+  [small_molecule]
+]"
+182603,2,"[
+  [dna],
+  [small_molecule]
+]"
+182606,2,"[
+  [dna],
+  [small_molecule]
+]"
+182607,2,"[
+  [rna],
+  [small_molecule]
+]"
+182608,2,"[
+  [rna],
+  [small_molecule]
+]"
+182610,2,"[
+  [rna],
+  [small_molecule]
+]"
+182611,2,"[
+  [dna],
+  [small_molecule]
+]"
+182612,2,"[
+  [dna],
+  [small_molecule]
+]"
+182613,2,"[
+  [dna],
+  [small_molecule]
+]"
+182614,2,"[
+  [rna],
+  [small_molecule]
+]"
+182615,2,"[
+  [rna],
+  [small_molecule]
+]"
+182616,2,"[
+  [rna],
+  [small_molecule]
+]"
+182618,2,"[
+  [rna],
+  [small_molecule]
+]"
+182619,2,"[
+  [rna],
+  [small_molecule]
+]"
+182622,2,"[
+  [rna],
+  [small_molecule]
+]"
+182625,2,"[
+  [rna],
+  [small_molecule]
+]"
+182626,2,"[
+  [rna],
+  [small_molecule]
+]"
+182631,2,"[
+  [rna],
+  [small_molecule]
+]"
+182632,2,"[
+  [dna],
+  [small_molecule]
+]"
+182636,2,"[
+  [rna],
+  [small_molecule]
+]"
+182641,2,"[
+  [rna],
+  [small_molecule]
+]"
+182642,2,"[
+  [rna],
+  [small_molecule]
+]"
+182643,2,"[
+  [rna],
+  [small_molecule]
+]"
+182644,2,"[
+  [rna],
+  [small_molecule]
+]"
+182645,2,"[
+  [rna],
+  [small_molecule]
+]"
+182646,2,"[
+  [rna],
+  [small_molecule]
+]"
+182647,2,"[
+  [rna],
+  [small_molecule]
+]"
+182650,2,"[
+  [rna],
+  [small_molecule]
+]"
+182653,2,"[
+  [rna],
+  [small_molecule]
+]"
+182654,2,"[
+  [rna],
+  [small_molecule]
+]"
+182658,2,"[
+  [rna],
+  [small_molecule]
+]"
+182659,2,"[
+  [rna],
+  [small_molecule]
+]"
+182661,2,"[
+  [rna],
+  [small_molecule]
+]"
+182662,2,"[
+  [rna],
+  [small_molecule]
+]"
+182665,2,"[
+  [dna],
+  [small_molecule]
+]"
+182666,2,"[
+  [rna],
+  [small_molecule]
+]"
+182667,2,"[
+  [rna],
+  [small_molecule]
+]"
+182668,2,"[
+  [rna],
+  [small_molecule]
+]"
+182669,2,"[
+  [dna],
+  [small_molecule]
+]"
+182674,2,"[
+  [rna],
+  [small_molecule]
+]"
+182675,2,"[
+  [rna],
+  [small_molecule]
+]"
+182676,2,"[
+  [rna],
+  [small_molecule]
+]"
+182677,2,"[
+  [rna],
+  [small_molecule]
+]"
+182679,2,"[
+  [rna],
+  [small_molecule]
+]"
+182680,2,"[
+  [rna],
+  [small_molecule]
+]"
+182689,2,"[
+  [rna],
+  [small_molecule]
+]"
+182692,2,"[
+  [rna],
+  [small_molecule]
+]"
+182694,2,"[
+  [rna],
+  [small_molecule]
+]"
+182695,2,"[
+  [rna],
+  [small_molecule]
+]"
+182704,2,"[
+  [rna],
+  [small_molecule]
+]"
+182705,2,"[
+  [dna],
+  [small_molecule]
+]"
+182707,2,"[
+  [rna],
+  [small_molecule]
+]"
+182708,2,"[
+  [rna],
+  [small_molecule]
+]"
+182709,2,"[
+  [rna],
+  [small_molecule]
+]"
+182710,2,"[
+  [dna],
+  [small_molecule]
+]"
+182718,2,"[
+  [rna],
+  [small_molecule]
+]"
+182719,2,"[
+  [dna],
+  [small_molecule]
+]"
+182720,2,"[
+  [rna],
+  [small_molecule]
+]"
+182723,2,"[
+  [rna],
+  [small_molecule]
+]"
+182724,2,"[
+  [dna],
+  [small_molecule]
+]"
+182725,2,"[
+  [rna],
+  [small_molecule]
+]"
+182726,2,"[
+  [rna],
+  [small_molecule]
+]"
+182730,2,"[
+  [dna],
+  [small_molecule]
+]"
+182731,2,"[
+  [rna],
+  [small_molecule]
+]"
+182732,2,"[
+  [rna],
+  [small_molecule]
+]"
+182733,2,"[
+  [rna],
+  [small_molecule]
+]"
+182735,2,"[
+  [rna],
+  [small_molecule]
+]"
+182743,2,"[
+  [rna],
+  [small_molecule]
+]"
+182744,2,"[
+  [rna],
+  [small_molecule]
+]"
+182748,2,"[
+  [rna],
+  [small_molecule]
+]"
+182790,2,"[
+  [rna],
+  [small_molecule]
+]"
+182796,2,"[
+  [rna],
+  [small_molecule]
+]"
+182799,2,"[
+  [rna],
+  [small_molecule]
+]"
+182833,2,"[
+  [rna],
+  [small_molecule]
+]"
+182904,2,"[
+  [dna],
+  [small_molecule]
+]"
+182905,2,"[
+  [dna],
+  [small_molecule]
+]"
+182906,2,"[
+  [dna],
+  [small_molecule]
+]"
+182907,2,"[
+  [dna],
+  [small_molecule]
+]"
+182918,2,"[
+  [dna],
+  [small_molecule]
+]"
+182919,2,"[
+  [dna],
+  [small_molecule]
+]"
+182937,2,"[
+  [dna],
+  [small_molecule]
+]"
+182939,2,"[
+  [dna],
+  [small_molecule]
+]"
+182940,2,"[
+  [dna],
+  [small_molecule]
+]"
+182944,2,"[
+  [dna],
+  [small_molecule]
+]"
+183071,2,"[
+  [dna],
+  [small_molecule]
+]"
+183072,2,"[
+  [dna],
+  [small_molecule]
+]"
+183073,2,"[
+  [dna],
+  [small_molecule]
+]"
+183074,2,"[
+  [dna],
+  [small_molecule]
+]"
+183075,2,"[
+  [dna],
+  [small_molecule]
+]"
+183076,2,"[
+  [dna],
+  [small_molecule]
+]"
+183078,2,"[
+  [dna],
+  [small_molecule]
+]"
+183079,2,"[
+  [dna],
+  [small_molecule]
+]"
+183080,2,"[
+  [dna],
+  [small_molecule]
+]"
+183081,2,"[
+  [dna],
+  [small_molecule]
+]"
+183082,2,"[
+  [dna],
+  [small_molecule]
+]"
+183083,2,"[
+  [dna],
+  [small_molecule]
+]"
+183084,2,"[
+  [dna],
+  [small_molecule]
+]"
+183085,2,"[
+  [dna],
+  [small_molecule]
+]"
+183086,2,"[
+  [dna],
+  [small_molecule]
+]"
+183087,2,"[
+  [dna],
+  [small_molecule]
+]"
+183088,2,"[
+  [dna],
+  [small_molecule]
+]"
+183089,2,"[
+  [dna],
+  [small_molecule]
+]"
+183126,2,"[
+  [rna],
+  [small_molecule]
+]"
+183128,2,"[
+  [dna],
+  [small_molecule]
+]"
+183129,2,"[
+  [dna],
+  [small_molecule]
+]"
+183130,2,"[
+  [rna],
+  [small_molecule]
+]"
+183154,2,"[
+  [rna],
+  [small_molecule]
+]"
+183155,2,"[
+  [rna],
+  [small_molecule]
+]"
+183156,2,"[
+  [rna],
+  [small_molecule]
+]"
+183157,2,"[
+  [rna],
+  [small_molecule]
+]"
+183158,2,"[
+  [rna],
+  [small_molecule]
+]"
+183160,2,"[
+  [rna],
+  [small_molecule]
+]"
+183164,2,"[
+  [rna],
+  [small_molecule]
+]"
+183171,2,"[
+  [dna],
+  [small_molecule]
+]"
+183172,2,"[
+  [dna],
+  [small_molecule]
+]"
+183193,2,"[
+  [rna],
+  [small_molecule]
+]"
+183215,2,"[
+  [rna],
+  [small_molecule]
+]"
+183224,2,"[
+  [dna],
+  [small_molecule]
+]"
+183238,2,"[
+  [dna],
+  [small_molecule]
+]"
+183282,2,"[
+  [rna],
+  [small_molecule]
+]"
+183283,2,"[
+  [rna],
+  [small_molecule]
+]"
+183284,2,"[
+  [rna],
+  [small_molecule]
+]"
+183285,2,"[
+  [rna],
+  [small_molecule]
+]"
+183286,2,"[
+  [rna],
+  [small_molecule]
+]"
+183287,2,"[
+  [rna],
+  [small_molecule]
+]"
+183288,2,"[
+  [dna],
+  [small_molecule]
+]"
+183293,2,"[
+  [dna],
+  [small_molecule]
+]"
+183294,2,"[
+  [dna],
+  [small_molecule]
+]"
+183296,2,"[
+  [dna],
+  [small_molecule]
+]"
+183297,2,"[
+  [dna],
+  [small_molecule]
+]"
+183298,2,"[
+  [dna],
+  [small_molecule]
+]"
+183311,2,"[
+  [dna],
+  [small_molecule]
+]"
+183318,2,"[
+  [dna],
+  [small_molecule]
+]"
+183319,2,"[
+  [dna],
+  [small_molecule]
+]"
+183322,2,"[
+  [dna],
+  [small_molecule]
+]"
+183328,2,"[
+  [dna],
+  [small_molecule]
+]"
+183329,2,"[
+  [dna],
+  [small_molecule]
+]"
+183330,2,"[
+  [dna],
+  [small_molecule]
+]"
+183331,2,"[
+  [dna],
+  [small_molecule]
+]"
+183369,2,"[
+  [dna],
+  [small_molecule]
+]"
+183370,2,"[
+  [dna],
+  [small_molecule]
+]"
+183371,2,"[
+  [dna],
+  [small_molecule]
+]"
+183379,2,"[
+  [dna],
+  [small_molecule]
+]"
+183380,2,"[
+  [dna],
+  [small_molecule]
+]"
+183381,2,"[
+  [dna],
+  [small_molecule]
+]"
+183384,2,"[
+  [dna],
+  [small_molecule]
+]"
+184008,2,"[
+  [protein],
+  [dna]
+]"
+184060,2,"[
+  [protein],
+  [dna]
+]"
+184158,2,"[
+  [protein],
+  [dna]
+]"
+184221,2,"[
+  [protein],
+  [dna]
+]"
+184355,2,"[
+  [peptide],
+  [dna]
+]"
+184419,2,"[
+  [protein],
+  [dna]
+]"
+184447,2,"[
+  [protein],
+  [dna]
+]"
+184730,2,"[
+  [protein],
+  [dna]
+]"
+184760,2,"[
+  [protein],
+  [dna]
+]"
+184761,2,"[
+  [protein],
+  [dna]
+]"
+184777,2,"[
+  [protein],
+  [dna]
+]"
+184784,2,"[
+  [protein],
+  [dna]
+]"
+184789,2,"[
+  [protein],
+  [dna]
+]"
+184835,2,"[
+  [protein],
+  [dna]
+]"
+184874,2,"[
+  [protein],
+  [dna]
+]"
+184893,2,"[
+  [protein],
+  [dna]
+]"
+184988,2,"[
+  [protein],
+  [dna]
+]"
+185009,2,"[
+  [protein],
+  [dna]
+]"
+185037,2,"[
+  [protein],
+  [dna]
+]"
+185216,2,"[
+  [protein],
+  [dna]
+]"
+185219,2,"[
+  [protein],
+  [dna]
+]"
+185356,2,"[
+  [protein],
+  [dna]
+]"
+185426,2,"[
+  [protein],
+  [dna]
+]"
+185441,2,"[
+  [protein],
+  [dna]
+]"
+185476,2,"[
+  [peptide],
+  [dna]
+]"
+185495,2,"[
+  [protein],
+  [dna]
+]"
+185518,2,"[
+  [protein],
+  [dna]
+]"
+185604,2,"[
+  [protein],
+  [dna]
+]"
+185741,2,"[
+  [protein],
+  [dna]
+]"
+185834,2,"[
+  [protein],
+  [dna]
+]"
+185870,2,"[
+  [protein],
+  [dna]
+]"
+185888,2,"[
+  [protein],
+  [dna]
+]"
+185894,2,"[
+  [protein],
+  [dna]
+]"
+185934,2,"[
+  [protein],
+  [dna]
+]"
+185935,2,"[
+  [protein],
+  [dna]
+]"
+185939,2,"[
+  [protein],
+  [dna]
+]"
+185989,2,"[
+  [protein],
+  [dna]
+]"
+186037,2,"[
+  [protein],
+  [dna]
+]"
+186058,2,"[
+  [protein],
+  [dna]
+]"
+186280,2,"[
+  [protein],
+  [dna]
+]"
+186286,2,"[
+  [protein],
+  [dna]
+]"
+186342,2,"[
+  [protein],
+  [dna]
+]"
+186353,2,"[
+  [protein],
+  [dna]
+]"
+186456,2,"[
+  [protein],
+  [dna]
+]"
+186581,2,"[
+  [peptide],
+  [dna]
+]"
+186614,2,"[
+  [protein],
+  [dna]
+]"
+186615,2,"[
+  [protein],
+  [dna]
+]"
+186680,2,"[
+  [protein],
+  [dna]
+]"
+186773,2,"[
+  [protein],
+  [dna]
+]"
+186798,2,"[
+  [protein],
+  [dna]
+]"
+186923,2,"[
+  [protein],
+  [dna]
+]"
+186995,2,"[
+  [protein],
+  [dna]
+]"
+187034,2,"[
+  [protein],
+  [dna]
+]"
+187079,2,"[
+  [protein],
+  [dna]
+]"
+187138,2,"[
+  [protein],
+  [dna]
+]"
+187187,2,"[
+  [protein],
+  [dna]
+]"
+187320,2,"[
+  [protein],
+  [dna]
+]"
+187322,2,"[
+  [protein],
+  [dna]
+]"
+187326,2,"[
+  [protein],
+  [dna]
+]"
+187332,2,"[
+  [protein],
+  [dna]
+]"
+187462,2,"[
+  [protein],
+  [dna]
+]"
+187509,2,"[
+  [protein],
+  [dna]
+]"
+187564,2,"[
+  [protein],
+  [dna]
+]"
+187565,2,"[
+  [protein],
+  [dna]
+]"
+187583,2,"[
+  [protein],
+  [dna]
+]"
+187717,2,"[
+  [protein],
+  [dna]
+]"
+187750,2,"[
+  [peptide],
+  [dna]
+]"
+187757,2,"[
+  [protein],
+  [dna]
+]"
+187769,2,"[
+  [protein],
+  [dna]
+]"
+187788,2,"[
+  [protein],
+  [dna]
+]"
+187789,2,"[
+  [protein],
+  [dna]
+]"
+187838,2,"[
+  [peptide],
+  [dna]
+]"
+187926,2,"[
+  [protein],
+  [dna]
+]"
+187946,2,"[
+  [protein],
+  [dna]
+]"
+187989,2,"[
+  [protein],
+  [dna]
+]"
+187998,2,"[
+  [protein],
+  [dna]
+]"
+188080,2,"[
+  [protein],
+  [dna]
+]"
+188148,2,"[
+  [protein],
+  [dna]
+]"
+188189,2,"[
+  [protein],
+  [dna]
+]"
+188256,2,"[
+  [protein],
+  [dna]
+]"
+188332,2,"[
+  [peptide],
+  [dna]
+]"
+188374,2,"[
+  [protein],
+  [dna]
+]"
+188437,2,"[
+  [protein],
+  [dna]
+]"
+188477,2,"[
+  [protein],
+  [dna]
+]"
+188479,2,"[
+  [protein],
+  [dna]
+]"
+188565,2,"[
+  [protein],
+  [dna]
+]"
+188757,2,"[
+  [protein],
+  [dna]
+]"
+188840,2,"[
+  [protein],
+  [dna]
+]"
+188843,2,"[
+  [peptide],
+  [dna]
+]"
+188850,2,"[
+  [peptide],
+  [dna]
+]"
+188916,2,"[
+  [protein],
+  [dna]
+]"
+188985,2,"[
+  [protein],
+  [dna]
+]"
+188995,2,"[
+  [protein],
+  [dna]
+]"
+189031,2,"[
+  [protein],
+  [dna]
+]"
+189060,2,"[
+  [protein],
+  [dna]
+]"
+189088,2,"[
+  [protein],
+  [dna]
+]"
+189100,2,"[
+  [peptide],
+  [dna]
+]"
+189289,2,"[
+  [protein],
+  [dna]
+]"
+189304,2,"[
+  [protein],
+  [dna]
+]"
+189431,2,"[
+  [protein],
+  [dna]
+]"
+189515,2,"[
+  [protein],
+  [dna]
+]"
+189528,2,"[
+  [protein],
+  [dna]
+]"
+189579,2,"[
+  [protein],
+  [dna]
+]"
+189789,2,"[
+  [protein],
+  [dna]
+]"
+190195,2,"[
+  [protein],
+  [dna]
+]"
+190389,2,"[
+  [protein],
+  [dna]
+]"
+190428,2,"[
+  [protein],
+  [dna]
+]"
+191454,2,"[
+  [protein],
+  [dna]
+]"
+191914,2,"[
+  [protein],
+  [dna]
+]"
+192074,2,"[
+  [protein],
+  [dna]
+]"
+192117,2,"[
+  [protein],
+  [dna]
+]"
+192183,2,"[
+  [protein],
+  [dna]
+]"
+192331,2,"[
+  [protein],
+  [dna]
+]"
+198495,2,"[
+  [rna],
+  [small_molecule]
+]"
+198511,2,"[
+  [rna],
+  [small_molecule]
+]"
+198612,2,"[
+  [rna],
+  [small_molecule]
+]"
+198615,2,"[
+  [rna],
+  [small_molecule]
+]"
+198624,2,"[
+  [rna],
+  [small_molecule]
+]"
+198627,2,"[
+  [rna],
+  [small_molecule]
+]"
+198629,2,"[
+  [rna],
+  [small_molecule]
+]"
+198705,2,"[
+  [rna],
+  [small_molecule]
+]"
+198711,2,"[
+  [rna],
+  [small_molecule]
+]"
+198713,2,"[
+  [rna],
+  [small_molecule]
+]"
+198716,2,"[
+  [rna],
+  [small_molecule]
+]"
+198717,2,"[
+  [rna],
+  [small_molecule]
+]"
+199002,2,"[
+  [rna],
+  [small_molecule]
+]"
+199008,2,"[
+  [rna],
+  [small_molecule]
+]"
+199010,2,"[
+  [rna],
+  [small_molecule]
+]"
+199015,2,"[
+  [rna],
+  [small_molecule]
+]"
+199020,2,"[
+  [rna],
+  [small_molecule]
+]"
+199021,2,"[
+  [rna],
+  [small_molecule]
+]"
+199022,2,"[
+  [rna],
+  [small_molecule]
+]"
+199023,2,"[
+  [rna],
+  [small_molecule]
+]"
+199025,2,"[
+  [rna],
+  [small_molecule]
+]"
+81552,2,"[
+  [protein],
+  [small_molecule]
+]"
+154039,2,"[
+  [protein]
+]"
+154069,2,"[
+  [protein]
+]"
+154084,2,"[
+  [protein]
+]"
+154359,2,"[
+  [protein]
+]"
+398493,2,"[
+  [protein]
+]"
+402551,2,"[
+  [protein]
+]"
+155387,2,"[
+  [protein]
+]"
+155675,2,"[
+  [protein]
+]"
+407811,2,"[
+  [protein]
+]"
+409089,2,"[
+  [protein]
+]"
+155943,2,"[
+  [protein]
+]"
+156535,2,"[
+  [protein]
+]"
+411640,2,"[
+  [protein]
+]"
+418017,2,"[
+  [protein]
+]"
+158877,2,"[
+  [protein]
+]"
+158892,2,"[
+  [protein]
+]"
+159589,2,"[
+  [protein]
+]"
+159650,2,"[
+  [protein]
+]"
+160863,2,"[
+  [protein]
+]"
+423621,2,"[
+  [protein]
+]"
+109659,2,"[
+  [protein]
+]"
+110631,2,"[
+  [protein]
+]"
+112649,2,"[
+  [protein]
+]"
+116137,2,"[
+  [protein]
+]"
+116152,2,"[
+  [protein]
+]"
+116172,2,"[
+  [protein]
+]"
+116508,2,"[
+  [protein]
+]"
+116675,2,"[
+  [protein]
+]"
+54904,2,"[
+  [protein]
+]"
+54939,2,"[
+  [protein]
+]"
+121796,2,"[
+  [protein]
+]"
+56891,2,"[
+  [protein]
+]"
+68380,2,"[
+  [protein]
+]"
+129359,2,"[
+  [protein]
+]"
+57812,2,"[
+  [protein]
+]"
+57861,2,"[
+  [protein]
+]"
+57920,2,"[
+  [protein]
+]"
+59925,2,"[
+  [protein]
+]"
+60446,2,"[
+  [protein]
+]"
+61189,2,"[
+  [protein]
+]"
+61262,2,"[
+  [protein]
+]"
+61314,2,"[
+  [protein]
+]"
+61384,2,"[
+  [protein]
+]"
+136642,2,"[
+  [protein]
+]"
+61455,2,"[
+  [protein]
+]"
+61465,2,"[
+  [protein]
+]"
+61808,2,"[
+  [protein]
+]"
+64075,2,"[
+  [protein]
+]"
+64985,2,"[
+  [protein]
+]"
+66184,2,"[
+  [protein]
+]"
+163969,1,"[
+  [protein]
+]"
+163971,1,"[
+  [protein]
+]"
+163973,1,"[
+  [protein]
+]"
+163975,1,"[
+  [protein]
+]"
+163976,1,"[
+  [protein]
+]"
+163978,1,"[
+  [protein]
+]"
+163980,1,"[
+  [protein]
+]"
+163981,1,"[
+  [protein]
+]"
+163982,1,"[
+  [protein]
+]"
+163983,1,"[
+  [protein]
+]"
+163985,1,"[
+  [protein]
+]"
+163986,1,"[
+  [protein]
+]"
+163987,1,"[
+  [protein]
+]"
+163989,1,"[
+  [protein]
+]"
+163990,1,"[
+  [protein]
+]"
+163991,1,"[
+  [protein]
+]"
+164060,1,"[
+  [protein]
+]"
+164062,1,"[
+  [protein]
+]"
+164072,1,"[
+  [protein]
+]"
+164107,1,"[
+  [protein]
+]"
+164109,1,"[
+  [protein]
+]"
+164373,1,"[
+  [protein]
+]"
+164374,1,"[
+  [protein]
+]"
+164790,1,"[
+  [protein]
+]"
+164791,1,"[
+  [protein]
+]"
+164792,1,"[
+  [protein]
+]"
+164793,1,"[
+  [protein]
+]"
+164794,1,"[
+  [protein]
+]"
+164795,1,"[
+  [protein]
+]"
+164796,1,"[
+  [protein]
+]"
+164797,1,"[
+  [protein]
+]"
+164798,1,"[
+  [protein]
+]"
+164799,1,"[
+  [protein]
+]"
+164800,1,"[
+  [protein]
+]"
+164801,1,"[
+  [protein]
+]"
+164802,1,"[
+  [protein]
+]"
+164803,1,"[
+  [protein]
+]"
+164873,1,"[
+  [protein]
+]"
+164874,1,"[
+  [protein]
+]"
+164985,1,"[
+  [protein]
+]"
+164987,1,"[
+  [protein]
+]"
+164989,1,"[
+  [protein]
+]"
+165619,1,"[
+  [protein]
+]"
+165620,1,"[
+  [protein]
+]"
+165621,1,"[
+  [protein]
+]"
+165690,1,"[
+  [protein]
+]"
+165968,1,"[
+  [protein]
+]"
+165969,1,"[
+  [protein]
+]"
+165970,1,"[
+  [protein]
+]"
+166091,1,"[
+  [protein]
+]"
+166092,1,"[
+  [protein]
+]"
+166115,1,"[
+  [protein]
+]"
+166339,1,"[
+  [protein]
+]"
+166352,1,"[
+  [protein]
+]"
+166388,1,"[
+  [protein]
+]"
+166389,1,"[
+  [protein]
+]"
+166390,1,"[
+  [protein]
+]"
+166553,1,"[
+  [protein]
+]"
+166554,1,"[
+  [protein]
+]"
+166555,1,"[
+  [protein]
+]"
+166556,1,"[
+  [protein]
+]"
+166676,1,"[
+  [protein]
+]"
+166677,1,"[
+  [protein]
+]"
+166726,1,"[
+  [protein]
+]"
+166727,1,"[
+  [protein]
+]"
+166728,1,"[
+  [protein]
+]"
+166729,1,"[
+  [protein]
+]"
+166730,1,"[
+  [protein]
+]"
+166731,1,"[
+  [protein]
+]"
+166929,1,"[
+  [protein]
+]"
+166930,1,"[
+  [protein]
+]"
+166931,1,"[
+  [protein]
+]"
+166932,1,"[
+  [protein]
+]"
+166933,1,"[
+  [protein]
+]"
+166934,1,"[
+  [protein]
+]"
+166935,1,"[
+  [protein]
+]"
+166936,1,"[
+  [protein]
+]"
+166937,1,"[
+  [protein]
+]"
+166938,1,"[
+  [protein]
+]"
+166939,1,"[
+  [protein]
+]"
+166940,1,"[
+  [protein]
+]"
+166941,1,"[
+  [protein]
+]"
+166942,1,"[
+  [protein]
+]"
+166943,1,"[
+  [protein]
+]"
+166944,1,"[
+  [protein]
+]"
+166971,1,"[
+  [protein]
+]"
+166972,1,"[
+  [protein]
+]"
+166973,1,"[
+  [protein]
+]"
+167407,1,"[
+  [protein]
+]"
+167471,1,"[
+  [protein]
+]"
+167472,1,"[
+  [protein]
+]"
+167473,1,"[
+  [protein]
+]"
+167474,1,"[
+  [protein]
+]"
+167475,1,"[
+  [protein]
+]"
+167476,1,"[
+  [protein]
+]"
+167477,1,"[
+  [protein]
+]"
+167478,1,"[
+  [protein]
+]"
+167479,1,"[
+  [protein]
+]"
+167480,1,"[
+  [protein]
+]"
+167483,1,"[
+  [protein]
+]"
+167484,1,"[
+  [protein]
+]"
+167485,1,"[
+  [protein]
+]"
+167486,1,"[
+  [protein]
+]"
+167487,1,"[
+  [protein]
+]"
+167488,1,"[
+  [protein]
+]"
+167489,1,"[
+  [protein]
+]"
+167490,1,"[
+  [protein]
+]"
+167491,1,"[
+  [protein]
+]"
+167492,1,"[
+  [protein]
+]"
+167493,1,"[
+  [protein]
+]"
+167494,1,"[
+  [protein]
+]"
+167503,1,"[
+  [protein]
+]"
+167504,1,"[
+  [protein]
+]"
+167511,1,"[
+  [protein]
+]"
+167512,1,"[
+  [protein]
+]"
+167515,1,"[
+  [protein]
+]"
+167516,1,"[
+  [protein]
+]"
+167518,1,"[
+  [protein]
+]"
+167519,1,"[
+  [protein]
+]"
+167830,1,"[
+  [protein]
+]"
+167850,1,"[
+  [protein]
+]"
+167854,1,"[
+  [protein]
+]"
+167856,1,"[
+  [protein]
+]"
+167864,1,"[
+  [protein]
+]"
+167931,1,"[
+  [protein]
+]"
+167977,1,"[
+  [protein]
+]"
+167997,1,"[
+  [protein]
+]"
+167998,1,"[
+  [protein]
+]"
+168021,1,"[
+  [protein]
+]"
+168045,1,"[
+  [protein]
+]"
+168056,1,"[
+  [protein]
+]"
+168057,1,"[
+  [protein]
+]"
+168066,1,"[
+  [protein]
+]"
+168076,1,"[
+  [protein]
+]"
+168086,1,"[
+  [protein]
+]"
+168133,1,"[
+  [protein]
+]"
+168160,1,"[
+  [protein]
+]"
+168232,1,"[
+  [protein]
+]"
+168294,1,"[
+  [protein]
+]"
+168301,1,"[
+  [protein]
+]"
+168315,1,"[
+  [protein]
+]"
+168317,1,"[
+  [protein]
+]"
+168322,1,"[
+  [protein]
+]"
+168329,1,"[
+  [protein]
+]"
+168336,1,"[
+  [protein]
+]"
+168369,1,"[
+  [protein]
+]"
+168373,1,"[
+  [protein]
+]"
+168382,1,"[
+  [protein]
+]"
+168397,1,"[
+  [protein]
+]"
+168442,1,"[
+  [protein]
+]"
+168500,1,"[
+  [protein]
+]"
+168514,1,"[
+  [protein]
+]"
+168518,1,"[
+  [protein]
+]"
+168526,1,"[
+  [protein]
+]"
+168540,1,"[
+  [protein]
+]"
+168562,1,"[
+  [protein]
+]"
+168575,1,"[
+  [protein]
+]"
+168666,1,"[
+  [protein]
+]"
+168684,1,"[
+  [protein]
+]"
+168688,1,"[
+  [protein]
+]"
+168732,1,"[
+  [protein]
+]"
+168822,1,"[
+  [protein]
+]"
+168851,1,"[
+  [protein]
+]"
+168859,1,"[
+  [protein]
+]"
+168897,1,"[
+  [protein]
+]"
+168898,1,"[
+  [protein]
+]"
+168932,1,"[
+  [protein]
+]"
+168996,1,"[
+  [protein]
+]"
+169014,1,"[
+  [protein]
+]"
+169055,1,"[
+  [protein]
+]"
+169061,1,"[
+  [protein]
+]"
+169065,1,"[
+  [protein]
+]"
+169082,1,"[
+  [protein]
+]"
+169084,1,"[
+  [protein]
+]"
+169101,1,"[
+  [protein]
+]"
+169125,1,"[
+  [protein]
+]"
+169144,1,"[
+  [protein]
+]"
+169157,1,"[
+  [protein]
+]"
+169166,1,"[
+  [protein]
+]"
+169171,1,"[
+  [protein]
+]"
+169240,1,"[
+  [protein]
+]"
+169254,1,"[
+  [protein]
+]"
+169281,1,"[
+  [protein]
+]"
+169284,1,"[
+  [protein]
+]"
+169290,1,"[
+  [protein]
+]"
+169337,1,"[
+  [protein]
+]"
+169371,1,"[
+  [protein]
+]"
+169385,1,"[
+  [protein]
+]"
+169399,1,"[
+  [protein]
+]"
+169403,1,"[
+  [protein]
+]"
+169437,1,"[
+  [protein]
+]"
+169448,1,"[
+  [protein]
+]"
+169453,1,"[
+  [protein]
+]"
+169454,1,"[
+  [protein]
+]"
+169459,1,"[
+  [protein]
+]"
+169563,1,"[
+  [protein]
+]"
+169567,1,"[
+  [protein]
+]"
+169615,1,"[
+  [protein]
+]"
+169625,1,"[
+  [protein]
+]"
+169638,1,"[
+  [protein]
+]"
+169640,1,"[
+  [protein]
+]"
+169712,1,"[
+  [protein]
+]"
+169730,1,"[
+  [protein]
+]"
+169815,1,"[
+  [protein]
+]"
+169820,1,"[
+  [protein]
+]"
+169853,1,"[
+  [protein]
+]"
+169874,1,"[
+  [protein]
+]"
+169896,1,"[
+  [protein]
+]"
+169900,1,"[
+  [protein]
+]"
+169912,1,"[
+  [protein]
+]"
+169913,1,"[
+  [protein]
+]"
+169916,1,"[
+  [protein]
+]"
+169921,1,"[
+  [protein]
+]"
+169951,1,"[
+  [protein]
+]"
+169952,1,"[
+  [protein]
+]"
+169964,1,"[
+  [protein]
+]"
+170014,1,"[
+  [protein]
+]"
+170019,1,"[
+  [protein]
+]"
+170033,1,"[
+  [protein]
+]"
+170078,1,"[
+  [protein]
+]"
+170106,1,"[
+  [protein]
+]"
+170118,1,"[
+  [protein]
+]"
+170151,1,"[
+  [protein]
+]"
+170153,1,"[
+  [protein]
+]"
+170171,1,"[
+  [protein]
+]"
+170202,1,"[
+  [protein]
+]"
+170221,1,"[
+  [protein]
+]"
+170244,1,"[
+  [protein]
+]"
+170269,1,"[
+  [protein]
+]"
+170301,1,"[
+  [protein]
+]"
+170336,1,"[
+  [protein]
+]"
+170369,1,"[
+  [protein]
+]"
+170406,1,"[
+  [protein]
+]"
+170408,1,"[
+  [protein]
+]"
+170434,1,"[
+  [protein]
+]"
+170472,1,"[
+  [protein]
+]"
+170488,1,"[
+  [protein]
+]"
+170527,1,"[
+  [protein]
+]"
+170532,1,"[
+  [protein]
+]"
+170543,1,"[
+  [protein]
+]"
+170565,1,"[
+  [protein]
+]"
+170574,1,"[
+  [protein]
+]"
+170613,1,"[
+  [protein]
+]"
+170615,1,"[
+  [protein]
+]"
+170625,1,"[
+  [protein]
+]"
+170675,1,"[
+  [protein]
+]"
+170723,1,"[
+  [protein]
+]"
+170732,1,"[
+  [protein]
+]"
+170743,1,"[
+  [protein]
+]"
+170768,1,"[
+  [protein]
+]"
+170775,1,"[
+  [protein]
+]"
+170785,1,"[
+  [protein]
+]"
+170803,1,"[
+  [protein]
+]"
+170827,1,"[
+  [protein]
+]"
+170830,1,"[
+  [protein]
+]"
+170834,1,"[
+  [protein]
+]"
+170843,1,"[
+  [protein]
+]"
+170857,1,"[
+  [protein]
+]"
+170902,1,"[
+  [protein]
+]"
+170951,1,"[
+  [protein]
+]"
+170970,1,"[
+  [protein]
+]"
+170976,1,"[
+  [protein]
+]"
+170988,1,"[
+  [protein]
+]"
+171018,1,"[
+  [protein]
+]"
+171064,1,"[
+  [protein]
+]"
+171068,1,"[
+  [protein]
+]"
+171092,1,"[
+  [protein]
+]"
+171093,1,"[
+  [protein]
+]"
+171095,1,"[
+  [protein]
+]"
+171101,1,"[
+  [protein]
+]"
+171112,1,"[
+  [protein]
+]"
+171137,1,"[
+  [protein]
+]"
+171163,1,"[
+  [protein]
+]"
+171208,1,"[
+  [protein]
+]"
+171294,1,"[
+  [protein]
+]"
+171296,1,"[
+  [protein]
+]"
+171307,1,"[
+  [protein]
+]"
+171331,1,"[
+  [protein]
+]"
+171351,1,"[
+  [protein]
+]"
+171356,1,"[
+  [protein]
+]"
+171421,1,"[
+  [protein]
+]"
+171425,1,"[
+  [protein]
+]"
+171433,1,"[
+  [protein]
+]"
+171464,1,"[
+  [protein]
+]"
+171476,1,"[
+  [protein]
+]"
+171488,1,"[
+  [protein]
+]"
+171503,1,"[
+  [protein]
+]"
+171509,1,"[
+  [protein]
+]"
+171658,1,"[
+  [protein]
+]"
+171663,1,"[
+  [protein]
+]"
+171667,1,"[
+  [protein]
+]"
+171689,1,"[
+  [protein]
+]"
+171745,1,"[
+  [protein]
+]"
+171750,1,"[
+  [protein]
+]"
+171759,1,"[
+  [protein]
+]"
+171800,1,"[
+  [protein]
+]"
+171803,1,"[
+  [protein]
+]"
+171821,1,"[
+  [protein]
+]"
+171836,1,"[
+  [protein]
+]"
+171893,1,"[
+  [protein]
+]"
+171898,1,"[
+  [protein]
+]"
+171923,1,"[
+  [protein]
+]"
+171970,1,"[
+  [protein]
+]"
+171981,1,"[
+  [protein]
+]"
+171997,1,"[
+  [protein]
+]"
+172016,1,"[
+  [protein]
+]"
+172059,1,"[
+  [protein]
+]"
+172169,1,"[
+  [protein]
+]"
+172205,1,"[
+  [protein]
+]"
+172300,1,"[
+  [protein]
+]"
+172362,1,"[
+  [protein]
+]"
+172404,1,"[
+  [protein]
+]"
+172406,1,"[
+  [protein]
+]"
+172422,1,"[
+  [protein]
+]"
+172442,1,"[
+  [protein]
+]"
+172453,1,"[
+  [protein]
+]"
+172471,1,"[
+  [protein]
+]"
+172472,1,"[
+  [protein]
+]"
+172484,1,"[
+  [protein]
+]"
+172485,1,"[
+  [protein]
+]"
+172487,1,"[
+  [protein]
+]"
+172533,1,"[
+  [protein]
+]"
+172556,1,"[
+  [protein]
+]"
+172559,1,"[
+  [protein]
+]"
+172593,1,"[
+  [protein]
+]"
+172596,1,"[
+  [protein]
+]"
+172622,1,"[
+  [protein]
+]"
+172631,1,"[
+  [protein]
+]"
+172633,1,"[
+  [protein]
+]"
+172644,1,"[
+  [protein]
+]"
+172707,1,"[
+  [protein]
+]"
+172788,1,"[
+  [protein]
+]"
+172807,1,"[
+  [protein]
+]"
+172836,1,"[
+  [protein]
+]"
+172839,1,"[
+  [protein]
+]"
+172854,1,"[
+  [protein]
+]"
+172887,1,"[
+  [protein]
+]"
+172902,1,"[
+  [protein]
+]"
+172923,1,"[
+  [protein]
+]"
+172927,1,"[
+  [protein]
+]"
+172928,1,"[
+  [protein]
+]"
+172983,1,"[
+  [protein]
+]"
+173001,1,"[
+  [protein]
+]"
+173002,1,"[
+  [protein]
+]"
+173046,1,"[
+  [protein]
+]"
+173057,1,"[
+  [protein]
+]"
+173096,1,"[
+  [protein]
+]"
+173140,1,"[
+  [protein]
+]"
+173143,1,"[
+  [protein]
+]"
+173153,1,"[
+  [protein]
+]"
+173170,1,"[
+  [protein]
+]"
+173175,1,"[
+  [protein]
+]"
+173205,1,"[
+  [protein]
+]"
+173220,1,"[
+  [protein]
+]"
+173227,1,"[
+  [protein]
+]"
+173233,1,"[
+  [protein]
+]"
+173277,1,"[
+  [protein]
+]"
+173285,1,"[
+  [protein]
+]"
+173294,1,"[
+  [protein]
+]"
+173398,1,"[
+  [protein]
+]"
+173424,1,"[
+  [protein]
+]"
+173489,1,"[
+  [protein]
+]"
+173528,1,"[
+  [protein]
+]"
+173550,1,"[
+  [protein]
+]"
+173566,1,"[
+  [protein]
+]"
+173580,1,"[
+  [protein]
+]"
+173583,1,"[
+  [protein]
+]"
+173589,1,"[
+  [protein]
+]"
+173591,1,"[
+  [protein]
+]"
+173595,1,"[
+  [protein]
+]"
+173607,1,"[
+  [protein]
+]"
+173639,1,"[
+  [protein]
+]"
+173714,1,"[
+  [protein]
+]"
+173724,1,"[
+  [protein]
+]"
+173728,1,"[
+  [protein]
+]"
+173729,1,"[
+  [protein]
+]"
+173773,1,"[
+  [protein]
+]"
+173774,1,"[
+  [protein]
+]"
+173784,1,"[
+  [protein]
+]"
+173817,1,"[
+  [protein]
+]"
+173837,1,"[
+  [protein]
+]"
+173865,1,"[
+  [protein]
+]"
+173879,1,"[
+  [protein]
+]"
+173891,1,"[
+  [protein]
+]"
+173905,1,"[
+  [protein]
+]"
+173914,1,"[
+  [protein]
+]"
+173926,1,"[
+  [protein]
+]"
+173979,1,"[
+  [protein]
+]"
+173986,1,"[
+  [protein]
+]"
+174015,1,"[
+  [protein]
+]"
+174016,1,"[
+  [protein]
+]"
+174017,1,"[
+  [protein]
+]"
+174018,1,"[
+  [protein]
+]"
+174040,1,"[
+  [protein]
+]"
+174041,1,"[
+  [protein]
+]"
+174151,1,"[
+  [protein]
+]"
+174187,1,"[
+  [protein]
+]"
+174188,1,"[
+  [protein]
+]"
+174192,1,"[
+  [protein]
+]"
+174193,1,"[
+  [protein]
+]"
+174194,1,"[
+  [protein]
+]"
+174195,1,"[
+  [protein]
+]"
+174196,1,"[
+  [protein]
+]"
+174208,1,"[
+  [protein]
+]"
+174304,1,"[
+  [protein]
+]"
+174313,1,"[
+  [protein]
+]"
+174315,1,"[
+  [protein]
+]"
+174322,1,"[
+  [protein]
+]"
+174331,1,"[
+  [protein]
+]"
+174340,1,"[
+  [protein]
+]"
+174370,1,"[
+  [protein]
+]"
+174372,1,"[
+  [protein]
+]"
+174374,1,"[
+  [protein]
+]"
+174404,1,"[
+  [protein]
+]"
+174406,1,"[
+  [protein]
+]"
+174412,1,"[
+  [protein]
+]"
+174418,1,"[
+  [protein]
+]"
+174422,1,"[
+  [protein]
+]"
+174428,1,"[
+  [protein]
+]"
+174430,1,"[
+  [protein]
+]"
+174434,1,"[
+  [protein]
+]"
+174444,1,"[
+  [protein]
+]"
+174454,1,"[
+  [protein]
+]"
+174462,1,"[
+  [protein]
+]"
+174463,1,"[
+  [protein]
+]"
+174479,1,"[
+  [protein]
+]"
+174484,1,"[
+  [protein]
+]"
+174492,1,"[
+  [protein]
+]"
+174506,1,"[
+  [protein]
+]"
+174519,1,"[
+  [protein]
+]"
+174520,1,"[
+  [protein]
+]"
+174523,1,"[
+  [protein]
+]"
+174532,1,"[
+  [protein]
+]"
+174534,1,"[
+  [protein]
+]"
+174537,1,"[
+  [protein]
+]"
+174542,1,"[
+  [protein]
+]"
+174543,1,"[
+  [protein]
+]"
+174549,1,"[
+  [protein]
+]"
+174583,1,"[
+  [protein]
+]"
+174601,1,"[
+  [protein]
+]"
+174621,1,"[
+  [protein]
+]"
+174625,1,"[
+  [protein]
+]"
+174638,1,"[
+  [protein]
+]"
+174642,1,"[
+  [protein]
+]"
+174652,1,"[
+  [protein]
+]"
+174661,1,"[
+  [protein]
+]"
+174665,1,"[
+  [protein]
+]"
+174678,1,"[
+  [protein]
+]"
+174693,1,"[
+  [protein]
+]"
+174698,1,"[
+  [protein]
+]"
+174700,1,"[
+  [protein]
+]"
+174708,1,"[
+  [protein]
+]"
+174727,1,"[
+  [protein]
+]"
+174750,1,"[
+  [protein]
+]"
+174772,1,"[
+  [protein]
+]"
+174779,1,"[
+  [protein]
+]"
+174784,1,"[
+  [protein]
+]"
+174795,1,"[
+  [protein]
+]"
+174797,1,"[
+  [protein]
+]"
+174806,1,"[
+  [protein]
+]"
+174828,1,"[
+  [protein]
+]"
+174836,1,"[
+  [protein]
+]"
+174851,1,"[
+  [protein]
+]"
+174860,1,"[
+  [protein]
+]"
+174865,1,"[
+  [protein]
+]"
+174876,1,"[
+  [protein]
+]"
+174880,1,"[
+  [protein]
+]"
+174886,1,"[
+  [protein]
+]"
+174895,1,"[
+  [protein]
+]"
+174901,1,"[
+  [protein]
+]"
+174909,1,"[
+  [protein]
+]"
+174910,1,"[
+  [protein]
+]"
+174921,1,"[
+  [protein]
+]"
+174925,1,"[
+  [protein]
+]"
+174929,1,"[
+  [protein]
+]"
+174931,1,"[
+  [protein]
+]"
+174949,1,"[
+  [protein]
+]"
+174963,1,"[
+  [protein]
+]"
+174970,1,"[
+  [protein]
+]"
+174974,1,"[
+  [protein]
+]"
+174989,1,"[
+  [protein]
+]"
+174996,1,"[
+  [protein]
+]"
+175002,1,"[
+  [protein]
+]"
+175006,1,"[
+  [protein]
+]"
+175009,1,"[
+  [protein]
+]"
+175011,1,"[
+  [protein]
+]"
+175028,1,"[
+  [protein]
+]"
+175029,1,"[
+  [protein]
+]"
+175038,1,"[
+  [protein]
+]"
+175041,1,"[
+  [protein]
+]"
+175043,1,"[
+  [protein]
+]"
+175044,1,"[
+  [protein]
+]"
+175052,1,"[
+  [protein]
+]"
+175061,1,"[
+  [protein]
+]"
+175065,1,"[
+  [protein]
+]"
+175078,1,"[
+  [protein]
+]"
+175079,1,"[
+  [protein]
+]"
+175080,1,"[
+  [protein]
+]"
+175082,1,"[
+  [protein]
+]"
+175101,1,"[
+  [protein]
+]"
+175118,1,"[
+  [protein]
+]"
+175132,1,"[
+  [protein]
+]"
+175136,1,"[
+  [protein]
+]"
+175141,1,"[
+  [protein]
+]"
+175149,1,"[
+  [protein]
+]"
+175150,1,"[
+  [protein]
+]"
+175151,1,"[
+  [protein]
+]"
+175154,1,"[
+  [protein]
+]"
+175160,1,"[
+  [protein]
+]"
+175166,1,"[
+  [protein]
+]"
+175173,1,"[
+  [protein]
+]"
+175176,1,"[
+  [protein]
+]"
+175207,1,"[
+  [protein]
+]"
+175212,1,"[
+  [protein]
+]"
+175214,1,"[
+  [protein]
+]"
+175234,1,"[
+  [protein]
+]"
+175242,1,"[
+  [protein]
+]"
+175248,1,"[
+  [protein]
+]"
+175255,1,"[
+  [protein]
+]"
+175260,1,"[
+  [protein]
+]"
+175261,1,"[
+  [protein]
+]"
+175271,1,"[
+  [protein]
+]"
+175272,1,"[
+  [protein]
+]"
+175273,1,"[
+  [protein]
+]"
+175274,1,"[
+  [protein]
+]"
+175300,1,"[
+  [protein]
+]"
+175301,1,"[
+  [protein]
+]"
+175303,1,"[
+  [protein]
+]"
+175308,1,"[
+  [protein]
+]"
+175309,1,"[
+  [protein]
+]"
+175313,1,"[
+  [protein]
+]"
+175315,1,"[
+  [protein]
+]"
+175316,1,"[
+  [protein]
+]"
+175317,1,"[
+  [protein]
+]"
+175318,1,"[
+  [protein]
+]"
+175319,1,"[
+  [protein]
+]"
+175320,1,"[
+  [protein]
+]"
+175321,1,"[
+  [protein]
+]"
+175322,1,"[
+  [protein]
+]"
+175323,1,"[
+  [protein]
+]"
+175324,1,"[
+  [protein]
+]"
+175325,1,"[
+  [protein]
+]"
+175326,1,"[
+  [protein]
+]"
+175327,1,"[
+  [protein]
+]"
+175328,1,"[
+  [protein]
+]"
+175329,1,"[
+  [protein]
+]"
+175330,1,"[
+  [protein]
+]"
+175331,1,"[
+  [protein]
+]"
+175332,1,"[
+  [protein]
+]"
+175333,1,"[
+  [protein]
+]"
+175334,1,"[
+  [protein]
+]"
+175335,1,"[
+  [protein]
+]"
+175336,1,"[
+  [protein]
+]"
+175337,1,"[
+  [protein]
+]"
+175355,1,"[
+  [protein]
+]"
+175356,1,"[
+  [protein]
+]"
+175368,1,"[
+  [protein]
+]"
+175369,1,"[
+  [protein]
+]"
+175370,1,"[
+  [protein]
+]"
+175371,1,"[
+  [protein]
+]"
+175372,1,"[
+  [protein]
+]"
+175373,1,"[
+  [protein]
+]"
+175374,1,"[
+  [protein]
+]"
+175375,1,"[
+  [protein]
+]"
+175376,1,"[
+  [protein]
+]"
+175377,1,"[
+  [protein]
+]"
+175378,1,"[
+  [protein]
+]"
+175379,1,"[
+  [protein]
+]"
+175380,1,"[
+  [protein]
+]"
+175381,1,"[
+  [protein]
+]"
+175382,1,"[
+  [protein]
+]"
+175383,1,"[
+  [protein]
+]"
+175384,1,"[
+  [protein]
+]"
+175385,1,"[
+  [protein]
+]"
+175386,1,"[
+  [protein]
+]"
+175387,1,"[
+  [protein]
+]"
+175399,1,"[
+  [protein]
+]"
+175400,1,"[
+  [protein]
+]"
+175401,1,"[
+  [protein]
+]"
+175402,1,"[
+  [protein]
+]"
+175403,1,"[
+  [protein]
+]"
+175404,1,"[
+  [protein]
+]"
+175405,1,"[
+  [protein]
+]"
+175406,1,"[
+  [protein]
+]"
+175423,1,"[
+  [protein]
+]"
+175426,1,"[
+  [protein]
+]"
+175499,1,"[
+  [protein]
+]"
+175504,1,"[
+  [protein]
+]"
+175510,1,"[
+  [protein]
+]"
+175513,1,"[
+  [protein]
+]"
+175514,1,"[
+  [protein]
+]"
+175516,1,"[
+  [protein]
+]"
+175537,1,"[
+  [protein]
+]"
+175637,1,"[
+  [protein]
+]"
+175657,1,"[
+  [protein]
+]"
+175666,1,"[
+  [protein]
+]"
+175678,1,"[
+  [protein]
+]"
+175688,1,"[
+  [protein]
+]"
+175708,1,"[
+  [protein]
+]"
+175713,1,"[
+  [protein]
+]"
+175806,1,"[
+  [peptide]
+]"
+175807,1,"[
+  [peptide]
+]"
+175960,1,"[
+  [peptide]
+]"
+176111,1,"[
+  [peptide]
+]"
+176161,1,"[
+  [peptide]
+]"
+176162,1,"[
+  [peptide]
+]"
+176165,1,"[
+  [peptide]
+]"
+176184,1,"[
+  [protein]
+]"
+176258,1,"[
+  [peptide]
+]"
+176267,1,"[
+  [peptide]
+]"
+176288,1,"[
+  [peptide]
+]"
+176357,1,"[
+  [peptide]
+]"
+176385,1,"[
+  [peptide]
+]"
+176431,1,"[
+  [peptide]
+]"
+176465,1,"[
+  [peptide]
+]"
+176525,1,"[
+  [peptide]
+]"
+176526,1,"[
+  [peptide]
+]"
+176536,1,"[
+  [small_molecule]
+]"
+176572,1,"[
+  [protein]
+]"
+176580,1,"[
+  [protein]
+]"
+176593,1,"[
+  [protein]
+]"
+176603,1,"[
+  [protein]
+]"
+176611,1,"[
+  [protein]
+]"
+176618,1,"[
+  [protein]
+]"
+176644,1,"[
+  [protein]
+]"
+176653,1,"[
+  [protein]
+]"
+176722,1,"[
+  [protein]
+]"
+176737,1,"[
+  [protein]
+]"
+176872,1,"[
+  [peptide]
+]"
+176898,1,"[
+  [protein]
+]"
+176905,1,"[
+  [peptide]
+]"
+176906,1,"[
+  [peptide]
+]"
+176932,1,"[
+  [peptide]
+]"
+176941,1,"[
+  [peptide]
+]"
+176950,1,"[
+  [peptide]
+]"
+176966,1,"[
+  [peptide]
+]"
+176977,1,"[
+  [protein]
+]"
+176988,1,"[
+  [peptide]
+]"
+176996,1,"[
+  [peptide]
+]"
+177029,1,"[
+  [peptide]
+]"
+177098,1,"[
+  [protein]
+]"
+177126,1,"[
+  [peptide]
+]"
+177164,1,"[
+  [protein]
+]"
+177165,1,"[
+  [protein]
+]"
+177169,1,"[
+  [protein]
+]"
+177195,1,"[
+  [protein]
+]"
+177357,1,"[
+  [protein]
+]"
+177358,1,"[
+  [protein]
+]"
+177359,1,"[
+  [protein]
+]"
+177360,1,"[
+  [protein]
+]"
+177361,1,"[
+  [protein]
+]"
+177367,1,"[
+  [peptide]
+]"
+177420,1,"[
+  [peptide]
+]"
+177430,1,"[
+  [peptide]
+]"
+177455,1,"[
+  [peptide]
+]"
+177479,1,"[
+  [protein]
+]"
+177513,1,"[
+  [peptide]
+]"
+177534,1,"[
+  [peptide]
+]"
+177552,1,"[
+  [peptide]
+]"
+177562,1,"[
+  [peptide]
+]"
+177770,1,"[
+  [protein]
+]"
+177834,1,"[
+  [protein]
+]"
+177939,1,"[
+  [protein]
+]"
+178156,1,"[
+  [protein]
+]"
+178171,1,"[
+  [protein]
+]"
+178627,1,"[
+  [peptide]
+]"
+178643,1,"[
+  [protein]
+]"
+178651,1,"[
+  [protein]
+]"
+178665,1,"[
+  [protein]
+]"
+178709,1,"[
+  [peptide]
+]"
+178718,1,"[
+  [peptide]
+]"
+179098,1,"[
+  [peptide]
+]"
+179121,1,"[
+  [peptide]
+]"
+179194,1,"[
+  [peptide]
+]"
+179281,1,"[
+  [protein]
+]"
+179282,1,"[
+  [protein]
+]"
+179283,1,"[
+  [protein]
+]"
+179285,1,"[
+  [protein]
+]"
+179286,1,"[
+  [protein]
+]"
+179287,1,"[
+  [peptide]
+]"
+179288,1,"[
+  [peptide]
+]"
+179290,1,"[
+  [protein]
+]"
+179291,1,"[
+  [protein]
+]"
+179292,1,"[
+  [protein]
+]"
+179293,1,"[
+  [protein]
+]"
+179294,1,"[
+  [protein]
+]"
+179295,1,"[
+  [protein]
+]"
+179296,1,"[
+  [protein]
+]"
+179297,1,"[
+  [protein]
+]"
+179298,1,"[
+  [protein]
+]"
+179299,1,"[
+  [protein]
+]"
+179300,1,"[
+  [protein]
+]"
+179301,1,"[
+  [protein]
+]"
+179302,1,"[
+  [protein]
+]"
+179303,1,"[
+  [protein]
+]"
+179305,1,"[
+  [protein]
+]"
+179307,1,"[
+  [protein]
+]"
+179309,1,"[
+  [protein]
+]"
+179311,1,"[
+  [protein]
+]"
+179312,1,"[
+  [protein]
+]"
+179313,1,"[
+  [protein]
+]"
+179314,1,"[
+  [protein]
+]"
+179315,1,"[
+  [protein]
+]"
+179316,1,"[
+  [protein]
+]"
+179317,1,"[
+  [protein]
+]"
+179318,1,"[
+  [protein]
+]"
+179319,1,"[
+  [protein]
+]"
+179320,1,"[
+  [protein]
+]"
+179321,1,"[
+  [protein]
+]"
+179322,1,"[
+  [protein]
+]"
+179323,1,"[
+  [protein]
+]"
+179324,1,"[
+  [protein]
+]"
+179325,1,"[
+  [protein]
+]"
+179326,1,"[
+  [protein]
+]"
+179327,1,"[
+  [protein]
+]"
+179328,1,"[
+  [protein]
+]"
+179330,1,"[
+  [protein]
+]"
+179331,1,"[
+  [protein]
+]"
+179332,1,"[
+  [protein]
+]"
+179333,1,"[
+  [protein]
+]"
+179334,1,"[
+  [protein]
+]"
+179335,1,"[
+  [protein]
+]"
+179336,1,"[
+  [protein]
+]"
+179338,1,"[
+  [protein]
+]"
+179339,1,"[
+  [protein]
+]"
+179340,1,"[
+  [protein]
+]"
+179341,1,"[
+  [protein]
+]"
+179348,1,"[
+  [protein]
+]"
+179349,1,"[
+  [protein]
+]"
+179351,1,"[
+  [protein]
+]"
+179352,1,"[
+  [protein]
+]"
+179354,1,"[
+  [protein]
+]"
+179355,1,"[
+  [protein]
+]"
+179356,1,"[
+  [protein]
+]"
+179357,1,"[
+  [protein]
+]"
+179358,1,"[
+  [protein]
+]"
+179359,1,"[
+  [protein]
+]"
+179360,1,"[
+  [protein]
+]"
+179361,1,"[
+  [protein]
+]"
+179362,1,"[
+  [protein]
+]"
+179363,1,"[
+  [protein]
+]"
+179364,1,"[
+  [protein]
+]"
+179365,1,"[
+  [protein]
+]"
+179366,1,"[
+  [protein]
+]"
+179367,1,"[
+  [protein]
+]"
+179368,1,"[
+  [protein]
+]"
+179369,1,"[
+  [protein]
+]"
+179370,1,"[
+  [protein]
+]"
+179371,1,"[
+  [protein]
+]"
+179372,1,"[
+  [protein]
+]"
+179373,1,"[
+  [protein]
+]"
+179374,1,"[
+  [protein]
+]"
+179375,1,"[
+  [protein]
+]"
+179376,1,"[
+  [protein]
+]"
+179377,1,"[
+  [protein]
+]"
+179378,1,"[
+  [protein]
+]"
+179379,1,"[
+  [protein]
+]"
+179380,1,"[
+  [protein]
+]"
+179381,1,"[
+  [protein]
+]"
+179382,1,"[
+  [protein]
+]"
+179383,1,"[
+  [protein]
+]"
+179384,1,"[
+  [protein]
+]"
+179385,1,"[
+  [protein]
+]"
+179386,1,"[
+  [protein]
+]"
+179387,1,"[
+  [protein]
+]"
+179388,1,"[
+  [protein]
+]"
+179389,1,"[
+  [protein]
+]"
+179390,1,"[
+  [protein]
+]"
+179391,1,"[
+  [protein]
+]"
+179392,1,"[
+  [protein]
+]"
+179393,1,"[
+  [protein]
+]"
+179394,1,"[
+  [protein]
+]"
+179395,1,"[
+  [protein]
+]"
+179396,1,"[
+  [protein]
+]"
+179397,1,"[
+  [protein]
+]"
+179398,1,"[
+  [protein]
+]"
+179399,1,"[
+  [protein]
+]"
+179400,1,"[
+  [protein]
+]"
+179401,1,"[
+  [protein]
+]"
+179402,1,"[
+  [protein]
+]"
+179403,1,"[
+  [protein]
+]"
+179404,1,"[
+  [protein]
+]"
+179405,1,"[
+  [protein]
+]"
+179406,1,"[
+  [protein]
+]"
+179407,1,"[
+  [protein]
+]"
+179408,1,"[
+  [protein]
+]"
+179409,1,"[
+  [protein]
+]"
+179410,1,"[
+  [protein]
+]"
+179411,1,"[
+  [protein]
+]"
+179414,1,"[
+  [protein]
+]"
+179415,1,"[
+  [protein]
+]"
+179416,1,"[
+  [protein]
+]"
+179417,1,"[
+  [protein]
+]"
+179418,1,"[
+  [protein]
+]"
+179420,1,"[
+  [protein]
+]"
+179421,1,"[
+  [protein]
+]"
+179422,1,"[
+  [protein]
+]"
+179423,1,"[
+  [protein]
+]"
+179424,1,"[
+  [protein]
+]"
+179425,1,"[
+  [protein]
+]"
+179426,1,"[
+  [protein]
+]"
+179442,1,"[
+  [protein]
+]"
+179443,1,"[
+  [protein]
+]"
+179444,1,"[
+  [protein]
+]"
+179445,1,"[
+  [protein]
+]"
+179446,1,"[
+  [protein]
+]"
+179454,1,"[
+  [protein]
+]"
+179455,1,"[
+  [protein]
+]"
+179456,1,"[
+  [protein]
+]"
+179457,1,"[
+  [protein]
+]"
+179458,1,"[
+  [protein]
+]"
+179459,1,"[
+  [protein]
+]"
+179460,1,"[
+  [protein]
+]"
+179463,1,"[
+  [protein]
+]"
+179464,1,"[
+  [protein]
+]"
+179465,1,"[
+  [protein]
+]"
+179466,1,"[
+  [protein]
+]"
+179467,1,"[
+  [protein]
+]"
+179468,1,"[
+  [protein]
+]"
+179469,1,"[
+  [protein]
+]"
+179470,1,"[
+  [protein]
+]"
+179471,1,"[
+  [protein]
+]"
+179472,1,"[
+  [protein]
+]"
+179473,1,"[
+  [protein]
+]"
+179474,1,"[
+  [protein]
+]"
+179475,1,"[
+  [protein]
+]"
+179476,1,"[
+  [protein]
+]"
+179477,1,"[
+  [protein]
+]"
+179478,1,"[
+  [protein]
+]"
+179479,1,"[
+  [protein]
+]"
+179480,1,"[
+  [protein]
+]"
+179481,1,"[
+  [protein]
+]"
+179482,1,"[
+  [protein]
+]"
+179483,1,"[
+  [protein]
+]"
+179484,1,"[
+  [protein]
+]"
+179485,1,"[
+  [protein]
+]"
+179486,1,"[
+  [protein]
+]"
+179487,1,"[
+  [protein]
+]"
+179488,1,"[
+  [protein]
+]"
+179489,1,"[
+  [protein]
+]"
+179490,1,"[
+  [protein]
+]"
+179491,1,"[
+  [protein]
+]"
+179492,1,"[
+  [protein]
+]"
+179493,1,"[
+  [protein]
+]"
+179494,1,"[
+  [protein]
+]"
+179495,1,"[
+  [protein]
+]"
+179496,1,"[
+  [protein]
+]"
+179497,1,"[
+  [protein]
+]"
+179498,1,"[
+  [protein]
+]"
+179499,1,"[
+  [protein]
+]"
+179500,1,"[
+  [protein]
+]"
+179501,1,"[
+  [protein]
+]"
+179502,1,"[
+  [protein]
+]"
+179503,1,"[
+  [protein]
+]"
+179504,1,"[
+  [protein]
+]"
+179505,1,"[
+  [protein]
+]"
+179506,1,"[
+  [protein]
+]"
+179507,1,"[
+  [protein]
+]"
+179508,1,"[
+  [protein]
+]"
+179509,1,"[
+  [protein]
+]"
+179510,1,"[
+  [protein]
+]"
+179511,1,"[
+  [protein]
+]"
+179515,1,"[
+  [protein]
+]"
+179518,1,"[
+  [protein]
+]"
+179519,1,"[
+  [protein]
+]"
+179520,1,"[
+  [protein]
+]"
+179521,1,"[
+  [protein]
+]"
+179522,1,"[
+  [protein]
+]"
+179523,1,"[
+  [protein]
+]"
+179524,1,"[
+  [protein]
+]"
+179525,1,"[
+  [protein]
+]"
+179526,1,"[
+  [protein]
+]"
+179527,1,"[
+  [protein]
+]"
+179528,1,"[
+  [protein]
+]"
+179529,1,"[
+  [protein]
+]"
+179530,1,"[
+  [protein]
+]"
+179531,1,"[
+  [protein]
+]"
+179532,1,"[
+  [protein]
+]"
+179533,1,"[
+  [protein]
+]"
+179534,1,"[
+  [protein]
+]"
+179535,1,"[
+  [protein]
+]"
+179536,1,"[
+  [protein]
+]"
+179537,1,"[
+  [protein]
+]"
+179538,1,"[
+  [protein]
+]"
+179539,1,"[
+  [protein]
+]"
+179540,1,"[
+  [protein]
+]"
+179541,1,"[
+  [protein]
+]"
+179542,1,"[
+  [protein]
+]"
+179543,1,"[
+  [protein]
+]"
+179544,1,"[
+  [protein]
+]"
+179545,1,"[
+  [protein]
+]"
+179546,1,"[
+  [protein]
+]"
+179547,1,"[
+  [protein]
+]"
+179548,1,"[
+  [protein]
+]"
+179549,1,"[
+  [protein]
+]"
+179550,1,"[
+  [protein]
+]"
+179551,1,"[
+  [protein]
+]"
+179552,1,"[
+  [protein]
+]"
+179553,1,"[
+  [protein]
+]"
+179554,1,"[
+  [protein]
+]"
+179555,1,"[
+  [protein]
+]"
+179556,1,"[
+  [protein]
+]"
+179557,1,"[
+  [protein]
+]"
+179558,1,"[
+  [protein]
+]"
+179559,1,"[
+  [protein]
+]"
+179560,1,"[
+  [protein]
+]"
+179561,1,"[
+  [protein]
+]"
+179562,1,"[
+  [protein]
+]"
+179563,1,"[
+  [protein]
+]"
+179564,1,"[
+  [protein]
+]"
+179565,1,"[
+  [protein]
+]"
+179566,1,"[
+  [protein]
+]"
+179567,1,"[
+  [protein]
+]"
+179568,1,"[
+  [protein]
+]"
+179569,1,"[
+  [protein]
+]"
+179570,1,"[
+  [protein]
+]"
+179571,1,"[
+  [protein]
+]"
+179572,1,"[
+  [protein]
+]"
+179573,1,"[
+  [protein]
+]"
+179574,1,"[
+  [protein]
+]"
+179575,1,"[
+  [protein]
+]"
+179576,1,"[
+  [protein]
+]"
+179577,1,"[
+  [protein]
+]"
+179578,1,"[
+  [protein]
+]"
+179579,1,"[
+  [protein]
+]"
+179580,1,"[
+  [protein]
+]"
+179581,1,"[
+  [protein]
+]"
+179582,1,"[
+  [protein]
+]"
+179583,1,"[
+  [protein]
+]"
+179584,1,"[
+  [protein]
+]"
+179585,1,"[
+  [protein]
+]"
+179586,1,"[
+  [protein]
+]"
+179587,1,"[
+  [protein]
+]"
+179588,1,"[
+  [protein]
+]"
+179589,1,"[
+  [protein]
+]"
+179590,1,"[
+  [protein]
+]"
+179591,1,"[
+  [protein]
+]"
+179592,1,"[
+  [protein]
+]"
+179593,1,"[
+  [protein]
+]"
+179594,1,"[
+  [protein]
+]"
+179595,1,"[
+  [protein]
+]"
+179596,1,"[
+  [protein]
+]"
+179597,1,"[
+  [protein]
+]"
+179598,1,"[
+  [protein]
+]"
+179606,1,"[
+  [protein]
+]"
+179607,1,"[
+  [protein]
+]"
+179608,1,"[
+  [protein]
+]"
+179609,1,"[
+  [protein]
+]"
+179610,1,"[
+  [protein]
+]"
+179611,1,"[
+  [protein]
+]"
+179612,1,"[
+  [protein]
+]"
+179613,1,"[
+  [protein]
+]"
+179614,1,"[
+  [protein]
+]"
+179615,1,"[
+  [protein]
+]"
+179618,1,"[
+  [protein]
+]"
+179619,1,"[
+  [protein]
+]"
+179620,1,"[
+  [protein]
+]"
+179621,1,"[
+  [protein]
+]"
+179622,1,"[
+  [protein]
+]"
+179623,1,"[
+  [protein]
+]"
+179624,1,"[
+  [protein]
+]"
+179625,1,"[
+  [protein]
+]"
+179626,1,"[
+  [protein]
+]"
+179627,1,"[
+  [protein]
+]"
+179628,1,"[
+  [protein]
+]"
+179629,1,"[
+  [protein]
+]"
+179630,1,"[
+  [protein]
+]"
+179631,1,"[
+  [protein]
+]"
+179632,1,"[
+  [protein]
+]"
+179633,1,"[
+  [protein]
+]"
+179634,1,"[
+  [protein]
+]"
+179635,1,"[
+  [protein]
+]"
+179636,1,"[
+  [protein]
+]"
+179637,1,"[
+  [protein]
+]"
+179638,1,"[
+  [protein]
+]"
+179639,1,"[
+  [protein]
+]"
+179640,1,"[
+  [protein]
+]"
+179641,1,"[
+  [protein]
+]"
+179642,1,"[
+  [protein]
+]"
+179643,1,"[
+  [protein]
+]"
+179644,1,"[
+  [protein]
+]"
+179645,1,"[
+  [protein]
+]"
+179646,1,"[
+  [protein]
+]"
+179647,1,"[
+  [protein]
+]"
+179648,1,"[
+  [protein]
+]"
+179649,1,"[
+  [protein]
+]"
+179660,1,"[
+  [protein]
+]"
+179661,1,"[
+  [protein]
+]"
+179662,1,"[
+  [protein]
+]"
+179663,1,"[
+  [protein]
+]"
+179664,1,"[
+  [protein]
+]"
+179665,1,"[
+  [protein]
+]"
+179666,1,"[
+  [protein]
+]"
+179667,1,"[
+  [protein]
+]"
+179668,1,"[
+  [protein]
+]"
+179669,1,"[
+  [protein]
+]"
+179670,1,"[
+  [protein]
+]"
+179671,1,"[
+  [protein]
+]"
+179672,1,"[
+  [protein]
+]"
+179673,1,"[
+  [protein]
+]"
+179674,1,"[
+  [protein]
+]"
+179675,1,"[
+  [protein]
+]"
+179676,1,"[
+  [protein]
+]"
+179677,1,"[
+  [protein]
+]"
+179678,1,"[
+  [protein]
+]"
+179679,1,"[
+  [protein]
+]"
+179680,1,"[
+  [protein]
+]"
+179681,1,"[
+  [protein]
+]"
+179682,1,"[
+  [protein]
+]"
+179683,1,"[
+  [protein]
+]"
+179684,1,"[
+  [protein]
+]"
+179685,1,"[
+  [protein]
+]"
+179686,1,"[
+  [protein]
+]"
+179687,1,"[
+  [protein]
+]"
+179688,1,"[
+  [protein]
+]"
+179689,1,"[
+  [protein]
+]"
+179690,1,"[
+  [protein]
+]"
+179691,1,"[
+  [protein]
+]"
+179692,1,"[
+  [protein]
+]"
+179693,1,"[
+  [protein]
+]"
+179694,1,"[
+  [protein]
+]"
+179695,1,"[
+  [protein]
+]"
+179696,1,"[
+  [protein]
+]"
+179697,1,"[
+  [protein]
+]"
+179698,1,"[
+  [protein]
+]"
+182521,1,"[
+  [rna]
+]"
+182543,1,"[
+  [protein]
+]"
+182545,1,"[
+  [protein]
+]"
+182547,1,"[
+  [protein]
+]"
+182549,1,"[
+  [protein]
+]"
+182550,1,"[
+  [protein]
+]"
+182551,1,"[
+  [protein]
+]"
+182552,1,"[
+  [protein]
+]"
+182553,1,"[
+  [protein]
+]"
+182554,1,"[
+  [protein]
+]"
+182555,1,"[
+  [protein]
+]"
+182556,1,"[
+  [protein]
+]"
+182557,1,"[
+  [protein]
+]"
+182558,1,"[
+  [protein]
+]"
+182559,1,"[
+  [protein]
+]"
+182560,1,"[
+  [protein]
+]"
+182561,1,"[
+  [protein]
+]"
+182562,1,"[
+  [protein]
+]"
+182563,1,"[
+  [protein]
+]"
+182564,1,"[
+  [protein]
+]"
+182565,1,"[
+  [protein]
+]"
+182566,1,"[
+  [protein]
+]"
+182568,1,"[
+  [protein]
+]"
+182569,1,"[
+  [protein]
+]"
+182570,1,"[
+  [protein]
+]"
+182571,1,"[
+  [protein]
+]"
+182572,1,"[
+  [protein]
+]"
+182573,1,"[
+  [protein]
+]"
+182574,1,"[
+  [protein]
+]"
+182577,1,"[
+  [protein]
+]"
+182578,1,"[
+  [protein]
+]"
+182579,1,"[
+  [protein]
+]"
+182580,1,"[
+  [protein]
+]"
+182587,1,"[
+  [protein]
+]"
+182588,1,"[
+  [protein]
+]"
+182590,1,"[
+  [protein]
+]"
+182591,1,"[
+  [protein]
+]"
+182593,1,"[
+  [protein]
+]"
+182594,1,"[
+  [protein]
+]"
+182595,1,"[
+  [protein]
+]"
+182596,1,"[
+  [protein]
+]"
+182597,1,"[
+  [protein]
+]"
+182598,1,"[
+  [protein]
+]"
+182605,1,"[
+  [protein]
+]"
+182633,1,"[
+  [protein]
+]"
+182657,1,"[
+  [protein]
+]"
+182660,1,"[
+  [protein]
+]"
+182670,1,"[
+  [protein]
+]"
+182681,1,"[
+  [protein]
+]"
+182682,1,"[
+  [protein]
+]"
+182683,1,"[
+  [protein]
+]"
+182702,1,"[
+  [protein]
+]"
+182703,1,"[
+  [protein]
+]"
+182711,1,"[
+  [protein]
+]"
+182722,1,"[
+  [protein]
+]"
+182729,1,"[
+  [protein]
+]"
+182734,1,"[
+  [protein]
+]"
+182800,1,"[
+  [protein]
+]"
+182801,1,"[
+  [protein]
+]"
+182830,1,"[
+  [protein]
+]"
+182838,1,"[
+  [protein]
+]"
+182859,1,"[
+  [protein]
+]"
+182926,1,"[
+  [protein]
+]"
+182928,1,"[
+  [protein]
+]"
+182941,1,"[
+  [protein]
+]"
+182942,1,"[
+  [protein]
+]"
+182943,1,"[
+  [protein]
+]"
+182948,1,"[
+  [protein]
+]"
+183007,1,"[
+  [protein]
+]"
+183008,1,"[
+  [protein]
+]"
+183009,1,"[
+  [protein]
+]"
+183011,1,"[
+  [protein]
+]"
+183012,1,"[
+  [protein]
+]"
+183013,1,"[
+  [protein]
+]"
+183015,1,"[
+  [protein]
+]"
+183016,1,"[
+  [protein]
+]"
+183017,1,"[
+  [protein]
+]"
+183019,1,"[
+  [protein]
+]"
+183020,1,"[
+  [protein]
+]"
+183021,1,"[
+  [protein]
+]"
+183023,1,"[
+  [protein]
+]"
+183024,1,"[
+  [protein]
+]"
+183025,1,"[
+  [protein]
+]"
+183027,1,"[
+  [protein]
+]"
+183028,1,"[
+  [protein]
+]"
+183029,1,"[
+  [protein]
+]"
+183031,1,"[
+  [protein]
+]"
+183032,1,"[
+  [protein]
+]"
+183033,1,"[
+  [protein]
+]"
+183035,1,"[
+  [protein]
+]"
+183036,1,"[
+  [protein]
+]"
+183037,1,"[
+  [protein]
+]"
+183043,1,"[
+  [protein]
+]"
+183044,1,"[
+  [protein]
+]"
+183045,1,"[
+  [protein]
+]"
+183053,1,"[
+  [protein]
+]"
+183060,1,"[
+  [protein]
+]"
+183061,1,"[
+  [protein]
+]"
+183062,1,"[
+  [protein]
+]"
+183063,1,"[
+  [protein]
+]"
+183183,1,"[
+  [protein]
+]"
+183216,1,"[
+  [protein]
+]"
+183217,1,"[
+  [protein]
+]"
+183218,1,"[
+  [protein]
+]"
+183239,1,"[
+  [protein]
+]"
+183240,1,"[
+  [protein]
+]"
+183241,1,"[
+  [protein]
+]"
+183257,1,"[
+  [protein]
+]"
+183258,1,"[
+  [protein]
+]"
+183259,1,"[
+  [protein]
+]"
+183260,1,"[
+  [protein]
+]"
+183261,1,"[
+  [protein]
+]"
+183299,1,"[
+  [protein]
+]"
+183304,1,"[
+  [protein]
+]"
+183305,1,"[
+  [protein]
+]"
+183306,1,"[
+  [protein]
+]"
+183307,1,"[
+  [protein]
+]"
+183308,1,"[
+  [protein]
+]"
+183324,1,"[
+  [protein]
+]"
+183366,1,"[
+  [protein]
+]"
+183400,1,"[
+  [protein]
+]"
+183541,1,"[
+  [protein]
+]"
+183542,1,"[
+  [small_molecule]
+]"
+183569,1,"[
+  [small_molecule]
+]"
+183571,1,"[
+  [small_molecule]
+]"
+183572,1,"[
+  [small_molecule]
+]"
+183573,1,"[
+  [small_molecule]
+]"
+183575,1,"[
+  [small_molecule]
+]"
+183576,1,"[
+  [small_molecule]
+]"
+183578,1,"[
+  [small_molecule]
+]"
+183583,1,"[
+  [small_molecule]
+]"
+183602,1,"[
+  [protein]
+]"
+183606,1,"[
+  [small_molecule]
+]"
+183608,1,"[
+  [small_molecule]
+]"
+183609,1,"[
+  [small_molecule]
+]"
+183613,1,"[
+  [small_molecule]
+]"
+183617,1,"[
+  [small_molecule]
+]"
+183618,1,"[
+  [small_molecule]
+]"
+183619,1,"[
+  [small_molecule]
+]"
+183625,1,"[
+  [small_molecule]
+]"
+183638,1,"[
+  [small_molecule]
+]"
+183639,1,"[
+  [small_molecule]
+]"
+183640,1,"[
+  [small_molecule]
+]"
+183641,1,"[
+  [small_molecule]
+]"
+183642,1,"[
+  [small_molecule]
+]"
+183648,1,"[
+  [small_molecule]
+]"
+183653,1,"[
+  [small_molecule]
+]"
+183654,1,"[
+  [small_molecule]
+]"
+183665,1,"[
+  [small_molecule]
+]"
+183667,1,"[
+  [small_molecule]
+]"
+183668,1,"[
+  [small_molecule]
+]"
+183669,1,"[
+  [small_molecule]
+]"
+183670,1,"[
+  [small_molecule]
+]"
+183671,1,"[
+  [small_molecule]
+]"
+183672,1,"[
+  [small_molecule]
+]"
+183673,1,"[
+  [small_molecule]
+]"
+183674,1,"[
+  [small_molecule]
+]"
+183675,1,"[
+  [small_molecule]
+]"
+183703,1,"[
+  [small_molecule]
+]"
+183716,1,"[
+  [protein]
+]"
+183722,1,"[
+  [small_molecule]
+]"
+183766,1,"[
+  [small_molecule]
+]"
+183782,1,"[
+  [small_molecule]
+]"
+183789,1,"[
+  [small_molecule]
+]"
+183837,1,"[
+  [small_molecule]
+]"
+183870,1,"[
+  [protein]
+]"
+183895,1,"[
+  [small_molecule]
+]"
+183901,1,"[
+  [small_molecule]
+]"
+183902,1,"[
+  [small_molecule]
+]"
+183932,1,"[
+  [small_molecule]
+]"
+183975,1,"[
+  [small_molecule]
+]"
+183980,1,"[
+  [small_molecule]
+]"
+183981,1,"[
+  [small_molecule]
+]"
+183982,1,"[
+  [small_molecule]
+]"
+183996,1,"[
+  [small_molecule]
+]"
+183997,1,"[
+  [small_molecule]
+]"
+184144,1,"[
+  [protein]
+]"
+184275,1,"[
+  [protein]
+]"
+184408,1,"[
+  [protein]
+]"
+184617,1,"[
+  [protein]
+]"
+184985,1,"[
+  [protein]
+]"
+185728,1,"[
+  [protein]
+]"
+185908,1,"[
+  [protein]
+]"
+185936,1,"[
+  [protein]
+]"
+185988,1,"[
+  [protein]
+]"
+186001,1,"[
+  [protein]
+]"
+186002,1,"[
+  [protein]
+]"
+186354,1,"[
+  [protein]
+]"
+187054,1,"[
+  [protein]
+]"
+187521,1,"[
+  [protein]
+]"
+188091,1,"[
+  [protein]
+]"
+188317,1,"[
+  [protein]
+]"
+188371,1,"[
+  [protein]
+]"
+188410,1,"[
+  [protein]
+]"
+190105,1,"[
+  [protein]
+]"
+190351,1,"[
+  [protein]
+]"
+191053,1,"[
+  [protein]
+]"
+191753,1,"[
+  [protein]
+]"
+192430,1,"[
+  [protein]
+]"
+192431,1,"[
+  [protein]
+]"
+192432,1,"[
+  [protein]
+]"
+192438,1,"[
+  [protein]
+]"
+192444,1,"[
+  [protein]
+]"
+192445,1,"[
+  [protein]
+]"
+192455,1,"[
+  [protein]
+]"
+192463,1,"[
+  [protein]
+]"
+192464,1,"[
+  [protein]
+]"
+192469,1,"[
+  [protein]
+]"
+192474,1,"[
+  [protein]
+]"
+192488,1,"[
+  [protein]
+]"
+192491,1,"[
+  [protein]
+]"
+192492,1,"[
+  [protein]
+]"
+192494,1,"[
+  [protein]
+]"
+192495,1,"[
+  [dna]
+]"
+192496,1,"[
+  [protein]
+]"
+192504,1,"[
+  [protein]
+]"
+192507,1,"[
+  [protein]
+]"
+192508,1,"[
+  [protein]
+]"
+192509,1,"[
+  [protein]
+]"
+192510,1,"[
+  [dna]
+]"
+192512,1,"[
+  [protein]
+]"
+192523,1,"[
+  [dna]
+]"
+192528,1,"[
+  [dna]
+]"
+192531,1,"[
+  [protein]
+]"
+192535,1,"[
+  [protein]
+]"
+192546,1,"[
+  [protein]
+]"
+192569,1,"[
+  [protein]
+]"
+192574,1,"[
+  [protein]
+]"
+192575,1,"[
+  [protein]
+]"
+192579,1,"[
+  [protein]
+]"
+192587,1,"[
+  [protein]
+]"
+192591,1,"[
+  [protein]
+]"
+192596,1,"[
+  [protein]
+]"
+192602,1,"[
+  [protein]
+]"
+192604,1,"[
+  [protein]
+]"
+192615,1,"[
+  [protein]
+]"
+192618,1,"[
+  [protein]
+]"
+192619,1,"[
+  [protein]
+]"
+192627,1,"[
+  [protein]
+]"
+192633,1,"[
+  [protein]
+]"
+192635,1,"[
+  [protein]
+]"
+192637,1,"[
+  [protein]
+]"
+192638,1,"[
+  [protein]
+]"
+192640,1,"[
+  [dna]
+]"
+192641,1,"[
+  [protein]
+]"
+192649,1,"[
+  [protein]
+]"
+192666,1,"[
+  [protein]
+]"
+192668,1,"[
+  [protein]
+]"
+192672,1,"[
+  [dna]
+]"
+192679,1,"[
+  [dna]
+]"
+192681,1,"[
+  [protein]
+]"
+192688,1,"[
+  [protein]
+]"
+192691,1,"[
+  [protein]
+]"
+192692,1,"[
+  [protein]
+]"
+192710,1,"[
+  [protein]
+]"
+192711,1,"[
+  [protein]
+]"
+192713,1,"[
+  [protein]
+]"
+192715,1,"[
+  [protein]
+]"
+192721,1,"[
+  [protein]
+]"
+192722,1,"[
+  [protein]
+]"
+192724,1,"[
+  [protein]
+]"
+192728,1,"[
+  [protein]
+]"
+192733,1,"[
+  [protein]
+]"
+192734,1,"[
+  [protein]
+]"
+192738,1,"[
+  [protein]
+]"
+192742,1,"[
+  [protein]
+]"
+192743,1,"[
+  [protein]
+]"
+192745,1,"[
+  [protein]
+]"
+192749,1,"[
+  [protein]
+]"
+192751,1,"[
+  [protein]
+]"
+192756,1,"[
+  [protein]
+]"
+192757,1,"[
+  [protein]
+]"
+192762,1,"[
+  [protein]
+]"
+192773,1,"[
+  [dna]
+]"
+192792,1,"[
+  [protein]
+]"
+192793,1,"[
+  [protein]
+]"
+192797,1,"[
+  [dna]
+]"
+192808,1,"[
+  [protein]
+]"
+192812,1,"[
+  [dna]
+]"
+192813,1,"[
+  [protein]
+]"
+192817,1,"[
+  [protein]
+]"
+192818,1,"[
+  [protein]
+]"
+192819,1,"[
+  [protein]
+]"
+192824,1,"[
+  [protein]
+]"
+192825,1,"[
+  [protein]
+]"
+192826,1,"[
+  [protein]
+]"
+192829,1,"[
+  [protein]
+]"
+192831,1,"[
+  [protein]
+]"
+192835,1,"[
+  [protein]
+]"
+192840,1,"[
+  [protein]
+]"
+192845,1,"[
+  [protein]
+]"
+192848,1,"[
+  [protein]
+]"
+192851,1,"[
+  [protein]
+]"
+192855,1,"[
+  [protein]
+]"
+192859,1,"[
+  [protein]
+]"
+192863,1,"[
+  [protein]
+]"
+192882,1,"[
+  [protein]
+]"
+192883,1,"[
+  [protein]
+]"
+192886,1,"[
+  [protein]
+]"
+192892,1,"[
+  [protein]
+]"
+192893,1,"[
+  [protein]
+]"
+192899,1,"[
+  [protein]
+]"
+192906,1,"[
+  [protein]
+]"
+192913,1,"[
+  [protein]
+]"
+192917,1,"[
+  [protein]
+]"
+192919,1,"[
+  [protein]
+]"
+192923,1,"[
+  [protein]
+]"
+192928,1,"[
+  [protein]
+]"
+192941,1,"[
+  [protein]
+]"
+192949,1,"[
+  [protein]
+]"
+192952,1,"[
+  [protein]
+]"
+192953,1,"[
+  [protein]
+]"
+192955,1,"[
+  [protein]
+]"
+192961,1,"[
+  [protein]
+]"
+192969,1,"[
+  [protein]
+]"
+192974,1,"[
+  [dna]
+]"
+192979,1,"[
+  [protein]
+]"
+192981,1,"[
+  [dna]
+]"
+192982,1,"[
+  [protein]
+]"
+192983,1,"[
+  [protein]
+]"
+192988,1,"[
+  [dna]
+]"
+192997,1,"[
+  [protein]
+]"
+192999,1,"[
+  [protein]
+]"
+193000,1,"[
+  [protein]
+]"
+193001,1,"[
+  [protein]
+]"
+193005,1,"[
+  [protein]
+]"
+193007,1,"[
+  [protein]
+]"
+193011,1,"[
+  [protein]
+]"
+193012,1,"[
+  [protein]
+]"
+193015,1,"[
+  [protein]
+]"
+193016,1,"[
+  [protein]
+]"
+193017,1,"[
+  [protein]
+]"
+193028,1,"[
+  [protein]
+]"
+193041,1,"[
+  [protein]
+]"
+193042,1,"[
+  [protein]
+]"
+193043,1,"[
+  [protein]
+]"
+193045,1,"[
+  [protein]
+]"
+193052,1,"[
+  [protein]
+]"
+193106,1,"[
+  [protein]
+]"
+193111,1,"[
+  [protein]
+]"
+193118,1,"[
+  [dna]
+]"
+193119,1,"[
+  [protein]
+]"
+193121,1,"[
+  [protein]
+]"
+193125,1,"[
+  [protein]
+]"
+193131,1,"[
+  [protein]
+]"
+193135,1,"[
+  [protein]
+]"
+193140,1,"[
+  [protein]
+]"
+193141,1,"[
+  [protein]
+]"
+193144,1,"[
+  [protein]
+]"
+193165,1,"[
+  [protein]
+]"
+193171,1,"[
+  [protein]
+]"
+193180,1,"[
+  [protein]
+]"
+193182,1,"[
+  [protein]
+]"
+193193,1,"[
+  [protein]
+]"
+193194,1,"[
+  [protein]
+]"
+193205,1,"[
+  [protein]
+]"
+193207,1,"[
+  [protein]
+]"
+193208,1,"[
+  [protein]
+]"
+193212,1,"[
+  [dna]
+]"
+193221,1,"[
+  [protein]
+]"
+193236,1,"[
+  [protein]
+]"
+193238,1,"[
+  [protein]
+]"
+193247,1,"[
+  [protein]
+]"
+193249,1,"[
+  [protein]
+]"
+193256,1,"[
+  [dna]
+]"
+193259,1,"[
+  [protein]
+]"
+193260,1,"[
+  [protein]
+]"
+193263,1,"[
+  [protein]
+]"
+193264,1,"[
+  [protein]
+]"
+193266,1,"[
+  [protein]
+]"
+193267,1,"[
+  [protein]
+]"
+193274,1,"[
+  [protein]
+]"
+193279,1,"[
+  [protein]
+]"
+193286,1,"[
+  [protein]
+]"
+193294,1,"[
+  [protein]
+]"
+193295,1,"[
+  [protein]
+]"
+193305,1,"[
+  [protein]
+]"
+193310,1,"[
+  [dna]
+]"
+193312,1,"[
+  [dna]
+]"
+193313,1,"[
+  [protein]
+]"
+193314,1,"[
+  [protein]
+]"
+193324,1,"[
+  [protein]
+]"
+193326,1,"[
+  [protein]
+]"
+193328,1,"[
+  [protein]
+]"
+193343,1,"[
+  [protein]
+]"
+193379,1,"[
+  [protein]
+]"
+193381,1,"[
+  [protein]
+]"
+193384,1,"[
+  [protein]
+]"
+193389,1,"[
+  [protein]
+]"
+193390,1,"[
+  [protein]
+]"
+193411,1,"[
+  [dna]
+]"
+193414,1,"[
+  [protein]
+]"
+193418,1,"[
+  [protein]
+]"
+193421,1,"[
+  [dna]
+]"
+193427,1,"[
+  [protein]
+]"
+193429,1,"[
+  [protein]
+]"
+193440,1,"[
+  [protein]
+]"
+193441,1,"[
+  [protein]
+]"
+193444,1,"[
+  [dna]
+]"
+193447,1,"[
+  [protein]
+]"
+193462,1,"[
+  [protein]
+]"
+193474,1,"[
+  [protein]
+]"
+193476,1,"[
+  [protein]
+]"
+193482,1,"[
+  [protein]
+]"
+193486,1,"[
+  [protein]
+]"
+193490,1,"[
+  [protein]
+]"
+193491,1,"[
+  [protein]
+]"
+193492,1,"[
+  [protein]
+]"
+193497,1,"[
+  [protein]
+]"
+193498,1,"[
+  [protein]
+]"
+193513,1,"[
+  [protein]
+]"
+193515,1,"[
+  [protein]
+]"
+193518,1,"[
+  [protein]
+]"
+193520,1,"[
+  [protein]
+]"
+193524,1,"[
+  [protein]
+]"
+193525,1,"[
+  [protein]
+]"
+193530,1,"[
+  [protein]
+]"
+193533,1,"[
+  [protein]
+]"
+193536,1,"[
+  [protein]
+]"
+193543,1,"[
+  [protein]
+]"
+193549,1,"[
+  [protein]
+]"
+193551,1,"[
+  [protein]
+]"
+193560,1,"[
+  [protein]
+]"
+193565,1,"[
+  [protein]
+]"
+193567,1,"[
+  [protein]
+]"
+193569,1,"[
+  [protein]
+]"
+193573,1,"[
+  [protein]
+]"
+193576,1,"[
+  [peptide]
+]"
+193587,1,"[
+  [peptide]
+]"
+193591,1,"[
+  [peptide]
+]"
+193596,1,"[
+  [peptide]
+]"
+193598,1,"[
+  [peptide]
+]"
+193601,1,"[
+  [peptide]
+]"
+193602,1,"[
+  [peptide]
+]"
+193603,1,"[
+  [peptide]
+]"
+193610,1,"[
+  [peptide]
+]"
+193612,1,"[
+  [dna]
+]"
+193613,1,"[
+  [peptide]
+]"
+193647,1,"[
+  [dna]
+]"
+193651,1,"[
+  [dna]
+]"
+193664,1,"[
+  [dna]
+]"
+193680,1,"[
+  [dna]
+]"
+193720,1,"[
+  [dna]
+]"
+193767,1,"[
+  [dna]
+]"
+193829,1,"[
+  [dna]
+]"
+193882,1,"[
+  [dna]
+]"
+193941,1,"[
+  [dna]
+]"
+193944,1,"[
+  [dna]
+]"
+193948,1,"[
+  [dna]
+]"
+193955,1,"[
+  [dna]
+]"
+193983,1,"[
+  [dna]
+]"
+194022,1,"[
+  [dna]
+]"
+194050,1,"[
+  [dna]
+]"
+194181,1,"[
+  [dna]
+]"
+194186,1,"[
+  [dna]
+]"
+194210,1,"[
+  [dna]
+]"
+194271,1,"[
+  [dna]
+]"
+194272,1,"[
+  [dna]
+]"
+194292,1,"[
+  [dna]
+]"
+194359,1,"[
+  [dna]
+]"
+194372,1,"[
+  [dna]
+]"
+194396,1,"[
+  [dna]
+]"
+194407,1,"[
+  [dna]
+]"
+194437,1,"[
+  [dna]
+]"
+194492,1,"[
+  [dna]
+]"
+194547,1,"[
+  [dna]
+]"
+194582,1,"[
+  [dna]
+]"
+194594,1,"[
+  [dna]
+]"
+194639,1,"[
+  [dna]
+]"
+194655,1,"[
+  [dna]
+]"
+194699,1,"[
+  [dna]
+]"
+194744,1,"[
+  [dna]
+]"
+194759,1,"[
+  [dna]
+]"
+194791,1,"[
+  [dna]
+]"
+194810,1,"[
+  [dna]
+]"
+195043,1,"[
+  [dna]
+]"
+195209,1,"[
+  [dna]
+]"
+195289,1,"[
+  [dna]
+]"
+195318,1,"[
+  [dna]
+]"
+195347,1,"[
+  [dna]
+]"
+195355,1,"[
+  [dna]
+]"
+195388,1,"[
+  [dna]
+]"
+195407,1,"[
+  [dna]
+]"
+195460,1,"[
+  [dna]
+]"
+195509,1,"[
+  [dna]
+]"
+195612,1,"[
+  [dna]
+]"
+195638,1,"[
+  [dna]
+]"
+195709,1,"[
+  [dna]
+]"
+195757,1,"[
+  [dna]
+]"
+195784,1,"[
+  [dna]
+]"
+195812,1,"[
+  [dna]
+]"
+195944,1,"[
+  [dna]
+]"
+196047,1,"[
+  [dna]
+]"
+196081,1,"[
+  [dna]
+]"
+196166,1,"[
+  [dna]
+]"
+196212,1,"[
+  [dna]
+]"
+196241,1,"[
+  [dna]
+]"
+196293,1,"[
+  [dna]
+]"
+196375,1,"[
+  [dna]
+]"
+196422,1,"[
+  [dna]
+]"
+196458,1,"[
+  [dna]
+]"
+196489,1,"[
+  [dna]
+]"
+196533,1,"[
+  [dna]
+]"
+196659,1,"[
+  [dna]
+]"
+196666,1,"[
+  [dna]
+]"
+196694,1,"[
+  [dna]
+]"
+196747,1,"[
+  [dna]
+]"
+196813,1,"[
+  [dna]
+]"
+196858,1,"[
+  [dna]
+]"
+196870,1,"[
+  [dna]
+]"
+196884,1,"[
+  [dna]
+]"
+196976,1,"[
+  [dna]
+]"
+196985,1,"[
+  [dna]
+]"
+197128,1,"[
+  [dna]
+]"
+197192,1,"[
+  [dna]
+]"
+197238,1,"[
+  [dna]
+]"
+197374,1,"[
+  [dna]
+]"
+197398,1,"[
+  [dna]
+]"
+197417,1,"[
+  [dna]
+]"
+197508,1,"[
+  [dna]
+]"
+197541,1,"[
+  [dna]
+]"
+197576,1,"[
+  [dna]
+]"
+197680,1,"[
+  [dna]
+]"
+197706,1,"[
+  [dna]
+]"
+197802,1,"[
+  [dna]
+]"
+197818,1,"[
+  [dna]
+]"
+197819,1,"[
+  [dna]
+]"
+197832,1,"[
+  [dna]
+]"
+197838,1,"[
+  [dna]
+]"
+197876,1,"[
+  [dna]
+]"
+198077,1,"[
+  [dna]
+]"
+198098,1,"[
+  [dna]
+]"
+198123,1,"[
+  [dna]
+]"
+198299,1,"[
+  [dna]
+]"
+198307,1,"[
+  [dna]
+]"
+198361,1,"[
+  [dna]
+]"
+198374,1,"[
+  [dna]
+]"
+198377,1,"[
+  [dna]
+]"
+198383,1,"[
+  [dna]
+]"
+198386,1,"[
+  [dna]
+]"
+198406,1,"[
+  [dna]
+]"
+198409,1,"[
+  [dna]
+]"
+198424,1,"[
+  [dna]
+]"
+198439,1,"[
+  [dna]
+]"
+198446,1,"[
+  [dna]
+]"
+198448,1,"[
+  [dna]
+]"
+198457,1,"[
+  [dna]
+]"
+198460,1,"[
+  [dna]
+]"
+198461,1,"[
+  [dna]
+]"
+198674,1,"[
+  [small_molecule]
+]"
+198783,1,"[
+  [small_molecule]
+]"
+198785,1,"[
+  [small_molecule]
+]"
+198794,1,"[
+  [small_molecule]
+]"
+198797,1,"[
+  [small_molecule]
+]"
+198798,1,"[
+  [small_molecule]
+]"
+198871,1,"[
+  [small_molecule]
+]"
+198872,1,"[
+  [small_molecule]
+]"
+198873,1,"[
+  [small_molecule]
+]"
+198874,1,"[
+  [small_molecule]
+]"
+198877,1,"[
+  [small_molecule]
+]"
+198878,1,"[
+  [small_molecule]
+]"
+198883,1,"[
+  [small_molecule]
+]"
+198884,1,"[
+  [small_molecule]
+]"
+198974,1,"[
+  [small_molecule]
+]"
+198981,1,"[
+  [small_molecule]
+]"
+198982,1,"[
+  [small_molecule]
+]"
+198983,1,"[
+  [small_molecule]
+]"
+198984,1,"[
+  [small_molecule]
+]"
+198985,1,"[
+  [small_molecule]
+]"
+198998,1,"[
+  [small_molecule]
+]"
+199103,1,"[
+  [rna]
+]"
+199104,1,"[
+  [rna]
+]"
+199105,1,"[
+  [rna]
+]"
+199106,1,"[
+  [rna]
+]"
+199107,1,"[
+  [rna]
+]"
+199108,1,"[
+  [rna]
+]"
+199109,1,"[
+  [rna]
+]"
+199110,1,"[
+  [rna]
+]"
+199111,1,"[
+  [rna]
+]"
+199112,1,"[
+  [rna]
+]"
+199113,1,"[
+  [rna]
+]"
+199114,1,"[
+  [rna]
+]"
+199115,1,"[
+  [rna]
+]"
+199116,1,"[
+  [rna]
+]"
+199117,1,"[
+  [rna]
+]"
+199118,1,"[
+  [rna]
+]"
+199119,1,"[
+  [rna]
+]"
+199120,1,"[
+  [rna]
+]"
+199121,1,"[
+  [rna]
+]"
+199122,1,"[
+  [rna]
+]"
+199123,1,"[
+  [rna]
+]"
+199124,1,"[
+  [rna]
+]"
+199125,1,"[
+  [rna]
+]"
+199126,1,"[
+  [rna]
+]"
+199127,1,"[
+  [rna]
+]"
+199128,1,"[
+  [rna]
+]"
+199129,1,"[
+  [rna]
+]"
+199130,1,"[
+  [rna]
+]"
+199131,1,"[
+  [rna]
+]"
+199132,1,"[
+  [rna]
+]"
+199133,1,"[
+  [rna]
+]"
+199134,1,"[
+  [rna]
+]"
+199135,1,"[
+  [rna]
+]"
+199136,1,"[
+  [rna]
+]"
+199137,1,"[
+  [rna]
+]"
+199138,1,"[
+  [rna]
+]"
+199139,1,"[
+  [rna]
+]"
+199140,1,"[
+  [rna]
+]"
+199141,1,"[
+  [rna]
+]"
+199142,1,"[
+  [rna]
+]"
+199143,1,"[
+  [rna]
+]"
+199144,1,"[
+  [rna]
+]"
+199145,1,"[
+  [rna]
+]"
+199146,1,"[
+  [rna]
+]"
+199147,1,"[
+  [rna]
+]"
+199148,1,"[
+  [rna]
+]"
+199149,1,"[
+  [rna]
+]"
+199150,1,"[
+  [rna]
+]"
+199151,1,"[
+  [rna]
+]"
+199152,1,"[
+  [rna]
+]"
+199153,1,"[
+  [rna]
+]"
+199154,1,"[
+  [rna]
+]"
+199155,1,"[
+  [rna]
+]"
+199156,1,"[
+  [rna]
+]"
+199157,1,"[
+  [rna]
+]"
+199158,1,"[
+  [rna]
+]"
+199159,1,"[
+  [rna]
+]"
+199160,1,"[
+  [rna]
+]"
+199161,1,"[
+  [rna]
+]"
+199162,1,"[
+  [rna]
+]"
+199163,1,"[
+  [rna]
+]"
+199164,1,"[
+  [rna]
+]"
+199165,1,"[
+  [rna]
+]"
+199166,1,"[
+  [small_molecule]
+]"
+199167,1,"[
+  [small_molecule]
+]"
+199168,1,"[
+  [small_molecule]
+]"
+199169,1,"[
+  [small_molecule]
+]"
+199170,1,"[
+  [small_molecule]
+]"
+199171,1,"[
+  [small_molecule]
+]"
+199172,1,"[
+  [small_molecule]
+]"
+199173,1,"[
+  [small_molecule]
+]"
+199174,1,"[
+  [small_molecule]
+]"
+199175,1,"[
+  [small_molecule]
+]"
+199176,1,"[
+  [small_molecule]
+]"
+199177,1,"[
+  [small_molecule]
+]"
+199178,1,"[
+  [small_molecule]
+]"
+199179,1,"[
+  [small_molecule]
+]"
+199180,1,"[
+  [small_molecule]
+]"
+199181,1,"[
+  [small_molecule]
+]"
+199182,1,"[
+  [small_molecule]
+]"
+199183,1,"[
+  [small_molecule]
+]"
+199184,1,"[
+  [small_molecule]
+]"
+199185,1,"[
+  [small_molecule]
+]"
+199186,1,"[
+  [small_molecule]
+]"
+199187,1,"[
+  [small_molecule]
+]"
+199188,1,"[
+  [small_molecule]
+]"
+199189,1,"[
+  [small_molecule]
+]"
+199190,1,"[
+  [small_molecule]
+]"
+199191,1,"[
+  [small_molecule]
+]"
+199192,1,"[
+  [small_molecule]
+]"
+199193,1,"[
+  [small_molecule]
+]"
+199194,1,"[
+  [small_molecule]
+]"
+199195,1,"[
+  [small_molecule]
+]"
+199196,1,"[
+  [small_molecule]
+]"
+199197,1,"[
+  [small_molecule]
+]"
+199198,1,"[
+  [small_molecule]
+]"
+199199,1,"[
+  [small_molecule]
+]"
+199200,1,"[
+  [small_molecule]
+]"
+199201,1,"[
+  [small_molecule]
+]"
+199202,1,"[
+  [small_molecule]
+]"
+199203,1,"[
+  [small_molecule]
+]"
+199204,1,"[
+  [small_molecule]
+]"
+199205,1,"[
+  [small_molecule]
+]"
+199206,1,"[
+  [small_molecule]
+]"
+199207,1,"[
+  [small_molecule]
+]"
+199208,1,"[
+  [small_molecule]
+]"
+199209,1,"[
+  [small_molecule]
+]"
+199210,1,"[
+  [small_molecule]
+]"
+199211,1,"[
+  [small_molecule]
+]"
+199212,1,"[
+  [small_molecule]
+]"
+199213,1,"[
+  [small_molecule]
+]"
+199214,1,"[
+  [small_molecule]
+]"
+199215,1,"[
+  [small_molecule]
+]"
+199216,1,"[
+  [small_molecule]
+]"
+199217,1,"[
+  [small_molecule]
+]"
+199218,1,"[
+  [small_molecule]
+]"
+199219,1,"[
+  [small_molecule]
+]"
+199220,1,"[
+  [small_molecule]
+]"
+199221,1,"[
+  [small_molecule]
+]"
+199222,1,"[
+  [small_molecule]
+]"
+199223,1,"[
+  [small_molecule]
+]"
+199224,1,"[
+  [small_molecule]
+]"
+199225,1,"[
+  [small_molecule]
+]"
+199226,1,"[
+  [small_molecule]
+]"
+199227,1,"[
+  [small_molecule]
+]"
+199228,1,"[
+  [small_molecule]
+]"
+199229,1,"[
+  [small_molecule]
+]"
+199230,1,"[
+  [small_molecule]
+]"
+199231,1,"[
+  [small_molecule]
+]"
+199232,1,"[
+  [small_molecule]
+]"
+199233,1,"[
+  [small_molecule]
+]"
+199234,1,"[
+  [small_molecule]
+]"
+199235,1,"[
+  [small_molecule]
+]"
+199236,1,"[
+  [small_molecule]
+]"
+199237,1,"[
+  [small_molecule]
+]"
+199238,1,"[
+  [small_molecule]
+]"
+199239,1,"[
+  [small_molecule]
+]"
+199240,1,"[
+  [small_molecule]
+]"
+199241,1,"[
+  [small_molecule]
+]"
+199242,1,"[
+  [small_molecule]
+]"
+199243,1,"[
+  [small_molecule]
+]"
+199244,1,"[
+  [small_molecule]
+]"
+199245,1,"[
+  [small_molecule]
+]"
+199246,1,"[
+  [small_molecule]
+]"
+199247,1,"[
+  [small_molecule]
+]"
+199248,1,"[
+  [small_molecule]
+]"
+199249,1,"[
+  [small_molecule]
+]"
+199250,1,"[
+  [small_molecule]
+]"
+199251,1,"[
+  [small_molecule]
+]"
+199252,1,"[
+  [small_molecule]
+]"
+199253,1,"[
+  [small_molecule]
+]"
+199254,1,"[
+  [small_molecule]
+]"
+199255,1,"[
+  [small_molecule]
+]"
+199256,1,"[
+  [small_molecule]
+]"
+199257,1,"[
+  [small_molecule]
+]"
+199258,1,"[
+  [small_molecule]
+]"
+199259,1,"[
+  [small_molecule]
+]"
+199260,1,"[
+  [small_molecule]
+]"
+199261,1,"[
+  [small_molecule]
+]"
+199262,1,"[
+  [small_molecule]
+]"
+199263,1,"[
+  [small_molecule]
+]"
+199264,1,"[
+  [small_molecule]
+]"
+199265,1,"[
+  [small_molecule]
+]"
+199266,1,"[
+  [small_molecule]
+]"
+199267,1,"[
+  [small_molecule]
+]"
+199268,1,"[
+  [small_molecule]
+]"
+199269,1,"[
+  [small_molecule]
+]"
+199270,1,"[
+  [small_molecule]
+]"
+199271,1,"[
+  [small_molecule]
+]"
+199272,1,"[
+  [small_molecule]
+]"
+199273,1,"[
+  [small_molecule]
+]"
+199274,1,"[
+  [small_molecule]
+]"
+199275,1,"[
+  [small_molecule]
+]"
+199276,1,"[
+  [small_molecule]
+]"
+199277,1,"[
+  [small_molecule]
+]"
+199278,1,"[
+  [small_molecule]
+]"
+199279,1,"[
+  [small_molecule]
+]"
+199280,1,"[
+  [small_molecule]
+]"
+199281,1,"[
+  [small_molecule]
+]"
+199282,1,"[
+  [small_molecule]
+]"
+199283,1,"[
+  [small_molecule]
+]"
+199284,1,"[
+  [small_molecule]
+]"
+199285,1,"[
+  [small_molecule]
+]"
+199286,1,"[
+  [small_molecule]
+]"
+199287,1,"[
+  [small_molecule]
+]"
+199288,1,"[
+  [small_molecule]
+]"
+199290,1,"[
+  [small_molecule]
+]"
+199291,1,"[
+  [small_molecule]
+]"
+199292,1,"[
+  [small_molecule]
+]"
+199293,1,"[
+  [small_molecule]
+]"
+199294,1,"[
+  [small_molecule]
+]"
+199295,1,"[
+  [small_molecule]
+]"
+199296,1,"[
+  [small_molecule]
+]"
+199297,1,"[
+  [small_molecule]
+]"
+199298,1,"[
+  [small_molecule]
+]"
+199299,1,"[
+  [small_molecule]
+]"
+199300,1,"[
+  [small_molecule]
+]"
+199301,1,"[
+  [small_molecule]
+]"
+199302,1,"[
+  [small_molecule]
+]"
+199303,1,"[
+  [small_molecule]
+]"
+199304,1,"[
+  [small_molecule]
+]"
+199305,1,"[
+  [small_molecule]
+]"
+199306,1,"[
+  [small_molecule]
+]"
+199307,1,"[
+  [small_molecule]
+]"
+199308,1,"[
+  [small_molecule]
+]"
+199309,1,"[
+  [small_molecule]
+]"
+199310,1,"[
+  [small_molecule]
+]"
+199311,1,"[
+  [small_molecule]
+]"
+199312,1,"[
+  [small_molecule]
+]"
+199313,1,"[
+  [small_molecule]
+]"
+199314,1,"[
+  [small_molecule]
+]"
+199315,1,"[
+  [small_molecule]
+]"
+199316,1,"[
+  [small_molecule]
+]"
+199317,1,"[
+  [small_molecule]
+]"
+199318,1,"[
+  [small_molecule]
+]"
+199319,1,"[
+  [small_molecule]
+]"
+199320,1,"[
+  [small_molecule]
+]"
+199321,1,"[
+  [small_molecule]
+]"
+199322,1,"[
+  [small_molecule]
+]"
+199323,1,"[
+  [small_molecule]
+]"
+199324,1,"[
+  [small_molecule]
+]"
+199325,1,"[
+  [small_molecule]
+]"
+199326,1,"[
+  [small_molecule]
+]"
+199327,1,"[
+  [small_molecule]
+]"
+199328,1,"[
+  [small_molecule]
+]"
+199329,1,"[
+  [small_molecule]
+]"
+199330,1,"[
+  [small_molecule]
+]"
+199331,1,"[
+  [small_molecule]
+]"
+199332,1,"[
+  [small_molecule]
+]"
+199333,1,"[
+  [small_molecule]
+]"
+199334,1,"[
+  [small_molecule]
+]"
+199335,1,"[
+  [small_molecule]
+]"
+199336,1,"[
+  [small_molecule]
+]"
+199337,1,"[
+  [small_molecule]
+]"
+199338,1,"[
+  [small_molecule]
+]"
+199339,1,"[
+  [small_molecule]
+]"
+199340,1,"[
+  [small_molecule]
+]"
+199341,1,"[
+  [small_molecule]
+]"
+199342,1,"[
+  [small_molecule]
+]"
+199343,1,"[
+  [small_molecule]
+]"
+199344,1,"[
+  [small_molecule]
+]"
+199345,1,"[
+  [small_molecule]
+]"
+199346,1,"[
+  [small_molecule]
+]"
+199347,1,"[
+  [small_molecule]
+]"
+199348,1,"[
+  [small_molecule]
+]"
+199349,1,"[
+  [small_molecule]
+]"
+199350,1,"[
+  [small_molecule]
+]"
+199351,1,"[
+  [small_molecule]
+]"
+199352,1,"[
+  [small_molecule]
+]"
+199353,1,"[
+  [small_molecule]
+]"
+199354,1,"[
+  [small_molecule]
+]"
+199355,1,"[
+  [small_molecule]
+]"
+203283,1,"[
+  [protein]
+]"
+203324,1,"[
+  [protein]
+]"
+203347,1,"[
+  [protein]
+]"
+203377,1,"[
+  [protein]
+]"
+203383,1,"[
+  [protein]
+]"
+203399,1,"[
+  [protein]
+]"
+203402,1,"[
+  [protein]
+]"
+203410,1,"[
+  [protein]
+]"
+203414,1,"[
+  [protein]
+]"
+203429,1,"[
+  [protein]
+]"
+203432,1,"[
+  [protein]
+]"
+203439,1,"[
+  [protein]
+]"
+203443,1,"[
+  [protein]
+]"
+203453,1,"[
+  [protein]
+]"
+203464,1,"[
+  [protein]
+]"
+203466,1,"[
+  [protein]
+]"
+203469,1,"[
+  [protein]
+]"
+203488,1,"[
+  [protein]
+]"
+203516,1,"[
+  [protein]
+]"
+203519,1,"[
+  [protein]
+]"
+203523,1,"[
+  [protein]
+]"
+203524,1,"[
+  [protein]
+]"
+203525,1,"[
+  [protein]
+]"
+203541,1,"[
+  [protein]
+]"
+203578,1,"[
+  [protein]
+]"
+203598,1,"[
+  [protein]
+]"
+203601,1,"[
+  [protein]
+]"
+203602,1,"[
+  [protein]
+]"
+203633,1,"[
+  [protein]
+]"
+203648,1,"[
+  [protein]
+]"
+203688,1,"[
+  [protein]
+]"
+203729,1,"[
+  [protein]
+]"
+203757,1,"[
+  [protein]
+]"
+203763,1,"[
+  [protein]
+]"
+203775,1,"[
+  [protein]
+]"
+203780,1,"[
+  [protein]
+]"
+203796,1,"[
+  [protein]
+]"
+203805,1,"[
+  [protein]
+]"
+203813,1,"[
+  [protein]
+]"
+203814,1,"[
+  [protein]
+]"
+203815,1,"[
+  [protein]
+]"
+203823,1,"[
+  [protein]
+]"
+203852,1,"[
+  [protein]
+]"
+203879,1,"[
+  [protein]
+]"
+203884,1,"[
+  [protein]
+]"
+203887,1,"[
+  [protein]
+]"
+203897,1,"[
+  [protein]
+]"
+203929,1,"[
+  [protein]
+]"
+203947,1,"[
+  [protein]
+]"
+203995,1,"[
+  [protein]
+]"
+204004,1,"[
+  [protein]
+]"
+204005,1,"[
+  [protein]
+]"
+204044,1,"[
+  [protein]
+]"
+204052,1,"[
+  [protein]
+]"
+204082,1,"[
+  [protein]
+]"
+204084,1,"[
+  [protein]
+]"
+204098,1,"[
+  [protein]
+]"
+204101,1,"[
+  [protein]
+]"
+204106,1,"[
+  [protein]
+]"
+204108,1,"[
+  [protein]
+]"
+204116,1,"[
+  [protein]
+]"
+204117,1,"[
+  [protein]
+]"
+204124,1,"[
+  [protein]
+]"
+204130,1,"[
+  [protein]
+]"
+204134,1,"[
+  [protein]
+]"
+204156,1,"[
+  [protein]
+]"
+204172,1,"[
+  [protein]
+]"
+204179,1,"[
+  [protein]
+]"
+204185,1,"[
+  [protein]
+]"
+204188,1,"[
+  [protein]
+]"
+204196,1,"[
+  [protein]
+]"
+204216,1,"[
+  [protein]
+]"
+204233,1,"[
+  [protein]
+]"
+204245,1,"[
+  [protein]
+]"
+204248,1,"[
+  [peptide]
+]"
+204253,1,"[
+  [protein]
+]"
+204276,1,"[
+  [protein]
+]"
+204287,1,"[
+  [protein]
+]"
+204292,1,"[
+  [protein]
+]"
+204318,1,"[
+  [protein]
+]"
+204331,1,"[
+  [protein]
+]"
+204332,1,"[
+  [protein]
+]"
+204353,1,"[
+  [protein]
+]"
+204354,1,"[
+  [protein]
+]"
+204357,1,"[
+  [protein]
+]"
+204373,1,"[
+  [protein]
+]"
+204389,1,"[
+  [protein]
+]"
+204429,1,"[
+  [protein]
+]"
+204431,1,"[
+  [protein]
+]"
+204440,1,"[
+  [protein]
+]"
+204441,1,"[
+  [protein]
+]"
+204460,1,"[
+  [protein]
+]"
+204461,1,"[
+  [protein]
+]"
+204462,1,"[
+  [protein]
+]"
+204463,1,"[
+  [protein]
+]"
+204464,1,"[
+  [protein]
+]"
+204492,1,"[
+  [protein]
+]"
+204495,1,"[
+  [protein]
+]"
+204496,1,"[
+  [protein]
+]"
+204500,1,"[
+  [protein]
+]"
+204501,1,"[
+  [protein]
+]"
+204504,1,"[
+  [protein]
+]"
+204508,1,"[
+  [protein]
+]"
+204515,1,"[
+  [protein]
+]"
+204520,1,"[
+  [protein]
+]"
+204521,1,"[
+  [protein]
+]"
+204522,1,"[
+  [protein]
+]"
+204528,1,"[
+  [protein]
+]"
+204535,1,"[
+  [protein]
+]"
+204536,1,"[
+  [protein]
+]"
+204606,1,"[
+  [protein]
+]"
+204613,1,"[
+  [protein]
+]"
+204628,1,"[
+  [protein]
+]"
+204644,1,"[
+  [protein]
+]"
+204652,1,"[
+  [protein]
+]"
+204658,1,"[
+  [protein]
+]"
+204664,1,"[
+  [protein]
+]"
+204672,1,"[
+  [protein]
+]"
+204678,1,"[
+  [protein]
+]"
+204682,1,"[
+  [protein]
+]"
+204687,1,"[
+  [peptide]
+]"
+204695,1,"[
+  [protein]
+]"
+204699,1,"[
+  [protein]
+]"
+204703,1,"[
+  [protein]
+]"
+204708,1,"[
+  [protein]
+]"
+204709,1,"[
+  [protein]
+]"
+204710,1,"[
+  [peptide]
+]"
+204723,1,"[
+  [protein]
+]"
+204744,1,"[
+  [protein]
+]"
+204752,1,"[
+  [protein]
+]"
+204766,1,"[
+  [protein]
+]"
+204768,1,"[
+  [protein]
+]"
+204769,1,"[
+  [protein]
+]"
+204770,1,"[
+  [protein]
+]"
+204771,1,"[
+  [protein]
+]"
+204793,1,"[
+  [protein]
+]"
+204809,1,"[
+  [protein]
+]"
+204812,1,"[
+  [protein]
+]"
+204823,1,"[
+  [protein]
+]"
+204837,1,"[
+  [protein]
+]"
+204840,1,"[
+  [protein]
+]"
+204861,1,"[
+  [protein]
+]"
+204879,1,"[
+  [protein]
+]"
+204881,1,"[
+  [protein]
+]"
+204886,1,"[
+  [protein]
+]"
+204888,1,"[
+  [protein]
+]"
+204889,1,"[
+  [protein]
+]"
+204893,1,"[
+  [protein]
+]"
+204895,1,"[
+  [protein]
+]"
+204910,1,"[
+  [protein]
+]"
+204925,1,"[
+  [protein]
+]"
+204930,1,"[
+  [protein]
+]"
+204957,1,"[
+  [protein]
+]"
+204962,1,"[
+  [protein]
+]"
+204968,1,"[
+  [protein]
+]"
+204974,1,"[
+  [protein]
+]"
+204994,1,"[
+  [protein]
+]"
+205014,1,"[
+  [protein]
+]"
+205020,1,"[
+  [protein]
+]"
+205043,1,"[
+  [protein]
+]"
+205051,1,"[
+  [protein]
+]"
+205063,1,"[
+  [protein]
+]"
+205064,1,"[
+  [protein]
+]"
+205073,1,"[
+  [protein]
+]"
+205074,1,"[
+  [protein]
+]"
+205080,1,"[
+  [protein]
+]"
+205090,1,"[
+  [protein]
+]"
+205092,1,"[
+  [protein]
+]"
+205093,1,"[
+  [protein]
+]"
+205100,1,"[
+  [protein]
+]"
+205112,1,"[
+  [protein]
+]"
+205114,1,"[
+  [protein]
+]"
+205128,1,"[
+  [protein]
+]"
+205140,1,"[
+  [protein]
+]"
+205144,1,"[
+  [protein]
+]"
+205149,1,"[
+  [protein]
+]"
+205155,1,"[
+  [protein]
+]"
+205156,1,"[
+  [protein]
+]"
+205157,1,"[
+  [protein]
+]"
+205158,1,"[
+  [protein]
+]"
+205159,1,"[
+  [protein]
+]"
+205160,1,"[
+  [protein]
+]"
+205161,1,"[
+  [protein]
+]"
+205180,1,"[
+  [protein]
+]"
+205191,1,"[
+  [protein]
+]"
+205196,1,"[
+  [protein]
+]"
+205215,1,"[
+  [protein]
+]"
+205216,1,"[
+  [protein]
+]"
+205227,1,"[
+  [protein]
+]"
+205228,1,"[
+  [protein]
+]"
+205237,1,"[
+  [protein]
+]"
+205239,1,"[
+  [protein]
+]"
+205249,1,"[
+  [protein]
+]"
+205255,1,"[
+  [protein]
+]"
+205260,1,"[
+  [protein]
+]"
+205265,1,"[
+  [protein]
+]"
+205272,1,"[
+  [protein]
+]"
+205276,1,"[
+  [protein]
+]"
+205277,1,"[
+  [protein]
+]"
+205280,1,"[
+  [protein]
+]"
+205288,1,"[
+  [protein]
+]"
+205297,1,"[
+  [protein]
+]"
+205298,1,"[
+  [protein]
+]"
+205303,1,"[
+  [protein]
+]"
+205310,1,"[
+  [protein]
+]"
+205327,1,"[
+  [protein]
+]"
+205328,1,"[
+  [protein]
+]"
+205330,1,"[
+  [protein]
+]"
+205340,1,"[
+  [protein]
+]"
+205341,1,"[
+  [protein]
+]"
+205356,1,"[
+  [protein]
+]"
+205365,1,"[
+  [protein]
+]"
+205368,1,"[
+  [protein]
+]"
+205371,1,"[
+  [protein]
+]"
+205383,1,"[
+  [protein]
+]"
+205391,1,"[
+  [protein]
+]"
+205397,1,"[
+  [protein]
+]"
+205398,1,"[
+  [protein]
+]"
+205403,1,"[
+  [protein]
+]"
+205405,1,"[
+  [protein]
+]"
+205411,1,"[
+  [protein]
+]"
+205413,1,"[
+  [protein]
+]"
+205414,1,"[
+  [protein]
+]"
+205424,1,"[
+  [protein]
+]"
+205449,1,"[
+  [protein]
+]"
+205455,1,"[
+  [protein]
+]"
+205464,1,"[
+  [protein]
+]"
+205472,1,"[
+  [protein]
+]"
+205477,1,"[
+  [protein]
+]"
+205484,1,"[
+  [protein]
+]"
+205502,1,"[
+  [protein]
+]"
+205510,1,"[
+  [protein]
+]"
+205518,1,"[
+  [protein]
+]"
+205547,1,"[
+  [protein]
+]"
+205550,1,"[
+  [protein]
+]"
+205552,1,"[
+  [protein]
+]"
+205572,1,"[
+  [protein]
+]"
+205574,1,"[
+  [protein]
+]"
+205576,1,"[
+  [small_molecule]
+]"
+205578,1,"[
+  [protein]
+]"
+205579,1,"[
+  [protein]
+]"
+205593,1,"[
+  [protein]
+]"
+205625,1,"[
+  [protein]
+]"
+205635,1,"[
+  [protein]
+]"
+205638,1,"[
+  [protein]
+]"
+205656,1,"[
+  [protein]
+]"
+205669,1,"[
+  [small_molecule]
+]"
+205692,1,"[
+  [protein]
+]"
+205707,1,"[
+  [protein]
+]"
+205770,1,"[
+  [protein]
+]"
+205813,1,"[
+  [protein]
+]"
+205844,1,"[
+  [protein]
+]"
+205851,1,"[
+  [protein]
+]"
+205861,1,"[
+  [protein]
+]"
+205892,1,"[
+  [protein]
+]"
+205937,1,"[
+  [protein]
+]"
+205952,1,"[
+  [protein]
+]"
+205953,1,"[
+  [protein]
+]"
+205955,1,"[
+  [protein]
+]"
+205964,1,"[
+  [protein]
+]"
+205966,1,"[
+  [protein]
+]"
+205968,1,"[
+  [protein]
+]"
+205986,1,"[
+  [protein]
+]"
+205989,1,"[
+  [protein]
+]"
+205990,1,"[
+  [protein]
+]"
+205992,1,"[
+  [protein]
+]"
+205998,1,"[
+  [protein]
+]"
+206000,1,"[
+  [protein]
+]"
+206007,1,"[
+  [protein]
+]"
+206021,1,"[
+  [protein]
+]"
+206032,1,"[
+  [protein]
+]"
+206052,1,"[
+  [protein]
+]"
+206066,1,"[
+  [protein]
+]"
+206082,1,"[
+  [protein]
+]"
+206092,1,"[
+  [protein]
+]"
+206094,1,"[
+  [protein]
+]"
+206098,1,"[
+  [protein]
+]"
+206103,1,"[
+  [protein]
+]"
+206108,1,"[
+  [protein]
+]"
+206116,1,"[
+  [protein]
+]"
+206119,1,"[
+  [small_molecule]
+]"
+206120,1,"[
+  [protein]
+]"
+206132,1,"[
+  [protein]
+]"
+206148,1,"[
+  [protein]
+]"
+206150,1,"[
+  [protein]
+]"
+206160,1,"[
+  [protein]
+]"
+206223,1,"[
+  [protein]
+]"
+206236,1,"[
+  [protein]
+]"
+206238,1,"[
+  [protein]
+]"
+206268,1,"[
+  [protein]
+]"
+206271,1,"[
+  [protein]
+]"
+206284,1,"[
+  [protein]
+]"
+206286,1,"[
+  [protein]
+]"
+206375,1,"[
+  [protein]
+]"
+206380,1,"[
+  [protein]
+]"
+206382,1,"[
+  [protein]
+]"
+206388,1,"[
+  [protein]
+]"
+206391,1,"[
+  [protein]
+]"
+206393,1,"[
+  [protein]
+]"
+206396,1,"[
+  [protein]
+]"
+206426,1,"[
+  [small_molecule]
+]"
+206441,1,"[
+  [protein]
+]"
+206445,1,"[
+  [protein]
+]"
+206447,1,"[
+  [protein]
+]"
+206458,1,"[
+  [protein]
+]"
+206460,1,"[
+  [protein]
+]"
+206489,1,"[
+  [protein]
+]"
+206493,1,"[
+  [protein]
+]"
+206497,1,"[
+  [small_molecule]
+]"
+206499,1,"[
+  [protein]
+]"
+206507,1,"[
+  [protein]
+]"
+206547,1,"[
+  [protein]
+]"
+206549,1,"[
+  [protein]
+]"
+206555,1,"[
+  [protein]
+]"
+206599,1,"[
+  [protein]
+]"
+206617,1,"[
+  [protein]
+]"
+206634,1,"[
+  [protein]
+]"
+206646,1,"[
+  [protein]
+]"
+206650,1,"[
+  [protein]
+]"
+206668,1,"[
+  [protein]
+]"
+206691,1,"[
+  [protein]
+]"
+206693,1,"[
+  [protein]
+]"
+206699,1,"[
+  [protein]
+]"
+206725,1,"[
+  [protein]
+]"
+206733,1,"[
+  [protein]
+]"
+206751,1,"[
+  [protein]
+]"
+206759,1,"[
+  [protein]
+]"
+206763,1,"[
+  [protein]
+]"
+206765,1,"[
+  [small_molecule]
+]"
+206777,1,"[
+  [protein]
+]"
+206787,1,"[
+  [protein]
+]"
+206789,1,"[
+  [protein]
+]"
+206795,1,"[
+  [protein]
+]"
+206843,1,"[
+  [protein]
+]"
+206855,1,"[
+  [small_molecule]
+]"
+206859,1,"[
+  [protein]
+]"
+206887,1,"[
+  [protein]
+]"
+206903,1,"[
+  [small_molecule]
+]"
+206906,1,"[
+  [protein]
+]"
+206919,1,"[
+  [protein]
+]"
+206935,1,"[
+  [protein]
+]"
+206969,1,"[
+  [protein]
+]"
+206975,1,"[
+  [protein]
+]"
+206988,1,"[
+  [protein]
+]"
+207000,1,"[
+  [protein]
+]"
+207016,1,"[
+  [protein]
+]"
+207018,1,"[
+  [protein]
+]"
+207022,1,"[
+  [protein]
+]"
+207038,1,"[
+  [protein]
+]"
+207048,1,"[
+  [peptide]
+]"
+207056,1,"[
+  [protein]
+]"
+207062,1,"[
+  [protein]
+]"
+207064,1,"[
+  [protein]
+]"
+207066,1,"[
+  [protein]
+]"
+207104,1,"[
+  [protein]
+]"
+207114,1,"[
+  [protein]
+]"
+207179,1,"[
+  [protein]
+]"
+207193,1,"[
+  [protein]
+]"
+207199,1,"[
+  [protein]
+]"
+207203,1,"[
+  [protein]
+]"
+207218,1,"[
+  [protein]
+]"
+207252,1,"[
+  [protein]
+]"
+207266,1,"[
+  [protein]
+]"
+207295,1,"[
+  [peptide]
+]"
+207299,1,"[
+  [protein]
+]"
+207307,1,"[
+  [protein]
+]"
+207309,1,"[
+  [protein]
+]"
+207311,1,"[
+  [protein]
+]"
+207319,1,"[
+  [protein]
+]"
+207334,1,"[
+  [protein]
+]"
+207338,1,"[
+  [protein]
+]"
+207348,1,"[
+  [protein]
+]"
+207354,1,"[
+  [protein]
+]"
+207362,1,"[
+  [protein]
+]"
+207389,1,"[
+  [protein]
+]"
+207390,1,"[
+  [peptide]
+]"
+207394,1,"[
+  [protein]
+]"
+207396,1,"[
+  [protein]
+]"
+207398,1,"[
+  [protein]
+]"
+207410,1,"[
+  [protein]
+]"
+207412,1,"[
+  [protein]
+]"
+207418,1,"[
+  [protein]
+]"
+207436,1,"[
+  [protein]
+]"
+207446,1,"[
+  [protein]
+]"
+207448,1,"[
+  [protein]
+]"
+207450,1,"[
+  [protein]
+]"
+207467,1,"[
+  [protein]
+]"
+207469,1,"[
+  [protein]
+]"
+207475,1,"[
+  [protein]
+]"
+207477,1,"[
+  [protein]
+]"
+207481,1,"[
+  [protein]
+]"
+207487,1,"[
+  [protein]
+]"
+207493,1,"[
+  [protein]
+]"
+207602,1,"[
+  [protein]
+]"
+207614,1,"[
+  [protein]
+]"
+207681,1,"[
+  [protein]
+]"
+207701,1,"[
+  [protein]
+]"
+207760,1,"[
+  [protein]
+]"
+207762,1,"[
+  [protein]
+]"
+207786,1,"[
+  [protein]
+]"
+207812,1,"[
+  [protein]
+]"
+207828,1,"[
+  [protein]
+]"
+207830,1,"[
+  [protein]
+]"
+207832,1,"[
+  [protein]
+]"
+207852,1,"[
+  [protein]
+]"
+207936,1,"[
+  [protein]
+]"
+207959,1,"[
+  [protein]
+]"
+207961,1,"[
+  [protein]
+]"
+208002,1,"[
+  [protein]
+]"
+208097,1,"[
+  [peptide]
+]"
+208113,1,"[
+  [protein]
+]"
+208135,1,"[
+  [protein]
+]"
+208151,1,"[
+  [protein]
+]"
+208157,1,"[
+  [protein]
+]"
+208161,1,"[
+  [protein]
+]"
+208172,1,"[
+  [protein]
+]"
+208182,1,"[
+  [protein]
+]"
+208184,1,"[
+  [protein]
+]"
+208186,1,"[
+  [protein]
+]"
+208248,1,"[
+  [protein]
+]"
+208254,1,"[
+  [protein]
+]"
+208256,1,"[
+  [protein]
+]"
+208288,1,"[
+  [protein]
+]"
+208294,1,"[
+  [protein]
+]"
+208298,1,"[
+  [protein]
+]"
+208304,1,"[
+  [protein]
+]"
+208306,1,"[
+  [protein]
+]"
+208343,1,"[
+  [peptide]
+]"
+208349,1,"[
+  [protein]
+]"
+208399,1,"[
+  [protein]
+]"
+208401,1,"[
+  [protein]
+]"
+208405,1,"[
+  [protein]
+]"
+208421,1,"[
+  [protein]
+]"
+208423,1,"[
+  [protein]
+]"
+208437,1,"[
+  [protein]
+]"
+208451,1,"[
+  [protein]
+]"
+208467,1,"[
+  [protein]
+]"
+208468,1,"[
+  [protein]
+]"
+208470,1,"[
+  [protein]
+]"
+208491,1,"[
+  [protein]
+]"
+208493,1,"[
+  [protein]
+]"
+208503,1,"[
+  [protein]
+]"
+208509,1,"[
+  [protein]
+]"
+208511,1,"[
+  [protein]
+]"
+208532,1,"[
+  [protein]
+]"
+208536,1,"[
+  [protein]
+]"
+208552,1,"[
+  [protein]
+]"
+208557,1,"[
+  [protein]
+]"
+208567,1,"[
+  [protein]
+]"
+208569,1,"[
+  [protein]
+]"
+208620,1,"[
+  [protein]
+]"
+208665,1,"[
+  [protein]
+]"
+208682,1,"[
+  [protein]
+]"
+208706,1,"[
+  [peptide]
+]"
+208714,1,"[
+  [protein]
+]"
+208716,1,"[
+  [peptide]
+]"
+208720,1,"[
+  [protein]
+]"
+208722,1,"[
+  [protein]
+]"
+208732,1,"[
+  [protein]
+]"
+208738,1,"[
+  [small_molecule]
+]"
+208779,1,"[
+  [small_molecule]
+]"
+208786,1,"[
+  [protein]
+]"
+208836,1,"[
+  [protein]
+]"
+208876,1,"[
+  [protein]
+]"
+208892,1,"[
+  [protein]
+]"
+208933,1,"[
+  [protein]
+]"
+387320,1,"[
+  [small_molecule]
+]"
+390326,1,"[
+  [small_molecule]
+]"
+390944,1,"[
+  [small_molecule]
+]"
+391479,1,"[
+  [small_molecule]
+]"
+391504,1,"[
+  [small_molecule]
+]"
+391507,1,"[
+  [small_molecule]
+]"
+391527,1,"[
+  [small_molecule]
+]"
+391533,1,"[
+  [small_molecule]
+]"
+391556,1,"[
+  [small_molecule]
+]"
+391565,1,"[
+  [small_molecule]
+]"
+391578,1,"[
+  [small_molecule]
+]"
+391581,1,"[
+  [small_molecule]
+]"
+391594,1,"[
+  [small_molecule]
+]"
+391597,1,"[
+  [small_molecule]
+]"
+391600,1,"[
+  [small_molecule]
+]"
+391603,1,"[
+  [small_molecule]
+]"
+391607,1,"[
+  [small_molecule]
+]"
+391619,1,"[
+  [small_molecule]
+]"
+391625,1,"[
+  [small_molecule]
+]"
+391638,1,"[
+  [small_molecule]
+]"
+391657,1,"[
+  [small_molecule]
+]"
+391664,1,"[
+  [small_molecule]
+]"
+391670,1,"[
+  [small_molecule]
+]"
+391676,1,"[
+  [small_molecule]
+]"
+391683,1,"[
+  [small_molecule]
+]"
+391686,1,"[
+  [small_molecule]
+]"
+391702,1,"[
+  [small_molecule]
+]"
+391708,1,"[
+  [small_molecule]
+]"
+391749,1,"[
+  [small_molecule]
+]"
+391762,1,"[
+  [small_molecule]
+]"
+391765,1,"[
+  [small_molecule]
+]"
+391771,1,"[
+  [small_molecule]
+]"
+391781,1,"[
+  [small_molecule]
+]"
+391784,1,"[
+  [small_molecule]
+]"
+391793,1,"[
+  [small_molecule]
+]"
+391809,1,"[
+  [small_molecule]
+]"
+391818,1,"[
+  [small_molecule]
+]"
+391831,1,"[
+  [small_molecule]
+]"
+391837,1,"[
+  [small_molecule]
+]"
+391850,1,"[
+  [small_molecule]
+]"
+391862,1,"[
+  [small_molecule]
+]"
+391872,1,"[
+  [small_molecule]
+]"
+391882,1,"[
+  [small_molecule]
+]"
+391888,1,"[
+  [small_molecule]
+]"
+391897,1,"[
+  [small_molecule]
+]"
+391942,1,"[
+  [small_molecule]
+]"
+391945,1,"[
+  [small_molecule]
+]"
+391960,1,"[
+  [small_molecule]
+]"
+391964,1,"[
+  [small_molecule]
+]"
+391973,1,"[
+  [small_molecule]
+]"
+391976,1,"[
+  [small_molecule]
+]"
+391998,1,"[
+  [small_molecule]
+]"
+392030,1,"[
+  [small_molecule]
+]"
+392043,1,"[
+  [small_molecule]
+]"
+392049,1,"[
+  [small_molecule]
+]"
+392052,1,"[
+  [small_molecule]
+]"
+392065,1,"[
+  [small_molecule]
+]"
+392080,1,"[
+  [small_molecule]
+]"
+392084,1,"[
+  [small_molecule]
+]"
+392090,1,"[
+  [small_molecule]
+]"
+392101,1,"[
+  [small_molecule]
+]"
+392117,1,"[
+  [small_molecule]
+]"
+392126,1,"[
+  [small_molecule]
+]"
+392155,1,"[
+  [small_molecule]
+]"
+392167,1,"[
+  [small_molecule]
+]"
+392207,1,"[
+  [small_molecule]
+]"
+392214,1,"[
+  [small_molecule]
+]"
+392217,1,"[
+  [small_molecule]
+]"
+392223,1,"[
+  [small_molecule]
+]"
+392226,1,"[
+  [small_molecule]
+]"
+392246,1,"[
+  [small_molecule]
+]"
+392249,1,"[
+  [small_molecule]
+]"
+392252,1,"[
+  [small_molecule]
+]"
+392255,1,"[
+  [small_molecule]
+]"
+392258,1,"[
+  [small_molecule]
+]"
+392261,1,"[
+  [small_molecule]
+]"
+392271,1,"[
+  [small_molecule]
+]"
+392286,1,"[
+  [small_molecule]
+]"
+392293,1,"[
+  [small_molecule]
+]"
+392296,1,"[
+  [small_molecule]
+]"
+392306,1,"[
+  [small_molecule]
+]"
+392309,1,"[
+  [small_molecule]
+]"
+392315,1,"[
+  [small_molecule]
+]"
+392325,1,"[
+  [small_molecule]
+]"
+392334,1,"[
+  [small_molecule]
+]"
+392337,1,"[
+  [small_molecule]
+]"
+392360,1,"[
+  [small_molecule]
+]"
+392363,1,"[
+  [small_molecule]
+]"
+392372,1,"[
+  [small_molecule]
+]"
+392375,1,"[
+  [small_molecule]
+]"
+392382,1,"[
+  [small_molecule]
+]"
+392385,1,"[
+  [small_molecule]
+]"
+392388,1,"[
+  [small_molecule]
+]"
+392395,1,"[
+  [small_molecule]
+]"
+392398,1,"[
+  [small_molecule]
+]"
+392418,1,"[
+  [small_molecule]
+]"
+392428,1,"[
+  [small_molecule]
+]"
+392434,1,"[
+  [small_molecule]
+]"
+392450,1,"[
+  [small_molecule]
+]"
+392456,1,"[
+  [small_molecule]
+]"
+392459,1,"[
+  [small_molecule]
+]"
+392462,1,"[
+  [small_molecule]
+]"
+392465,1,"[
+  [small_molecule]
+]"
+392468,1,"[
+  [small_molecule]
+]"
+392474,1,"[
+  [small_molecule]
+]"
+392481,1,"[
+  [small_molecule]
+]"
+392487,1,"[
+  [small_molecule]
+]"
+392490,1,"[
+  [small_molecule]
+]"
+392493,1,"[
+  [small_molecule]
+]"
+392496,1,"[
+  [small_molecule]
+]"
+392503,1,"[
+  [small_molecule]
+]"
+392525,1,"[
+  [small_molecule]
+]"
+392528,1,"[
+  [small_molecule]
+]"
+392537,1,"[
+  [small_molecule]
+]"
+392540,1,"[
+  [small_molecule]
+]"
+392543,1,"[
+  [small_molecule]
+]"
+392550,1,"[
+  [small_molecule]
+]"
+392553,1,"[
+  [small_molecule]
+]"
+392556,1,"[
+  [small_molecule]
+]"
+392572,1,"[
+  [small_molecule]
+]"
+392584,1,"[
+  [small_molecule]
+]"
+392590,1,"[
+  [small_molecule]
+]"
+392593,1,"[
+  [small_molecule]
+]"
+392596,1,"[
+  [small_molecule]
+]"
+392602,1,"[
+  [small_molecule]
+]"
+392605,1,"[
+  [small_molecule]
+]"
+397363,1,"[
+  [small_molecule]
+]"
+397473,1,"[
+  [small_molecule]
+]"
+398009,1,"[
+  [small_molecule]
+]"
+398451,1,"[
+  [protein]
+]"
+400602,1,"[
+  [small_molecule]
+]"
+400871,1,"[
+  [small_molecule]
+]"
+402650,1,"[
+  [protein]
+]"
+403179,1,"[
+  [small_molecule]
+]"
+403896,1,"[
+  [protein]
+]"
+405010,1,"[
+  [small_molecule]
+]"
+405066,1,"[
+  [small_molecule]
+]"
+405302,1,"[
+  [small_molecule]
+]"
+405585,1,"[
+  [small_molecule]
+]"
+406289,1,"[
+  [protein]
+]"
+406502,1,"[
+  [small_molecule]
+]"
+407283,1,"[
+  [small_molecule]
+]"
+407450,1,"[
+  [small_molecule]
+]"
+407460,1,"[
+  [small_molecule]
+]"
+407644,1,"[
+  [protein]
+]"
+407781,1,"[
+  [protein]
+]"
+408900,1,"[
+  [small_molecule]
+]"
+409077,1,"[
+  [protein]
+]"
+409547,1,"[
+  [small_molecule]
+]"
+409577,1,"[
+  [small_molecule]
+]"
+410156,1,"[
+  [small_molecule]
+]"
+410158,1,"[
+  [small_molecule]
+]"
+410161,1,"[
+  [small_molecule]
+]"
+410173,1,"[
+  [small_molecule]
+]"
+410186,1,"[
+  [small_molecule]
+]"
+410191,1,"[
+  [small_molecule]
+]"
+410193,1,"[
+  [small_molecule]
+]"
+410196,1,"[
+  [small_molecule]
+]"
+410201,1,"[
+  [small_molecule]
+]"
+410203,1,"[
+  [small_molecule]
+]"
+410226,1,"[
+  [small_molecule]
+]"
+410228,1,"[
+  [small_molecule]
+]"
+410233,1,"[
+  [small_molecule]
+]"
+410236,1,"[
+  [small_molecule]
+]"
+410245,1,"[
+  [small_molecule]
+]"
+410248,1,"[
+  [small_molecule]
+]"
+410253,1,"[
+  [small_molecule]
+]"
+410258,1,"[
+  [small_molecule]
+]"
+410260,1,"[
+  [small_molecule]
+]"
+410263,1,"[
+  [small_molecule]
+]"
+410265,1,"[
+  [small_molecule]
+]"
+410268,1,"[
+  [small_molecule]
+]"
+410273,1,"[
+  [small_molecule]
+]"
+410278,1,"[
+  [small_molecule]
+]"
+410280,1,"[
+  [small_molecule]
+]"
+410282,1,"[
+  [small_molecule]
+]"
+411106,1,"[
+  [small_molecule]
+]"
+411234,1,"[
+  [small_molecule]
+]"
+411239,1,"[
+  [small_molecule]
+]"
+411244,1,"[
+  [small_molecule]
+]"
+411256,1,"[
+  [small_molecule]
+]"
+411274,1,"[
+  [small_molecule]
+]"
+411276,1,"[
+  [small_molecule]
+]"
+411284,1,"[
+  [small_molecule]
+]"
+411367,1,"[
+  [small_molecule]
+]"
