@@ -1,0 +1,6 @@
+outs:
+- md5: e052f0551ce8c5d789c9d2d4dd3ccce9.dir
+  size: 1775018064
+  nfiles: 3
+  hash: md5
+  path: protnlm
