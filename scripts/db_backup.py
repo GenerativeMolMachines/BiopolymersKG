@@ -1,5 +1,6 @@
 import os
 import sys
+import shutil
 import logging
 
 import dotenv
@@ -15,7 +16,7 @@ logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
 
 class Backuper:
-    def __init__(self):
+    def __init__(self) -> None:
         self.client = self.connect_yadisk()
 
     @staticmethod
@@ -31,8 +32,16 @@ class Backuper:
             return []
         files = [i.name for i in self.client.listdir(REMOTE_BACKUPS_LOCATION)]
         return files
+    
+    def create_backup(self) -> None:
+        command = """
+        docker exec neo4j-neo4j-1 backup.sh && docker cp neo4j-neoj4-1:/var/lib/neo4j/backups/* ./backups
+        """
+        status = os.system(command)
+        if not status:
+            raise Exception("Error creating backup")
 
-    def upload_backups(self):
+    def upload_backups(self) -> None:
         if not os.path.exists(LOCAL_BACKUPS_LOCATION):
             raise Exception(f"Local backups directory {LOCAL_BACKUPS_LOCATION} does not exist.")
 
