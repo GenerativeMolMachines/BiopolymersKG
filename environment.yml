@@ -10,7 +10,6 @@ dependencies:
   - aiosignal=1.2.0
   - annotated-types=0.6.0
   - anyio=4.6.2
-  - appnope=0.1.2
   - argon2-cffi=21.3.0
   - argon2-cffi-bindings=21.2.0
   - arrow-cpp=19.0.0
@@ -112,7 +111,6 @@ dependencies:
   - libevent=2.1.12
   - libexpat=2.7.0
   - libffi=3.4.4
-  - libgfortran=5.0.0
   - libgfortran5=11.3.0
   - libglib=2.78.4
   - libgrpc=1.71.0

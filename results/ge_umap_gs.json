@@ -1,0 +1,434 @@
+[
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.1,
+            "n_components": 2,
+            "n_neighbors": 15
+        },
+        0.3658224642276764
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.0,
+            "n_components": 2,
+            "n_neighbors": 15
+        },
+        0.363153874874115
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.4,
+            "n_components": 2,
+            "n_neighbors": 15
+        },
+        0.36295387148857117
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.1,
+            "n_components": 2,
+            "n_neighbors": 10
+        },
+        0.3496282398700714
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.0,
+            "n_components": 2,
+            "n_neighbors": 10
+        },
+        0.34845981001853943
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.7,
+            "n_components": 2,
+            "n_neighbors": 15
+        },
+        0.3473852872848511
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.7,
+            "n_components": 2,
+            "n_neighbors": 5
+        },
+        0.3377964198589325
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.0,
+            "n_components": 2,
+            "n_neighbors": 10
+        },
+        0.3376334309577942
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.1,
+            "n_components": 3,
+            "n_neighbors": 15
+        },
+        0.33666130900382996
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.0,
+            "n_components": 2,
+            "n_neighbors": 5
+        },
+        0.336555153131485
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.0,
+            "n_components": 3,
+            "n_neighbors": 15
+        },
+        0.33544015884399414
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.7,
+            "n_components": 2,
+            "n_neighbors": 10
+        },
+        0.3351718485355377
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.1,
+            "n_components": 2,
+            "n_neighbors": 10
+        },
+        0.33495745062828064
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.1,
+            "n_components": 2,
+            "n_neighbors": 15
+        },
+        0.332791805267334
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.7,
+            "n_components": 2,
+            "n_neighbors": 10
+        },
+        0.332282155752182
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.0,
+            "n_components": 2,
+            "n_neighbors": 5
+        },
+        0.3318495750427246
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.4,
+            "n_components": 2,
+            "n_neighbors": 5
+        },
+        0.331179141998291
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.4,
+            "n_components": 2,
+            "n_neighbors": 10
+        },
+        0.3290717303752899
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.7,
+            "n_components": 2,
+            "n_neighbors": 15
+        },
+        0.32668301463127136
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.4,
+            "n_components": 2,
+            "n_neighbors": 5
+        },
+        0.32397982478141785
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.4,
+            "n_components": 2,
+            "n_neighbors": 10
+        },
+        0.32035523653030396
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.4,
+            "n_components": 2,
+            "n_neighbors": 15
+        },
+        0.32029131054878235
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.7,
+            "n_components": 2,
+            "n_neighbors": 5
+        },
+        0.3185795545578003
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.1,
+            "n_components": 2,
+            "n_neighbors": 5
+        },
+        0.3143109083175659
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.0,
+            "n_components": 2,
+            "n_neighbors": 15
+        },
+        0.3130054473876953
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.4,
+            "n_components": 3,
+            "n_neighbors": 15
+        },
+        0.3099783957004547
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.1,
+            "n_components": 2,
+            "n_neighbors": 5
+        },
+        0.3088505268096924
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.1,
+            "n_components": 3,
+            "n_neighbors": 10
+        },
+        0.2935156226158142
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.1,
+            "n_components": 3,
+            "n_neighbors": 10
+        },
+        0.288756787776947
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.0,
+            "n_components": 3,
+            "n_neighbors": 10
+        },
+        0.2867359519004822
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.4,
+            "n_components": 3,
+            "n_neighbors": 10
+        },
+        0.28553301095962524
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.4,
+            "n_components": 3,
+            "n_neighbors": 5
+        },
+        0.2799924612045288
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.7,
+            "n_components": 3,
+            "n_neighbors": 15
+        },
+        0.26973918080329895
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.1,
+            "n_components": 3,
+            "n_neighbors": 15
+        },
+        0.2677444815635681
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.7,
+            "n_components": 3,
+            "n_neighbors": 10
+        },
+        0.2663912773132324
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.0,
+            "n_components": 3,
+            "n_neighbors": 10
+        },
+        0.2662922739982605
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.0,
+            "n_components": 3,
+            "n_neighbors": 15
+        },
+        0.2660881280899048
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.1,
+            "n_components": 3,
+            "n_neighbors": 5
+        },
+        0.26478278636932373
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.0,
+            "n_components": 3,
+            "n_neighbors": 5
+        },
+        0.26182660460472107
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.7,
+            "n_components": 3,
+            "n_neighbors": 5
+        },
+        0.26139259338378906
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.1,
+            "n_components": 3,
+            "n_neighbors": 5
+        },
+        0.260275661945343
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.7,
+            "n_components": 3,
+            "n_neighbors": 15
+        },
+        0.26002737879753113
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.0,
+            "n_components": 3,
+            "n_neighbors": 5
+        },
+        0.2572760283946991
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.7,
+            "n_components": 3,
+            "n_neighbors": 5
+        },
+        0.2570264935493469
+    ],
+    [
+        {
+            "metric": "cosine",
+            "min_dist": 0.7,
+            "n_components": 3,
+            "n_neighbors": 10
+        },
+        0.24794244766235352
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.4,
+            "n_components": 3,
+            "n_neighbors": 15
+        },
+        0.24525243043899536
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.4,
+            "n_components": 3,
+            "n_neighbors": 5
+        },
+        0.24112531542778015
+    ],
+    [
+        {
+            "metric": "euclidean",
+            "min_dist": 0.4,
+            "n_components": 3,
+            "n_neighbors": 10
+        },
+        0.23961053788661957
+    ]
+]
