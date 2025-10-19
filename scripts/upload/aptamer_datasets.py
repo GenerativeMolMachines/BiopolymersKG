@@ -20,7 +20,7 @@ async def upload_rna():
           CALL(row) {
               MERGE (n:rna {
                 name: row.name,
-                content: row.content,
+                content: row.content
                 })
           } IN TRANSACTIONS OF 500 ROWS
     """
@@ -33,7 +33,7 @@ async def upload_molecules():
           CALL(row) {
               MERGE (n:small_molecule {
                 name: row.name,
-                content: row.content,
+                content: row.content
                 })
           } IN TRANSACTIONS OF 500 ROWS
     """
