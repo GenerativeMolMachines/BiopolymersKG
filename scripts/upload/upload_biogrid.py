@@ -1,18 +1,16 @@
+import os
+import dotenv
+import asyncio
 from neo4j import GraphDatabase
 
-import tqdm
-import numpy as np
-import pandas as pd
+dotenv.load_dotenv()
 
 
-db_api = "*"
-db_login = "*"
-db_password = "*"
+db_api = os.environ["NEO4J_URL"]
+db_login = os.environ["NEO4J_URL"]
+db_password = os.environ["NEO4J_URL"]
 
-driver = GraphDatabase.driver(
-    db_api,
-    auth=(db_login, db_password)
-)
+driver = GraphDatabase.driver(db_api, auth=(db_login, db_password))
 driver.verify_connectivity()
 
 def upload_proteins():
@@ -41,6 +39,20 @@ def upload_proteins():
                     representation_type=item['representation_type'],
                     content=item['content'],
                 )
+
+async def upload_proteins():
+    query = """
+          LOAD CSV WITH HEADERS FROM 'file:///binding_db_proteins.csv' AS row
+          CALL(row) {
+              MERGE (n:protein {
+                name: row.name,
+                content: row.content,
+                representation_type: row.representation_type,
+                annotation: coalesce(row.annotation, '')
+                })
+          } IN TRANSACTIONS OF 500 ROWS
+    """
+    driver.execute_query(query)
 
 
 def upload_interactions():
