@@ -7,8 +7,8 @@ dotenv.load_dotenv()
 
 
 db_api = os.environ["NEO4J_URL"]
-db_login = os.environ["NEO4J_URL"]
-db_password = os.environ["NEO4J_URL"]
+db_login = os.environ["NEO4J_USER"]
+db_password = os.environ["NEO4J_PASSWORD"]
 
 driver = GraphDatabase.driver(db_api, auth=(db_login, db_password))
 driver.verify_connectivity()
