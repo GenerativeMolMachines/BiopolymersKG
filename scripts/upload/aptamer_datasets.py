@@ -24,7 +24,8 @@ async def upload_rna():
                 })
           } IN TRANSACTIONS OF 500 ROWS
     """
-    driver.execute_query(query)
+    with driver.session() as session:
+        session.run(query)
 
 
 async def upload_molecules():
@@ -37,7 +38,8 @@ async def upload_molecules():
                 })
           } IN TRANSACTIONS OF 500 ROWS
     """
-    driver.execute_query(query)
+    with driver.session() as session:
+        session.run(query)
 
 
 def upload_interactions():
@@ -49,7 +51,8 @@ def upload_interactions():
               MERGE (r)-[:interacts_with {kd: coalesce(row.kd, 'NaN')}]-(s)
           } IN TRANSACTIONS OF 500 ROWS
     """
-    driver.execute_query(query)
+    with driver.session() as session:
+        session.run(query)
 
 
 async def main():
