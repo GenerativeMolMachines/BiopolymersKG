@@ -47,7 +47,7 @@ def upload_interactions():
           LOAD CSV WITH HEADERS FROM 'file:///aptamer_datasets/aptamers_annotation.csv' AS row
           CALL(row) {
               MATCH (r:rna {name: row.RNA_name, content: row.rna_content}),
-              (s:small_molecule {name: row.small_molecule_name, row.small_molecule_content})
+              (s:small_molecule {name: row.small_molecule_name, content: row.small_molecule_content})
               MERGE (r)-[:interacts_with {kd: coalesce(row.kd, 'NaN')}]-(s)
           } IN TRANSACTIONS OF 500 ROWS
     """
