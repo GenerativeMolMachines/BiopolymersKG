@@ -30,7 +30,7 @@ async def upload_proteins():
 
 async def upload_molecules():
     query = """
-          LOAD CSV WITH HEADERS FROM 'file:///processed_/binding_db_molecules.csv' AS row
+          LOAD CSV WITH HEADERS FROM 'file:///processed_binding_db/binding_db_molecules.csv' AS row
           CALL(row) {
               MERGE (n:small_moleule {
                 name: row.molecule_name,
