@@ -7,8 +7,8 @@ dotenv.load_dotenv()
 
 
 db_api = os.environ["NEO4J_URL"]
-db_login = os.environ["NEO4J_URL"]
-db_password = os.environ["NEO4J_URL"]
+db_login = os.environ["NEO4J_USER"]
+db_password = os.environ["NEO4J_PASSWORD"]
 
 driver = GraphDatabase.driver(db_api, auth=(db_login, db_password))
 driver.verify_connectivity()
@@ -16,41 +16,46 @@ driver.verify_connectivity()
 
 async def upload_proteins():
     query = """
-          LOAD CSV WITH HEADERS FROM 'file:///binding_db_proteins.csv' AS row
+          LOAD CSV WITH HEADERS FROM 'file:///processed_binding_db/binding_db_proteins.csv' AS row
           CALL(row) {
               MERGE (n:protein {
-                name: row.name,
-                content: row.content,
-                representation_type: row.representation_type,
-                annotation: coalesce(row.annotation, '')
+                name: row.protein_name,
+                content: row.protein_sequence,
                 })
-          } IN TRANSACTIONS OF 500 ROWS
+          } IN TRANSACTIONS OF 1000 ROWS
     """
     driver.execute_query(query)
 
 
 async def upload_molecules():
     query = """
-          LOAD CSV WITH HEADERS FROM 'file:///binding_db_molecules.csv' AS row
+          LOAD CSV WITH HEADERS FROM 'file:///processed_/binding_db_molecules.csv' AS row
           CALL(row) {
               MERGE (n:small_moleule {
-                name: row.name,
-                content: row.content,
-                representation_type: row.representation_type
+                name: row.molecule_name,
+                content: row.molecule_smiles,
                 })
-          } IN TRANSACTIONS OF 500 ROWS
+          } IN TRANSACTIONS OF 1000 ROWS
     """
     driver.execute_query(query)
 
 
 def upload_interactions():
     query = """
-          LOAD CSV WITH HEADERS FROM 'file:///binding_db_protein_molecule_interaction.csv' AS row
+          LOAD CSV WITH HEADERS FROM 'file:///processed_binding_db/binding_db_interactions_unique.csv' AS row
           CALL(row) {
-              MATCH (p:protein {name: row.protein_name, content: row.protein_name_content}),
-              (s:small_molecule {name: row.small_molecule_name, row.small_molecule_content})
-              MERGE (p)-[:interacts_with {kd: coalesce(row.kd, 'NaN')}]-(s)
-          } IN TRANSACTIONS OF 500 ROWS
+              MATCH (p:protein {name: row.protein_name, content: row.protein_sequence}),
+              (s:small_molecule {name: row.molecule_name, row.molecule_smiles})
+              MERGE (p)-[:interacts_with {
+                  kd: coalesce(row.kd, 'NaN'),
+                  Ki_nM: coalesce(row.Ki_nM, 'NaN'),
+                  IC50_nM: coalesce(row.IC50_nM, 'NaN'),
+                  Kd_nM: coalesce(row.Kd_nM, 'NaN'),
+                  EC50_nM: coalesce(row.EC50_nM, 'NaN'),
+                  pH: coalesce(row.pH, 'NaN'),
+                  Temp_C: coalesce(row.Temp_C, 'NaN')
+              }]-(s)
+          } IN TRANSACTIONS OF 1000 ROWS
     """
     driver.execute_query(query)
 
