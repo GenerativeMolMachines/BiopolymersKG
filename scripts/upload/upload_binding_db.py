@@ -24,7 +24,8 @@ async def upload_proteins():
                 })
           } IN TRANSACTIONS OF 1000 ROWS
     """
-    driver.execute_query(query)
+    with driver.session() as session:
+        session.run(query)
 
 
 async def upload_molecules():
@@ -37,7 +38,8 @@ async def upload_molecules():
                 })
           } IN TRANSACTIONS OF 1000 ROWS
     """
-    driver.execute_query(query)
+    with driver.session() as session:
+        session.run(query)
 
 
 def upload_interactions():
@@ -57,7 +59,8 @@ def upload_interactions():
               }]-(s)
           } IN TRANSACTIONS OF 1000 ROWS
     """
-    driver.execute_query(query)
+    with driver.session() as session:
+        session.run(query)
 
 
 async def main():
