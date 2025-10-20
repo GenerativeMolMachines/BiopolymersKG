@@ -20,7 +20,7 @@ async def upload_proteins():
           CALL(row) {
               MERGE (n:protein {
                 name: row.protein_name,
-                content: row.protein_sequence,
+                content: row.protein_sequence
                 })
           } IN TRANSACTIONS OF 1000 ROWS
     """
@@ -33,7 +33,7 @@ async def upload_molecules():
           CALL(row) {
               MERGE (n:small_moleule {
                 name: row.molecule_name,
-                content: row.molecule_smiles,
+                content: row.molecule_smiles
                 })
           } IN TRANSACTIONS OF 1000 ROWS
     """
