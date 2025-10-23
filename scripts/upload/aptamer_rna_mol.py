@@ -16,13 +16,13 @@ driver.verify_connectivity()
 
 async def upload_rna():
     query = """
-          LOAD CSV WITH HEADERS FROM 'file:///aptamers_interactions/aptamer.csv' AS row
+          LOAD CSV WITH HEADERS FROM 'file:///new_aptamers_rna_mol/rna.csv' AS row
           CALL(row) {
               MERGE (n:rna {
                 name: row.name,
                 content: row.content
                 })
-          } IN TRANSACTIONS OF 500 ROWS
+          } IN TRANSACTIONS OF 1000 ROWS
     """
     with driver.session() as session:
         session.run(query)
@@ -30,13 +30,13 @@ async def upload_rna():
 
 async def upload_molecules():
     query = """
-          LOAD CSV WITH HEADERS FROM 'file:///aptamers_interactions/small_molecule.csv' AS row
+          LOAD CSV WITH HEADERS FROM 'file:///new_aptamers_rna_mol/small_molecule.csv' AS row
           CALL(row) {
               MERGE (n:small_molecule {
                 name: row.name,
                 content: row.content
                 })
-          } IN TRANSACTIONS OF 500 ROWS
+          } IN TRANSACTIONS OF 1000 ROWS
     """
     with driver.session() as session:
         session.run(query)
@@ -44,12 +44,12 @@ async def upload_molecules():
 
 def upload_interactions():
     query = """
-          LOAD CSV WITH HEADERS FROM 'file:///aptamers_interactions/aptamers_annotation.csv' AS row
+          LOAD CSV WITH HEADERS FROM 'file:///new_aptamers_rna_mol/new_aptamers_interactions.csv' AS row
           CALL(row) {
-              MATCH (r:rna {name: row.RNA_name, content: row.rna_content}),
-              (s:small_molecule {name: row.small_molecule_name, content: row.small_molecule_content})
-              MERGE (r)-[:interacts_with {kd: coalesce(row.kd, 'NaN')}]-(s)
-          } IN TRANSACTIONS OF 500 ROWS
+              MATCH (r:rna {name: row.apt_name, content: row.apt_seq}),
+              (s:small_molecule {name: row.target_name, content: row.target_seq})
+              MERGE (r)-[:interacts_with]-(s)
+          } IN TRANSACTIONS OF 1000 ROWS
     """
     with driver.session() as session:
         session.run(query)

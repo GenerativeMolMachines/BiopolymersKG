@@ -61,21 +61,69 @@ if __name__ == "__main__":
     )
     antibody_target.to_csv(os.path.join(PREPARED_DATA_PATH, "new_antibody", "new_antibody_interactions.csv"), index=False)
 
-    aptamers_target = pd.read_csv(
-        "data/reparsing/аня_парсинг/new_aptamers_interactions.csv",
+    dna_aptamers_mol_target = pd.read_csv(
+        "data/reparsing/aptamers_interactions/new_aptamers_dna_mol_interactions.csv",
         index_col="Unnamed: 0",
     )
     split_df(
-        aptamers_target,
+        dna_aptamers_mol_target,
         entity_1_name_col="apt_name",
         entity_1_content_col="apt_seq",
-        entity_1_label="aptamer",
+        entity_1_label="dna",
         entity_2_name_col="target_name",
         entity_2_content_col="target_seq",
         entity_2_label="small_molecule",
-        prefix="new_aptamers"
+        prefix="new_aptamers_dna_mol"
     )
-    aptamers_target.to_csv(os.path.join(PREPARED_DATA_PATH, "new_aptamers", "new_aptamers_interactions.csv"), index=False)
+    dna_aptamers_mol_target.to_csv(os.path.join(PREPARED_DATA_PATH, "new_aptamers_dna_mol", "new_aptamers_interactions.csv"), index=False)
+
+    rna_aptamers_mol_target = pd.read_csv(
+        "data/reparsing/aptamers_interactions/new_aptamers_rna_mol_interactions.csv",
+        index_col="Unnamed: 0",
+    )
+    split_df(
+        rna_aptamers_mol_target,
+        entity_1_name_col="apt_name",
+        entity_1_content_col="apt_seq",
+        entity_1_label="rna",
+        entity_2_name_col="target_name",
+        entity_2_content_col="target_seq",
+        entity_2_label="small_molecule",
+        prefix="new_aptamers_rna_mol"
+    )
+    rna_aptamers_mol_target.to_csv(os.path.join(PREPARED_DATA_PATH, "new_aptamers_rna_mol", "new_aptamers_interactions.csv"), index=False)
+
+    dna_aptamers_protein_target = pd.read_csv(
+        "data/reparsing/aptamers_interactions/new_aptamers_dna_protein_interactions.csv",
+        index_col="Unnamed: 0",
+    )
+    split_df(
+        dna_aptamers_protein_target,
+        entity_1_name_col="apt_name",
+        entity_1_content_col="apt_seq",
+        entity_1_label="dna",
+        entity_2_name_col="target_name",
+        entity_2_content_col="target_seq",
+        entity_2_label="protein",
+        prefix="new_aptamers_dna_protein"
+    )
+    dna_aptamers_protein_target.to_csv(os.path.join(PREPARED_DATA_PATH, "new_aptamers_dna_protein", "new_aptamers_interactions.csv"), index=False)
+
+    rna_aptamers_protein_target = pd.read_csv(
+        "data/reparsing/aptamers_interactions/new_aptamers_rna_protein_interactions.csv",
+        index_col="Unnamed: 0",
+    )
+    split_df(
+        rna_aptamers_protein_target,
+        entity_1_name_col="apt_name",
+        entity_1_content_col="apt_seq",
+        entity_1_label="rna",
+        entity_2_name_col="target_name",
+        entity_2_content_col="target_seq",
+        entity_2_label="protein",
+        prefix="new_aptamers_rna_protein"
+    )
+    rna_aptamers_protein_target.to_csv(os.path.join(PREPARED_DATA_PATH, "new_aptamers_rna_protein", "new_aptamers_interactions.csv"), index=False)
 
     repeats_df = pd.read_csv(
         "data/reparsing/иван_парсинг/Repeats_annotation.csv",
