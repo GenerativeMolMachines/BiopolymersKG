@@ -65,6 +65,13 @@ if __name__ == "__main__":
         "data/reparsing/aptamers_interactions/new_aptamers_dna_mol_interactions.csv",
         index_col="Unnamed: 0",
     )
+    aptamers_mandatory_columns = [
+        "apt_name",
+        "apt_seq",
+        "target_name",
+        "target_seq",
+    ]
+    dna_aptamers_mol_target.dropna(subset=aptamers_mandatory_columns, inplace=True)
     split_df(
         dna_aptamers_mol_target,
         entity_1_name_col="apt_name",
@@ -81,6 +88,7 @@ if __name__ == "__main__":
         "data/reparsing/aptamers_interactions/new_aptamers_rna_mol_interactions.csv",
         index_col="Unnamed: 0",
     )
+    rna_aptamers_mol_target.dropna(subset=aptamers_mandatory_columns, inplace=True)
     split_df(
         rna_aptamers_mol_target,
         entity_1_name_col="apt_name",
@@ -97,6 +105,7 @@ if __name__ == "__main__":
         "data/reparsing/aptamers_interactions/new_aptamers_dna_protein_interactions.csv",
         index_col="Unnamed: 0",
     )
+    dna_aptamers_protein_target.dropna(subset=aptamers_mandatory_columns, inplace=True)
     split_df(
         dna_aptamers_protein_target,
         entity_1_name_col="apt_name",
@@ -113,6 +122,7 @@ if __name__ == "__main__":
         "data/reparsing/aptamers_interactions/new_aptamers_rna_protein_interactions.csv",
         index_col="Unnamed: 0",
     )
+    rna_aptamers_protein_target.dropna(subset=aptamers_mandatory_columns, inplace=True)
     split_df(
         rna_aptamers_protein_target,
         entity_1_name_col="apt_name",
