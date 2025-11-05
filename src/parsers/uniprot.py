@@ -530,20 +530,23 @@ def main():
     """
     Основная функция
     """
-    csv_file_path = input("Введите путь к CSV файлу с данными: ").strip()
+    # csv_file_path = input("Введите путь к CSV файлу с данными: ").strip()
+    csv_file_path = "data/db_export_proteins.csv"
     
     if not os.path.exists(csv_file_path):
         print(f"Файл {csv_file_path} не найден!")
         return
     
-    output_file = input("Введите имя для выходного файла (или нажмите Enter для 'uniprot_sequence_results.csv'): ").strip()
-    if not output_file:
-        output_file = "uniprot_sequence_results.csv"
+    # output_file = input("Введите имя для выходного файла (или нажмите Enter для 'uniprot_sequence_results.csv'): ").strip()
+    # if not output_file:
+    output_file = "results/uniprot_sequence_results.csv"
     
-    try:
-        max_results = int(input("Максимальное количество результатов на запрос (по умолчанию 10): ").strip() or "10")
-    except ValueError:
-        max_results = 10
+    # try:
+    #     max_results = int(input("Максимальное количество результатов на запрос (по умолчанию 10): ").strip() or "10")
+    # except ValueError:
+    #     max_results = 10
+
+    max_results = 10
     
     print(f"\nНастройки поиска:")
     print(f"  Файл данных: {csv_file_path}")

@@ -305,27 +305,32 @@ def main():
     Основная функция для обработки датасета
     """
     # Запрос пути к файлу
-    csv_file_path = input("Введите путь к CSV файлу с данными: ").strip()
-    
+    # csv_file_path = input("Введите путь к CSV файлу с данными: ").strip()
+    csv_file_path = "data/db_export_proteins.csv"
+
     # Проверяем существование файла
     if not os.path.exists(csv_file_path):
         print(f"Файл {csv_file_path} не найден!")
         return
     
     # Запрос имени выходного файла
-    output_file = input("Введите имя для выходного файла (или нажмите Enter для 'pdb_results.csv'): ").strip()
-    if not output_file:
-        output_file = "pdb_results.csv"
-    
+    # output_file = input("Введите имя для выходного файла (или нажмите Enter для 'pdb_results.csv'): ").strip()
+    # if not output_file:
+    #     output_file = "pdb_results.csv"
+
+    output_file = "results/pdb_results.csv"
+
     # Запрос порога идентичности
-    try:
-        identity_cutoff = float(input("Введите порог идентичности (0.0-1.0, по умолчанию 0.8): ").strip() or "0.8")
-        if not 0.0 <= identity_cutoff <= 1.0:
-            print("Порог должен быть между 0.0 и 1.0, использую 0.8")
-            identity_cutoff = 0.8
-    except ValueError:
-        print("Некорректное значение, использую 0.8")
-        identity_cutoff = 0.8
+    identity_cutoff = 0.8
+
+    # try:
+    #     identity_cutoff = float(input("Введите порог идентичности (0.0-1.0, по умолчанию 0.8): ").strip() or "0.8")
+    #     if not 0.0 <= identity_cutoff <= 1.0:
+    #         print("Порог должен быть между 0.0 и 1.0, использую 0.8")
+    #         identity_cutoff = 0.8
+    # except ValueError:
+    #     print("Некорректное значение, использую 0.8")
+    #     identity_cutoff = 0.8
     
     print(f"\nНастройки поиска:")
     print(f"  Файл данных: {csv_file_path}")
