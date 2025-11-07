@@ -44,10 +44,11 @@ async def upload_molecules():
 
 def upload_interactions():
     query = """
-          LOAD CSV WITH HEADERS FROM 'file:///processed_binding_db/binding_db_interactions_unique.csv' AS row
+          LOAD CSV WITH HEADERS FROM 'file:///processed_binding_db/binding_db_interactions_nodeids.csv' AS row
           CALL(row) {
-              MATCH (p:protein {name: row.protein_name, content: row.protein_sequence}),
-              (s:small_molecule {name: row.molecule_name, row.molecule_smiles})
+              MATCH (p:protein),
+              (s:small_molecule)
+              WHERE id(p) = row.protein_nodeid AND id(s) = row.molecule_nodeid
               MERGE (p)-[:interacts_with {
                   kd: coalesce(row.kd, 'NaN'),
                   Ki_nM: coalesce(row.Ki_nM, 'NaN'),
@@ -64,12 +65,12 @@ def upload_interactions():
 
 
 async def main():
-    tasks = [
-        asyncio.create_task(upload_proteins()),
-        asyncio.create_task(upload_molecules()),
-    ]
+    # tasks = [
+    #     asyncio.create_task(upload_proteins()),
+    #     asyncio.create_task(upload_molecules()),
+    # ]
 
-    await asyncio.gather(*tasks)
+    # await asyncio.gather(*tasks)
 
     upload_interactions()
 
