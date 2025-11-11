@@ -174,4 +174,5 @@ cython_debug/
 protnlm
 
 raw_data
-data
+#data
+/results
