@@ -33,9 +33,6 @@ def rename_entities(
 ) -> pd.DataFrame:
     start = time.perf_counter()
 
-    print(df.shape)
-    print(df[df[hash_col].isin(node_df["hash"])].shape)
-
     merged_df = df.merge(
         node_df[["nodeid", "hash"]],
         left_on=hash_col,
@@ -50,66 +47,98 @@ def rename_entities(
     return merged_df
 
 
-def main():
+def filter_similarity_df(df: pd.DataFrame) -> pd.DataFrame:
+    filtered_df = df[~(
+        (df["name_1"] == df["name_2"]) & (df["content_1"] == df["content_2"])
+    )]
+    return filtered_df
+
+
+def hash_nodes_similarity(
+    similarity_df: pd.DataFrame,
+    nodes_df: pd.DataFrame,
+) -> pd.DataFrame:
+    nodes_hashed_df = hash_df(
+        nodes_df,
+        "name",
+        "content",
+        "hash",
+    )
+    print("rows before:", similarity_df.shape[0])
+    similarity_hashed_df = hash_df(
+        similarity_df,
+        "name_1",
+        "content_1",
+        "hash_1",
+    )
+    similarity_hashed_df = hash_df(
+        similarity_hashed_df,
+        "name_2",
+        "content_2",
+        "hash_2",
+    )
+    merged_hash_df = rename_entities(
+        similarity_hashed_df,
+        "nodeid_1",
+        "hash_1",
+        nodes_hashed_df,
+    )
+    merged_hash_df = rename_entities(
+        merged_hash_df,
+        "nodeid_2",
+        "hash_2",
+        nodes_hashed_df,
+    )
+    print("rows after:", merged_hash_df.shape[0])
+    return merged_hash_df
+
+
+def rename_similarity():
     start = time.perf_counter()
 
     protein_nodes_df = pd.read_csv("data/entities/neo4j_proteins.csv")
     small_molecule_nodes_df = pd.read_csv("data/entities/neo4j_small_molecules.csv")
-    binding_db_df = pd.read_csv("~/Downloads/processed_binding_db 2/binding_db_interactions_unique.csv")
-    
+    dna_nodes_df = pd.read_csv("data/entities/db_dna.csv")
+    rna_nodes_df = pd.read_csv("data/entities/db_rna.csv")
+
+    dna_similarity = pd.read_csv("data/db_similarity/dna_similarity_80.csv")
+    rna_similarity = pd.read_csv("data/db_similarity/rna_similarity_80.csv")
+    protein_similarity = pd.read_csv("data/db_similarity/similarity_proteins.csv")
+    small_molecule_similarity = pd.read_csv("data/db_similarity/similarity_small_molecule.csv")
+
     print(f"df reading time: {time.perf_counter() - start:.3f} s.")
-    
-    print("protein hash")
-    protein_nodes_hashed_df = hash_df(
-        protein_nodes_df,
-        "name",
-        "content",
-        "hash"
+
+    print("df filtering")
+    dna_similarity = filter_similarity_df(dna_similarity)
+    rna_similarity = filter_similarity_df(rna_similarity)
+    protein_similarity = filter_similarity_df(protein_similarity)
+    small_molecule_similarity = filter_similarity_df(small_molecule_similarity)
+ 
+    print("df hash and merge")
+
+    print("dna")
+    hashed_dna_similarity = hash_nodes_similarity(dna_similarity, dna_nodes_df)
+
+    print("rna")
+    hashed_rna_similarity = hash_nodes_similarity(rna_similarity, rna_nodes_df)
+
+    print("protein")
+    hashed_protein_similarity = hash_nodes_similarity(protein_similarity, protein_nodes_df)
+
+    print("small molecules")
+    hashed_small_molecule_similarity = hash_nodes_similarity(
+        small_molecule_similarity,
+        small_molecule_nodes_df
     )
 
-    print("small molecules hash")
-    small_molecule_nodes_hashed_df = hash_df(
-        small_molecule_nodes_df,
-        "name",
-        "content",
-        "hash"
-    )
-
-    print("protein hash in interactions")
-    binding_db_hashed_df = hash_df(
-        binding_db_df,
-        "protein_name",
-        "protein_sequence",
-        "protein_hash"
-    )
-
-    print("small molecule hash in interactions")
-    binding_db_hashed_df = hash_df(
-        binding_db_hashed_df,
-        "molecule_name",
-        "molecule_smiles",
-        "molecule_hash"
-    )
-
-    print("merge for proteins")
-    merged_binding_df = rename_entities(
-        binding_db_hashed_df,
-        "protein_nodeid",
-        "protein_hash",
-        protein_nodes_hashed_df,
-    )
-
-    print("merge for small molecules")
-    merged_binding_df = rename_entities(
-        merged_binding_df,
-        "molecule_nodeid",
-        "molecule_hash",
-        small_molecule_nodes_hashed_df,
-    )
-
+    print("df write")
     write_start = time.perf_counter()
 
-    merged_binding_df.to_csv("data/binding_db_interactions_nodeids.csv")
+    hashed_dna_similarity.to_csv("data/db_similarity/hashed/dna_similarity.csv")
+    hashed_rna_similarity.to_csv("data/db_similarity/hashed/rna_similarity.csv")
+    hashed_protein_similarity.to_csv("data/db_similarity/hashed/protein_similarity.csv")
+    hashed_small_molecule_similarity.to_csv("data/db_similarity/hashed/small_molecule_similarity.csv")
+
     end = time.perf_counter()
 
     print(f"df write time: {end - write_start:.3f} s.")
@@ -118,5 +147,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    rename_similarity()
 

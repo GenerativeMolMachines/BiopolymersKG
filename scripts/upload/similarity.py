@@ -16,10 +16,10 @@ driver.verify_connectivity()
 
 async def upload_rna_similarity():
     query = """
-    LOAD CSV WITH HEADERS FROM 'file:///similarity_new/rna_similarity.csv' AS row
+    LOAD CSV WITH HEADERS FROM 'file:///db_similarity/rna_similarity.csv' AS row
           CALL(row) {
-              MATCH (r1:rna {name: row.name_1, content: row.sequence_1}),
-              (r2:rna {name: row.name_2, content: row.sequence_2}),
+              MATCH (r1:rna) WHERE id(r1) = toInteger(row.nodeid_1)
+              MATCH (r2:rna) WHERE id(r2) = toInteger(row.nodeid_2)
               MERGE (r1)-[:has_similarity {score: row.score}]-(r2)
           } IN TRANSACTIONS OF 1000 ROWS
     """
@@ -31,10 +31,10 @@ async def upload_rna_similarity():
 
 async def upload_dna_similarity():
     query = """
-    LOAD CSV WITH HEADERS FROM 'file:///similarity_new/dna_similarity.csv' AS row
+    LOAD CSV WITH HEADERS FROM 'file:///db_similarity/dna_similarity.csv' AS row
           CALL(row) {
-              MATCH (r1:dna {name: row.name_1, content: row.sequence_1}),
-              (r2:dna {name: row.name_2, content: row.sequence_2}),
+              MATCH (r1:dna) WHERE id(r1) = toInteger(row.nodeid_1)
+              MATCH (r2:dna) WHERE id(r2) = toInteger(row.nodeid_2)
               MERGE (r1)-[:has_similarity {score: row.score}]-(r2)
           } IN TRANSACTIONS OF 1000 ROWS
     """
@@ -46,11 +46,11 @@ async def upload_dna_similarity():
 
 async def upload_small_molecules_similarity():
     query = """
-    LOAD CSV WITH HEADERS FROM 'file:///similarity_new/small_molecule_similarity.csv' AS row
+    LOAD CSV WITH HEADERS FROM 'file:///db_similarity/small_molecule_similarity.csv' AS row
           CALL(row) {
-              MATCH (r1:small_molecule {name: row.name_1, content: row.sequence_1}),
-              (r2:small_molecule {name: row.name_2, content: row.sequence_2}),
-              MERGE (r1)-[:has_similarity {tanimoto: row.tanimoto}]-(r2)
+              MATCH (r1:small_molecule) WHERE id(r1) = toInteger(row.nodeid_1)
+              MATCH (r2:small_molecule) WHERE id(r2) = toInteger(row.nodeid_2)
+              MERGE (r1)-[:has_similarity {tanimoto: row.score}]-(r2)
           } IN TRANSACTIONS OF 1000 ROWS
     """
     with driver.session() as session:
