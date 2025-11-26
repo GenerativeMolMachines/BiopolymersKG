@@ -22,7 +22,7 @@ def get_rna_sm_links():
     links = rna_df[['nodeid']].merge(sm_df[['nodeid']], how='cross')
 
     idx1 = pd.MultiIndex.from_frame(links[['nodeid_x', 'nodeid_y']])
-    idx2 = pd.MultiIndex.from_frame(existing_links[['nodeid_1', 'nodeid_2']])
+    idx2 = pd.MultiIndex.from_frame(existing_links[['nodeid_rna', 'nodeid_sm']])
     links = links[~idx1.isin(idx2)]
 
     links.rename(
@@ -62,7 +62,7 @@ def get_prot_prot_links():
     links = links[links['nodeid_x'] != links['nodeid_y']]
 
     idx1 = pd.MultiIndex.from_frame(links[['nodeid_x', 'nodeid_y']])
-    idx2 = pd.MultiIndex.from_frame(existing_links[['nodeid_1', 'nodeid_2']])
+    idx2 = pd.MultiIndex.from_frame(existing_links[['nodeid_protein_1', 'nodeid_protein_2']])
     links = links[~idx1.isin(idx2)]
 
     links.rename(
