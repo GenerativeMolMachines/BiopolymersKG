@@ -176,3 +176,5 @@ protnlm
 raw_data
 #data
 /results
+tmp/*
+/data

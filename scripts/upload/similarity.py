@@ -1,9 +1,12 @@
 import os
+import warnings
 import dotenv
 import asyncio
 from neo4j import GraphDatabase
 
 dotenv.load_dotenv()
+
+warnings.filterwarnings("ignore")
 
 
 db_api = os.environ["NEO4J_URL"]

@@ -32,7 +32,7 @@ async def upload_molecules():
     query = """
           LOAD CSV WITH HEADERS FROM 'file:///processed_binding_db/binding_db_molecules.csv' AS row
           CALL(row) {
-              MERGE (n:small_moleule {
+              MERGE (n:small_molecule {
                 name: row.molecule_name,
                 content: row.molecule_smiles
                 })
@@ -46,9 +46,8 @@ def upload_interactions():
     query = """
           LOAD CSV WITH HEADERS FROM 'file:///processed_binding_db/binding_db_interactions_nodeids.csv' AS row
           CALL(row) {
-              MATCH (p:protein),
-              (s:small_molecule)
-              WHERE id(p) = row.protein_nodeid AND id(s) = row.molecule_nodeid
+              MATCH (p:protein) WHERE id(p) = toInteger(row.protein_nodeid)
+              MATCH (p:small_molecule) WHERE id(s) = toInteger(row.molecule_nodeid)
               MERGE (p)-[:interacts_with {
                   kd: coalesce(row.kd, 'NaN'),
                   Ki_nM: coalesce(row.Ki_nM, 'NaN'),
