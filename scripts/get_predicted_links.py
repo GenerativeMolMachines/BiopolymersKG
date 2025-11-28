@@ -92,7 +92,7 @@ def get_prot_dna_links():
     return links
 
 
-def main():
+def shuffle_data():
     out_dir = Path(DATA_PATH) / "predicted_links"
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -117,5 +117,12 @@ def main():
     gc.collect()
 
 
+def get_rna_sm_predictions():
+    pass
+
+
+def get_predictions():
+    pass
+
 if __name__ == "__main__":
-    main()
+    # shuffle_data()
