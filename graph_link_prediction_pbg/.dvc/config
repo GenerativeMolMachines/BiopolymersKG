@@ -1,0 +1,6 @@
+[core]
+    remote = aicltr
+[hydra]
+    enabled = True
+['remote "aicltr"']
+    url = s3://biopolymers

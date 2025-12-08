@@ -1,0 +1,71 @@
+stages:
+  prepare:
+    cmd: >
+      uv run torchbiggraph_import_from_tsv
+      --lhs-col=${import_data.lhs_col}
+      --rel-col=${import_data.rel_col}
+      --rhs-col=${import_data.rhs_col}
+      ${import_data.config_path}
+      ${import_data.train_path}
+      ${import_data.test_path}
+      ${import_data.val_path}
+    deps:
+      - ${import_data.config_path}
+      - ${import_data.train_path}
+      - ${import_data.test_path}
+      - ${import_data.val_path}
+    outs:
+      - ${entity_path}
+ 
+  train:
+    matrix:
+      comparator: ${train.scoring_model.comparator}
+    cmd: >
+      uv run torchbiggraph_train
+      ${train.config_path}
+      -p comparator=${item.comparator}
+      -p workers=${train.workers}
+      -p checkpoint_path=results/${item.comparator}_${operator}_checkpoint
+      -p edge_paths=${edge_paths.train} > logs/${key}_train.log
+    deps:
+      - ${train.config_path}
+      - ${entity_path}
+    outs:
+      - results/${item.comparator}_${operator}_checkpoint
+
+  eval:
+    matrix:
+      comparator: ${train.scoring_model.comparator}
+      sample:
+        - train
+        - test
+        - val
+    cmd: >
+      uv run torchbiggraph_eval
+      ${train.config_path}
+      -p workers=${train.workers}
+      -p checkpoint_path=results/${item.comparator}_${operator}_checkpoint
+      -p edge_paths=${entity_path}/${item.sample}_partitioned > logs/eval_${operator}_${key}.log
+    deps:
+      - results/${item.comparator}_${operator}_checkpoint
+      - ${train.config_path}
+      - ${entity_path}/${item.sample}_partitioned
+    outs:
+      - logs/eval_${operator}_${key}.log 
+
+  collect_metrics:
+    matrix:
+      comparator: ${train.scoring_model.comparator}
+      sample:
+        - train
+        - test
+        - val
+    cmd: >
+      ./tasks/awk_parse_metrics.sh logs/eval_${operator}_${key}.log > metrics/eval_${operator}_${key}_metrics.json
+    deps:
+      - tasks/awk_parse_metrics.sh
+      - logs/eval_${operator}_${key}.log 
+    metrics:
+      - metrics/eval_${operator}_${key}_metrics.json
+
+

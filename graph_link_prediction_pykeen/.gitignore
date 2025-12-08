@@ -1,0 +1,34 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+env/
+venv/
+ENV/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Slurm logs
+slurm-*.out
+
+# Data and Results (usually too large for git)
+# data/
+# results/
+
+
+# local dev
+check.ipynb
+concat_and_shaffle.py
+prepare_predicate.py
+

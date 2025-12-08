@@ -1,0 +1,15 @@
+[project]
+name = "link-pykeen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "neo4j>=6.0.3",
+    "networkx>=3.6",
+    "pandas>=2.3.3",
+    "plotly>=6.5.0",
+    "pykeen>=1.11.1",
+    "seaborn>=0.13.2",
+]

@@ -1,0 +1,3 @@
+train: data/partitions/train_partitioned
+test: data/partitions/test_partitioned
+val: data/partitions/val_partitioned

@@ -1,0 +1,384 @@
+schema: '2.0'
+stages:
+  prepare:
+    cmd: "uv run torchbiggraph_import_from_tsv --lhs-col=0 --rel-col=1 --rhs-col=2
+      pbg_configs/import_from_tsv.py resources/train.tsv resources/test.tsv resources/val.tsv\n"
+    deps:
+    - path: pbg_configs/import_from_tsv.py
+      hash: md5
+      md5: d3e0b3a59c4ea9fc9af280c0df18cc6e
+      size: 1026
+    - path: resources/test.tsv
+      hash: md5
+      md5: 4a4d1bc5706d27f456c930ff54f4e2e8
+      size: 18609163
+    - path: resources/train.tsv
+      hash: md5
+      md5: dae40bef072531f57b85596477a03d7d
+      size: 148492206
+    - path: resources/val.tsv
+      hash: md5
+      md5: ccffaec0d95f69c025504995b4c171db
+      size: 18610183
+    outs:
+    - path: data/partitions
+      hash: md5
+      md5: 793192c1bbfac826287e153b25e9b118.dir
+      size: 491905871
+      nfiles: 6
+  train@cos:
+    cmd: "uv run torchbiggraph_train pbg_configs/train.py -p comparator=cos -p workers=25
+      -p checkpoint_path=results/cos_diagonal_checkpoint -p edge_paths=data/partitions/train_partitioned
+      > logs/cos_train.log\n"
+    deps:
+    - path: data/partitions
+      hash: md5
+      md5: 793192c1bbfac826287e153b25e9b118.dir
+      size: 491905871
+      nfiles: 6
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    outs:
+    - path: results/cos_diagonal_checkpoint
+      hash: md5
+      md5: 88b6ae9e598ec5622001390d27dce97a.dir
+      size: 135590236826
+      nfiles: 153
+  train@dot:
+    cmd: "uv run torchbiggraph_train pbg_configs/train.py -p comparator=dot -p workers=25
+      -p checkpoint_path=results/dot_diagonal_checkpoint -p edge_paths=data/partitions/train_partitioned
+      > logs/dot_train.log\n"
+    deps:
+    - path: data/partitions
+      hash: md5
+      md5: 793192c1bbfac826287e153b25e9b118.dir
+      size: 491905871
+      nfiles: 6
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    outs:
+    - path: results/dot_diagonal_checkpoint
+      hash: md5
+      md5: 801905d02752215c98cb6a0793d92f60.dir
+      size: 135590236744
+      nfiles: 153
+  train@l2:
+    cmd: "uv run torchbiggraph_train pbg_configs/train.py -p comparator=l2 -p workers=25
+      -p checkpoint_path=results/l2_diagonal_checkpoint -p edge_paths=data/partitions/train_partitioned
+      > logs/l2_train.log\n"
+    deps:
+    - path: data/partitions
+      hash: md5
+      md5: 793192c1bbfac826287e153b25e9b118.dir
+      size: 491905871
+      nfiles: 6
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    outs:
+    - path: results/l2_diagonal_checkpoint
+      hash: md5
+      md5: 6763e180acc0931a4ba40c3b4e296c05.dir
+      size: 135590236601
+      nfiles: 153
+  train@squared_l2:
+    cmd: "uv run torchbiggraph_train pbg_configs/train.py -p comparator=squared_l2
+      -p workers=25 -p checkpoint_path=results/squared_l2_diagonal_checkpoint -p edge_paths=data/partitions/train_partitioned
+      > logs/squared_l2_train.log\n"
+    deps:
+    - path: data/partitions
+      hash: md5
+      md5: 793192c1bbfac826287e153b25e9b118.dir
+      size: 491905871
+      nfiles: 6
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    outs:
+    - path: results/squared_l2_diagonal_checkpoint
+      hash: md5
+      md5: a03333f3c2fff3812f7043bc8fa08d85.dir
+      size: 135590236737
+      nfiles: 153
+  eval@cos-train:
+    cmd: "uv run torchbiggraph_eval pbg_configs/train.py -p workers=25 -p checkpoint_path=results/cos_diagonal_checkpoint
+      -p edge_paths=data/partitions/train_partitioned > logs/eval_diagonal_cos-train.log\n"
+    deps:
+    - path: data/partitions/train_partitioned
+      hash: md5
+      md5: 6dedbbf8c7540c5a8e83b3ff96ca57bf.dir
+      size: 157294720
+      nfiles: 1
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    - path: results/cos_diagonal_checkpoint
+      hash: md5
+      md5: 88b6ae9e598ec5622001390d27dce97a.dir
+      size: 135590236826
+      nfiles: 153
+    outs:
+    - path: logs/eval_diagonal_cos-train.log
+      hash: md5
+      md5: 9443e7a4905498c1051f67edb501ab31
+      size: 4149
+  eval@cos-test:
+    cmd: "uv run torchbiggraph_eval pbg_configs/train.py -p workers=25 -p checkpoint_path=results/cos_diagonal_checkpoint
+      -p edge_paths=data/partitions/test_partitioned > logs/eval_diagonal_cos-test.log\n"
+    deps:
+    - path: data/partitions/test_partitioned
+      hash: md5
+      md5: 9fcca11055b91c46e1afa8f157171f13.dir
+      size: 157294720
+      nfiles: 1
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    - path: results/cos_diagonal_checkpoint
+      hash: md5
+      md5: 88b6ae9e598ec5622001390d27dce97a.dir
+      size: 135590236826
+      nfiles: 153
+    outs:
+    - path: logs/eval_diagonal_cos-test.log
+      hash: md5
+      md5: a7e9806be07eb740ddd1cecea5cb15e8
+      size: 4142
+  eval@cos-val:
+    cmd: "uv run torchbiggraph_eval pbg_configs/train.py -p workers=25 -p checkpoint_path=results/cos_diagonal_checkpoint
+      -p edge_paths=data/partitions/val_partitioned > logs/eval_diagonal_cos-val.log\n"
+    deps:
+    - path: data/partitions/val_partitioned
+      hash: md5
+      md5: e8416742895ac868e0ac4e45249d9a10.dir
+      size: 157294720
+      nfiles: 1
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    - path: results/cos_diagonal_checkpoint
+      hash: md5
+      md5: 88b6ae9e598ec5622001390d27dce97a.dir
+      size: 135590236826
+      nfiles: 153
+    outs:
+    - path: logs/eval_diagonal_cos-val.log
+      hash: md5
+      md5: a3def8f17fad4a02344b50f7e7aaea1a
+      size: 4143
+  eval@dot-train:
+    cmd: "uv run torchbiggraph_eval pbg_configs/train.py -p workers=25 -p checkpoint_path=results/dot_diagonal_checkpoint
+      -p edge_paths=data/partitions/train_partitioned > logs/eval_diagonal_dot-train.log\n"
+    deps:
+    - path: data/partitions/train_partitioned
+      hash: md5
+      md5: 6dedbbf8c7540c5a8e83b3ff96ca57bf.dir
+      size: 157294720
+      nfiles: 1
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    - path: results/dot_diagonal_checkpoint
+      hash: md5
+      md5: 801905d02752215c98cb6a0793d92f60.dir
+      size: 135590236744
+      nfiles: 153
+    outs:
+    - path: logs/eval_diagonal_dot-train.log
+      hash: md5
+      md5: fe4e1adb5f9fab2f1c6156623f113022
+      size: 4151
+  eval@dot-test:
+    cmd: "uv run torchbiggraph_eval pbg_configs/train.py -p workers=25 -p checkpoint_path=results/dot_diagonal_checkpoint
+      -p edge_paths=data/partitions/test_partitioned > logs/eval_diagonal_dot-test.log\n"
+    deps:
+    - path: data/partitions/test_partitioned
+      hash: md5
+      md5: 9fcca11055b91c46e1afa8f157171f13.dir
+      size: 157294720
+      nfiles: 1
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    - path: results/dot_diagonal_checkpoint
+      hash: md5
+      md5: 801905d02752215c98cb6a0793d92f60.dir
+      size: 135590236744
+      nfiles: 153
+    outs:
+    - path: logs/eval_diagonal_dot-test.log
+      hash: md5
+      md5: 4f380d34f6ede7dd8a86c02cc5c168b8
+      size: 4145
+  eval@dot-val:
+    cmd: "uv run torchbiggraph_eval pbg_configs/train.py -p workers=25 -p checkpoint_path=results/dot_diagonal_checkpoint
+      -p edge_paths=data/partitions/val_partitioned > logs/eval_diagonal_dot-val.log\n"
+    deps:
+    - path: data/partitions/val_partitioned
+      hash: md5
+      md5: e8416742895ac868e0ac4e45249d9a10.dir
+      size: 157294720
+      nfiles: 1
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    - path: results/dot_diagonal_checkpoint
+      hash: md5
+      md5: 801905d02752215c98cb6a0793d92f60.dir
+      size: 135590236744
+      nfiles: 153
+    outs:
+    - path: logs/eval_diagonal_dot-val.log
+      hash: md5
+      md5: c098201a20409ffa609d9c756bcc5e92
+      size: 4148
+  eval@l2-train:
+    cmd: "uv run torchbiggraph_eval pbg_configs/train.py -p workers=25 -p checkpoint_path=results/l2_diagonal_checkpoint
+      -p edge_paths=data/partitions/train_partitioned > logs/eval_diagonal_l2-train.log\n"
+    deps:
+    - path: data/partitions/train_partitioned
+      hash: md5
+      md5: 6dedbbf8c7540c5a8e83b3ff96ca57bf.dir
+      size: 157294720
+      nfiles: 1
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    - path: results/l2_diagonal_checkpoint
+      hash: md5
+      md5: 6763e180acc0931a4ba40c3b4e296c05.dir
+      size: 135590236601
+      nfiles: 153
+    outs:
+    - path: logs/eval_diagonal_l2-train.log
+      hash: md5
+      md5: a29a068967f5fd71b60306ad78619c77
+      size: 4150
+  eval@l2-test:
+    cmd: "uv run torchbiggraph_eval pbg_configs/train.py -p workers=25 -p checkpoint_path=results/l2_diagonal_checkpoint
+      -p edge_paths=data/partitions/test_partitioned > logs/eval_diagonal_l2-test.log\n"
+    deps:
+    - path: data/partitions/test_partitioned
+      hash: md5
+      md5: 9fcca11055b91c46e1afa8f157171f13.dir
+      size: 157294720
+      nfiles: 1
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    - path: results/l2_diagonal_checkpoint
+      hash: md5
+      md5: 6763e180acc0931a4ba40c3b4e296c05.dir
+      size: 135590236601
+      nfiles: 153
+    outs:
+    - path: logs/eval_diagonal_l2-test.log
+      hash: md5
+      md5: 8ce2d9a32eeb966440cfdae5486256ad
+      size: 4141
+  eval@l2-val:
+    cmd: "uv run torchbiggraph_eval pbg_configs/train.py -p workers=25 -p checkpoint_path=results/l2_diagonal_checkpoint
+      -p edge_paths=data/partitions/val_partitioned > logs/eval_diagonal_l2-val.log\n"
+    deps:
+    - path: data/partitions/val_partitioned
+      hash: md5
+      md5: e8416742895ac868e0ac4e45249d9a10.dir
+      size: 157294720
+      nfiles: 1
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    - path: results/l2_diagonal_checkpoint
+      hash: md5
+      md5: 6763e180acc0931a4ba40c3b4e296c05.dir
+      size: 135590236601
+      nfiles: 153
+    outs:
+    - path: logs/eval_diagonal_l2-val.log
+      hash: md5
+      md5: 21a6148b2b2ecaae84cf8d4509b1ae00
+      size: 4137
+  eval@squared_l2-train:
+    cmd: "uv run torchbiggraph_eval pbg_configs/train.py -p workers=25 -p checkpoint_path=results/squared_l2_diagonal_checkpoint
+      -p edge_paths=data/partitions/train_partitioned > logs/eval_diagonal_squared_l2-train.log\n"
+    deps:
+    - path: data/partitions/train_partitioned
+      hash: md5
+      md5: 6dedbbf8c7540c5a8e83b3ff96ca57bf.dir
+      size: 157294720
+      nfiles: 1
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    - path: results/squared_l2_diagonal_checkpoint
+      hash: md5
+      md5: a03333f3c2fff3812f7043bc8fa08d85.dir
+      size: 135590236737
+      nfiles: 153
+    outs:
+    - path: logs/eval_diagonal_squared_l2-train.log
+      hash: md5
+      md5: 9a03a180e792110efede819baeea4ca1
+      size: 4187
+  eval@squared_l2-test:
+    cmd: "uv run torchbiggraph_eval pbg_configs/train.py -p workers=25 -p checkpoint_path=results/squared_l2_diagonal_checkpoint
+      -p edge_paths=data/partitions/test_partitioned > logs/eval_diagonal_squared_l2-test.log\n"
+    deps:
+    - path: data/partitions/test_partitioned
+      hash: md5
+      md5: 9fcca11055b91c46e1afa8f157171f13.dir
+      size: 157294720
+      nfiles: 1
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    - path: results/squared_l2_diagonal_checkpoint
+      hash: md5
+      md5: a03333f3c2fff3812f7043bc8fa08d85.dir
+      size: 135590236737
+      nfiles: 153
+    outs:
+    - path: logs/eval_diagonal_squared_l2-test.log
+      hash: md5
+      md5: 9d562386cce14b881090e722b7be8d04
+      size: 4177
+  eval@squared_l2-val:
+    cmd: "uv run torchbiggraph_eval pbg_configs/train.py -p workers=25 -p checkpoint_path=results/squared_l2_diagonal_checkpoint
+      -p edge_paths=data/partitions/val_partitioned > logs/eval_diagonal_squared_l2-val.log\n"
+    deps:
+    - path: data/partitions/val_partitioned
+      hash: md5
+      md5: e8416742895ac868e0ac4e45249d9a10.dir
+      size: 157294720
+      nfiles: 1
+    - path: pbg_configs/train.py
+      hash: md5
+      md5: f3f71a2941e741f91c3aa2dcbe9630e3
+      size: 1661
+    - path: results/squared_l2_diagonal_checkpoint
+      hash: md5
+      md5: a03333f3c2fff3812f7043bc8fa08d85.dir
+      size: 135590236737
+      nfiles: 153
+    outs:
+    - path: logs/eval_diagonal_squared_l2-val.log
+      hash: md5
+      md5: 0080f5f04a2ebd6be96475c03fd55fb1
+      size: 4177
