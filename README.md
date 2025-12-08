@@ -11,6 +11,36 @@ Additionally, language models to describe peptide sequences are included in the 
 
 The established system will allow the integration of heterogeneous data on peptides, providing a more complete representation of their properties and the context of their interactions. This opens up new possibilities for repurposing known peptides, allowing to find new biomedical applications based on hidden patterns
 
+
+## Link Prediction
+The project implements link prediction to uncover hidden interactions within the knowledge graph. There are two implementations available:
+
+### 1. PyTorch-BigGraph (PBG) - Main Implementation
+Located in `graph_link_prediction_pbg/`.
+
+This is the primary implementation designed for **Big Data** and large-scale graphs. It utilizes [PyTorch-BigGraph](https://github.com/facebookresearch/PyTorch-BigGraph) to efficiently train embeddings on massive datasets that do not fit into memory.
+
+**Key features:**
+- Scalable training on large graphs.
+- Efficient memory usage with partitioned training.
+- Configuration via `conf/` and `params.yaml`.
+- Dependency management via `uv`.
+
+### 2. PyKEEN - Experimental/Development
+Located in `graph_link_prediction_pykeen/`.
+
+This implementation uses [PyKEEN](https://github.com/pykeen/pykeen) and is currently under development. It serves as a testbed for new models and research experiments but is not yet optimized for the full-scale dataset.
+
+### Usage
+Both implementations use `uv` for dependency management.
+
+To work with PBG:
+```bash
+cd graph_link_prediction_pbg
+uv sync
+uv run sbatch_tasks/operator_{}.sh
+```
+
 ## Database
 The project utilizes [neo4j](https://neo4j.com/) graph database management system.
 
