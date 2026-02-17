@@ -16,7 +16,7 @@ driver.verify_connectivity()
 async def upload_aa():
     """Загрузка аминокислотных последовательностей из AA.csv"""
     query = """
-    LOAD CSV WITH HEADERS FROM 'file:///neo4j_nodes/AA.csv' AS row
+    LOAD CSV WITH HEADERS FROM 'file:///AA.csv' AS row
     CALL(row) {
         MERGE (n:aa {node_id: toInteger(row.id)})
         SET n.content = row.content,
@@ -33,7 +33,7 @@ async def upload_aa():
 async def upload_dna():
     """Загрузка DNA последовательностей из DNA.csv"""
     query = """
-    LOAD CSV WITH HEADERS FROM 'file:///neo4j_nodes/DNA.csv' AS row
+    LOAD CSV WITH HEADERS FROM 'file:///DNA.csv' AS row
     CALL(row) {
         MERGE (n:dna {node_id: toInteger(row.id)})
         SET n.content = row.content,
@@ -50,7 +50,7 @@ async def upload_dna():
 async def upload_rna():
     """Загрузка RNA последовательностей из RNA.csv"""
     query = """
-    LOAD CSV WITH HEADERS FROM 'file:///neo4j_nodes/RNA.csv' AS row
+    LOAD CSV WITH HEADERS FROM 'file:///RNA.csv' AS row
     CALL(row) {
         MERGE (n:rna {node_id: toInteger(row.id)})
         SET n.content = row.content,
@@ -67,7 +67,7 @@ async def upload_rna():
 async def upload_small_molecules():
     """Загрузка малых молекул (SMILES) из SmallMolecule.csv"""
     query = """
-    LOAD CSV WITH HEADERS FROM 'file:///neo4j_nodes/SmallMolecule.csv' AS row
+    LOAD CSV WITH HEADERS FROM 'file:///SmallMolecule.csv' AS row
     CALL(row) {
         MERGE (n:small_molecule {node_id: toInteger(row.id)})
         SET n.content = row.content,
@@ -84,7 +84,7 @@ async def upload_small_molecules():
 async def upload_nucleic_ambiguous():
     """Загрузка неоднозначных нуклеиновых последовательностей из NucleicAmbigous.csv"""
     query = """
-    LOAD CSV WITH HEADERS FROM 'file:///neo4j_nodes/NucleicAmbigous.csv' AS row
+    LOAD CSV WITH HEADERS FROM 'file:///NucleicAmbigous.csv' AS row
     CALL(row) {
         MERGE (n:nucleic_ambiguous {node_id: toInteger(row.id)})
         SET n.content = row.content,
@@ -101,7 +101,7 @@ async def upload_nucleic_ambiguous():
 async def upload_nucleic_mixed():
     """Загрузка смешанных (RNA/DNA) нуклеиновых последовательностей из NucleicMixed.csv"""
     query = """
-    LOAD CSV WITH HEADERS FROM 'file:///neo4j_nodes/NucleicMixed.csv' AS row
+    LOAD CSV WITH HEADERS FROM 'file:///NucleicMixed.csv' AS row
     CALL(row) {
         MERGE (n:nucleic_mixed {node_id: toInteger(row.id)})
         SET n.content = row.content,
