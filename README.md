@@ -1,65 +1,108 @@
-# BiopolymersKnowledgeGraphs
+# BioSensGraph: Predicting Biopolymer Interactions via Knowledge Graph Embedding on a Property Graph of Molecular Entities
 
 ## Overview
-This project aims to develop a system that uses knowledge graph-based embeddings and machine learning techniques to analyze peptides. 
+BioSensGraph is a research and engineering repository for molecular interaction modeling with knowledge graphs.
 
-The main problem is the lack of an integrated approach that takes into account both local properties (structure, sequence) and global context (interactions, annotations, biochemical characteristics). 
+The project focuses on:
+- integrating heterogeneous molecular data into a unified graph representation,
+- learning entity/relation embeddings for large-scale link prediction,
+- ranking candidate interactions such as `interacts_with`
 
-To solve this problem, knowledge graphs are used to combine heterogeneous data from ontologies, textual annotations and structural characteristics of molecules. The application of knowledge graph embeddings methods allows the transformation of relationships between peptides into a vector space, and graph neural network models provide aggregation of local and global contexts for property prediction. 
+The current production-oriented pipeline is based on `PyTorch-BigGraph` in `graph_link_prediction_pbg/`, with parsing and data preparation components in `src/` and `scripts/`.
 
-Additionally, language models to describe peptide sequences are included in the vectorization process, and their embeddings are combined with representations derived from knowledge graphs. Further analysis will evaluate how this combination will affect the quality of peptide property prediction.
+## Core Modules
 
-The established system will allow the integration of heterogeneous data on peptides, providing a more complete representation of their properties and the context of their interactions. This opens up new possibilities for repurposing known peptides, allowing to find new biomedical applications based on hidden patterns.
+This repository is organized as a modular workflow. Each module has a specific role in the end-to-end pipeline.
+
+### 1) Data Collection Module (`src/`, parts of `scripts/`, `notebooks/`)
+
+- Collects molecular entities and relations from heterogeneous sources (APIs, public datasets, internal tables).
+- Contains parser logic and domain data models used to normalize raw inputs before graph construction.
+- Includes research notebooks for exploratory parsing and validation.
+
+### 2) Data Processing and Integration Module (`scripts/`, `notebooks/`)
+
+- Cleans, merges, deduplicates, and harmonizes entities/relations into graph-ready formats.
+- Prepares intermediate CSV/TSV artifacts for downstream training and analytics.
+- Hosts operational scripts for upload and transformation workflows.
+
+### 3) Neo4j Module (graph storage and collaboration layer)
+
+- Neo4j is used as a convenient graph storage layer for exploration, quality checks, and collaborative access.
+- Enables ad-hoc Cypher analysis, relationship audits, and shared graph inspection across team members.
+
+### 4) Link Prediction Module (`graph_link_prediction_pbg/`)
+
+- Main production ML subsystem based on `PyTorch-BigGraph`.
+- Handles split/import, partitioned training, checkpointing, and metric evaluation.
+- Provides reproducible training workflows with DVC and SLURM/local execution options.
+
+### 5) Relation Augmentation Module (`similarity_counts/`)
+
+- Builds additional similarity-based edges (sequence/structure similarity) used to enrich graph connectivity.
+- Produces augmentation links.
 
 ## Project Structure
 ```
 BiopolymersKG/
 ├── graph_link_prediction_pbg/      # Main scalable link prediction system (PyTorch-BigGraph)
-│   ├── conf/                       # Hydra configs
-│   ├── sbatch_tasks/               # HPC execution scripts
-│   ├── inference/                  # Inference, scoring, evaluation
-│   ├── pbg_configs/                # PBG dataset & training configuration
-│   ├── data/                       # Managed with DVC
-│   └── results/                    # Model outputs, embeddings, metrics
+│   ├── conf/                       # Hydra-style configuration
+│   ├── pbg_configs/                # PBG train/import config builders
+│   ├── sbatch_tasks/               # SLURM launch scripts
+│   ├── tasks/                      # DVC task wrappers
+│   ├── inference/                  # Inference and metric utilities
+│   ├── data/                       # Partitioned graph data
+│   ├── resources/                  # Source TSV/CSV resources
+│   ├── results_*/                  # Checkpoints/embeddings by operator setup
+│   └── metrics_*/                  # Evaluation outputs by setup
 │
-├── graph_link_prediction_pykeen/   # Experimental link prediction system (PyKEEN)
-│   ├── src/train/                  # RotatE, DistMult etc.
-│   ├── download_data_from_neo4j/   # Graph extraction
-│   └── splitting/                  # Dataset splitting utilities
+├── src/                            # Parsing and data models
+│   ├── parser/                     # Dataset and source parsers
+│   └── models/                     # Core domain models
 │
-├── scripts/                        # Neo4j upload and data processing tools
-├── src/                            # Data models, parsers (UniProt, PDB, AlphaFold)
+├── similarity_counts/              # Similarity preprocessing (DNA/RNA etc.)
+├── scripts/                        # Data processing and DB scripts
 ├── notebooks/                      # Analysis and exploratory notebooks
 └── docs/                           # Documentation
 ```
 
+## Environment Strategy
+
+Each major module is expected to use its own environment and dependency scope.
+
+- `graph_link_prediction_pbg/` has its own ML-focused environment (link prediction).
+- `similarity_counts/` has its own preprocessing-focused environment.
+- Root-level parsing/processing scripts may use a separate lightweight environment for ingestion/integration tasks.
+
+This separation reduces dependency conflicts, improves reproducibility, and allows independent module evolution.
+
 ## Link Prediction
-Link prediction is one of the core machine learning tasks in this project. It enables the model to identify **missing**, **hidden**, or **previously unknown** interactions between biopolymers based on the structure of the knowledge graph.
+Link prediction is the core ML task in this repository.  
+Given `(lhs, relation)`, the model ranks candidate `rhs` entities and returns the most plausible missing edges.
 
 ## 1. Transductive Dataset Split
 
 The graph is prepared using a **transductive split**, meaning:
 
-- All **entities (nodes)** are present during training, validation, and testing.
+- All **entities (nodes)** are present during training and testing.
 - Only **edges (triples)** are divided into:
   - **80%** — training triples  
-  - **10%** — validation triples  
-  - **10%** — test triples  
+  - **20%** — test triples  
 
 This setup evaluates the model’s ability to **recover missing interactions** among already known entities.
 
 Triples are stored in TSV format: ```lhs_entity_id relation_type rhs_entity_id```
 
-Supported relations:
+Current primary relations:
 
 - `interacts_with`
 - `has_similarity`
-Targeted binding for finding new molecular interactions - `interaction with`
+
 ---
 
 ## 2. PyTorch-BigGraph (PBG) Training Pipeline
 
-PBG is used for scalable training on graphs with millions of nodes and tens of millions of edges.
+`graph_link_prediction_pbg/` is the main training pipeline for large graphs.
 
 ### 2.1 Graph Partitioning
 
@@ -70,38 +113,21 @@ PBG automatically partitions the graph:
 - Ensures efficient negative sampling.
 - Allows streaming of partitions instead of loading the whole graph into memory.
 
-Each relation is parameterized by a trained **operator** (e.g., diagonal, affine, complex diagonal).
+Each relation is parameterized by a trained **operator** (e.g., `diagonal`, `affine`, `complex_diagonal`, `translation`).
 
 ---
 
 ### 2.2 Optimization Objective
 
-For every true triple \(h, r, t), PBG computes a **score**:
+For each true triple `(h, r, t)`, the model computes a score:
 
 score = f(h, r, t)
 
-where:
-
-- \(h\) is the head entity embedding  
-- \(t\) is the tail entity embedding  
-- \(r\) is a relation-specific operator
-
 Higher scores correspond to plausible/true interactions.
 
-Training uses **MarginRankingLoss**:
+Training uses ranking loss with negative sampling:
 
 Loss = max(0, margin - score_positive + score_negative)
-
-Where:
-
-- \(h, r, t) is a positive triple  
-- \(h', r, t') is a negative (corrupted) triple  
-- \(margin) is the margin hyperparameter  
-
-The model learns to assign:
-
-- **higher** scores to true triples  
-- **lower** scores to corrupted triples  
 
 ---
 
@@ -131,10 +157,10 @@ Sampled uniformly from **all entities** in the graph.
 
 **Configuration used in this project:**
 
-- **50 batch negatives**
-- **100 uniform negatives**
+- **50** batch negatives
+- **100** uniform negatives
 
-Thus, each positive triple is trained against **≈150 negatives**, strengthening contrastive learning.
+Each positive triple is contrasted against 150 negatives.
 
 ---
 
@@ -144,12 +170,12 @@ Thus, each positive triple is trained against **≈150 negatives**, strengthenin
 
 Dense vector representations (typically **400 dimensions**) for:
 
-- peptides  
-- proteins   
-- DNA / RNA  
-- small molecules  
+- AA (peptides, proteins)   
+- DNA
+- RNA  
+- Small Molecules  
 
-These embeddings encode both local and global graph structure.
+These embeddings capture local and global graph structure.
 
 ---
 
@@ -174,40 +200,39 @@ Defines how similarity is computed between the transformed head embedding and th
 - **Dot product**
 - **L2 distance**
 - **Squared L2 distance**
+
 ---
 
 ## 5. Evaluation Protocol
 
-Since link prediction is fundamentally a **ranking problem**, we use standard ranking metrics:
+As a ranking task, evaluation is based on:
 
-- **MRR** - Mean Reciprocal Rank  
-- **Hits@K** - K ∈ {1, 5, 10}  
-- **Precision@K**, **Recall@K**, **F1@K**  
-- **MAP** - Mean Average Precision  
-- **NDCG@K** - Normalized Discounted Cumulative Gain  
+- global graph-level evaluation:
+**MRR**, **Hits@K**
+- subset-specific evaluation for `interacts_with`:
+**MRR**, **Hit@K**, **Precision@K**, **Recall@K**, **MAP**, **NDCG@K** 
 
 Each test triple \(h, r, t) is evaluated by ranking:
 
 - the true tail \(t) among **corrupted tails**, or  
 - the true head \(h) among **corrupted heads**  
+
 ---
 
 ## 6. Inference Pipeline
 
-The inference module provides:
+The inference modules and notebooks provide:
 
-1. Loading of trained embeddings and relation operators  
-2. Querying the graph with any entity and relation type  
-3. Computing scores against all candidate tail entities  
-4. Returning a **ranked list of predicted links**  
-5. Optional evaluation using the same negative sampling strategy as training  
+1. loading trained embeddings and relation operators,
+2. querying by entity and relation,
+3. scoring candidates,
+4. returning ranked predictions.
 
-**Applications:**
+Typical outputs include:
 
-- discovery of peptide–protein or protein–molecule interactions  
-- hit identification in early-stage molecular screening  
-- peptide repurposing across biological functions  
-- biosensor and analyte recognition modeling  
+- ranked `interacts_with` candidates,
+- metric reports by operator/comparator,
+- experiment-level comparisons across checkpoints.
 
 ---
 
@@ -232,4 +257,69 @@ Get statistics for all nodes interactions
 MATCH (n)-[r:interacts_with]->(m) RETURN COUNT(r) AS relationship_count, LABELS(n) AS source_labels, LABELS(m) AS dest_labels ORDER BY relationship_count DESC 
 ```
 
-## [File layout](docs/file_layout.md)
+## 7. Reproducible Run Procedure (PBG)
+
+This section describes a practical run order for a new user in `graph_link_prediction_pbg/`.
+
+### 7.1 Environment Setup
+
+1. Install `uv` (if not installed yet):
+   - [uv installation guide](https://docs.astral.sh/uv/getting-started/installation/)
+2. Go to repository root:
+   - `cd BiopolymersKG/graph_link_prediction_pbg`
+3. Initialize local environment metadata (if needed on a fresh machine):
+   - `uv init`
+4. Ensure PBG dependency exists:
+   - `uv add torchbiggraph`
+5. Sync all dependencies from `pyproject.toml`/`uv.lock`:
+   - `uv sync`
+
+### 7.2 Data Preparation
+
+Place input files into `resources/` (project-local paths), then run split/import pipeline:
+
+1. Build `train.tsv` and `test.tsv`:
+   - `./tasks/split.sh`
+2. Import TSV into PBG partitions:
+   - `./tasks/import_from_tsv.sh`
+
+### 7.3 Training
+
+You can run training in two modes:
+
+1. **SLURM mode (recommended for large runs)**
+   - Run one operator at a time, for example:
+   - `sbatch --cpus-per-task=120 --mem=20G --time=10:00:00 sbatch_tasks/operator_diagonal.sh`
+
+2. **Local CPU mode**
+   - Run task script directly:
+   - `./sbatch_tasks/operator_diagonal.sh`
+   - or explicitly:
+   - `bash sbatch_tasks/operator_diagonal.sh`
+
+After training, metric collection is launched by task scripts (for all configured comparators/epochs).
+
+### 7.4 Recommended Experiment Tracking (DVC)
+
+If you want full reproducibility of training states/checkpoints/metrics:
+
+1. Run via DVC experiment command (already used in `sbatch_tasks/operator_*.sh`).
+2. Save experiment explicitly:
+   - `uv run dvc exp save -n <operator_name>`
+3. Inspect/restore later:
+   - `uv run dvc exp list`
+   - `uv run dvc exp show`
+   - `uv run dvc exp apply <exp_name>`
+
+This is the preferred workflow for publication-grade reproducibility.
+
+### 7.5 If You Do Not Use DVC Tracking
+
+You can still run training without DVC experiment bookkeeping, but then you must manually prevent overwrites:
+
+- rename/copy output folders after each finished run (e.g., `results_*`, `metrics_*`, `logs_*`),
+- keep strict naming by operator/checkpoint.
+
+This manual mode works for quick analysis while another training is running.
+
+

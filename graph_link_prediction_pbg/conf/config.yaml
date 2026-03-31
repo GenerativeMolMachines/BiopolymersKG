@@ -15,8 +15,8 @@ relations:
   - name: interacts_with
     lhs: molecules
     rhs: molecules
-    operator: diagonal
+    operator: ${operator}
   - name: has_similarity
     lhs: molecules
     rhs: molecules
-    operator: diagonal
+    operator: ${operator}

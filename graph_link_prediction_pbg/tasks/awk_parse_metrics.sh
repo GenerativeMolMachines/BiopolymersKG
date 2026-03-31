@@ -22,4 +22,4 @@ awk -F 'Stats:' '{
                     if (i<n) printf ", "
                 }
                 print "}"
-            }' $1 | grep loss | /usr/bin/jq .
+            }' $1 | grep loss

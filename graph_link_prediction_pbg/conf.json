@@ -1,8 +1,7 @@
 {
     'edge_paths': {
         'train': 'train_partitioned', 
-        'test': 'test_partitioned', 
-        'val': 'val_partitioned'
+        'test': 'test_partitioned'
     }, 
     'entities': {
         'molecules': {'num_partitions': 1}

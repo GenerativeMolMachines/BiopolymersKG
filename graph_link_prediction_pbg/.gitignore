@@ -218,12 +218,16 @@ __marimo__/
 # Logs
 slurm-*.out
 *.log
-logs/
+logs_*
+reports/
+
 
 # Results and metrics (tracked by DVC, not Git)
 results/
 metrics/
 data/
+metrics_*
+results_*
 
 # local dev
 inference.ipynb
@@ -238,3 +242,24 @@ aptamers_embeddings.npy
 
 # archive
 aptamers_emb_624.tar.gz
+
+# TEMP
+inference/plot_inference_l2_dashboard.ipynb
+
+# Large local datasets and generated analysis artifacts
+resources/*.csv
+resources/*.parquet
+resources/*.feather
+resources/*.jsonl
+metrics_analysis/
+
+# DVC local cache / temp
+.dvc/cache/
+.dvc/tmp/
+
+# DVC lock file
+dvc_old.lock
+
+# Inference outputs
+inference/*.npz
+inference/*.csv

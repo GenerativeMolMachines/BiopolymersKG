@@ -1,4 +1,4 @@
 name: interacts_with
 lhs: molecules
 rhs: molecules
-operator: diagonal
+operator: ${operator}

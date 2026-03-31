@@ -1,7 +1,6 @@
 edge_paths:
   train: data/partitions/train_partitioned
   test: data/partitions/test_partitioned
-  val: data/partitions/val_partitioned
 entities:
   molecules:
     num_partitions: 1
@@ -10,7 +9,6 @@ import_data:
   config_path: pbg_configs/import_from_tsv.py
   train_path: resources/train.tsv
   test_path: resources/test.tsv
-  val_path: resources/val.tsv
   lhs_col: 0
   rel_col: 1
   rhs_col: 2
@@ -37,17 +35,17 @@ train:
   global_emb: true
   init_scale: 0.001
   bucket_order: inside_out
-  workers: 25
+  workers: 120
   eval_fraction: 0.0
   verbose: 1
 entity_path: data/partitions
-operator: diagonal
+operator: complex_diagonal
 relations:
 - name: interacts_with
   lhs: molecules
   rhs: molecules
-  operator: diagonal
+  operator: complex_diagonal
 - name: has_similarity
   lhs: molecules
   rhs: molecules
-  operator: diagonal
+  operator: complex_diagonal

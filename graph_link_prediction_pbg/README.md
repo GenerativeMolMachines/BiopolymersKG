@@ -1,44 +1,58 @@
-# BioSensGraph: Predicting Biopolymer Interactions via Knowledge Graph Embedding on a Property Graph of Molecular Entities
+# BioSensGraph: Link Prediction
 
-This repository is designed for semi-automated launch for predicting connections in a biological knowledge graph. Its purpose is to find new recognizeable elements for analyzers. 
----
+This project provides a reproducible workflow for biological knowledge graph link prediction using `PyTorch-BigGraph`.
 
-## Overview
+## Purpose
 
-- **Goal:** Predict novel `interacts_with` relations using knowledge graph embeddings (KGE).  
-- **Frameworks:** PyTorch-BigGraph (PBG), DVC for experiment management.  
-- **Compute:** Designed for SLURM-based clusters.  
+- Learn entity and relation embeddings from graph triplets.
+- Predict `interacts_with` links between molecular entities.
+- Compare scoring setups (operators/comparators) through tracked experiments.
 
----
+## Training Setup
 
-## Installation and prepare env
+- **Modeling framework:** `PyTorch-BigGraph`
+- **Experiment tracking:** `DVC`
+- **Execution environment:** local run or `SLURM` via scripts in `sbatch_tasks/`
+- **Configuration sources:** `params.yaml`, `conf/`, `pbg_configs/`
+- **Input format:** triplets `lhs  relation  rhs`
 
-1. **Install [uv](https://github.com/astral-sh/uv):**
-2. **Synchronization of required libraries** 
-  ```bash
-    uv sync
-  ```
-3. **Set env**
-  ```bash
-    uv venv .vevn
-  ```
-4. **Installing the experiment manager and storage**
-  ```bash
-    uv pip install "dvc[s3]"
-    apt install jq
-  ```
-## Runnung experiments
-  On SLURM 
-  Use the provided scripts in sbatch_task/. Each script sets SLURM resources and calls a DVC Experiment with operator selection.
-  Pattern inside each *.sh:
+During training, the model optimizes scores of true edges against negative samples.
 
-  ```bash
-  #!/bin/bash
-  uv run dvc exp run -S "operator=<OPERATOR_NAME>" -S "train.workers=<NUMBER_CPU's>"
-  ```
+## Link Prediction
 
-Submit a job, e.g. for the diagonal operator:
+For a given `(lhs, relation)` query, the model ranks candidate `rhs` entities by score.  
+Top-ranked entities are treated as the most likely interaction candidates.
 
-  ```bash
-  sbatch sbatch_task/operator_diagonal.sh
-  ```
+## Quick Start
+
+```bash
+uv sync
+uv pip install "dvc[s3]"
+```
+
+Prepare data and partitions:
+
+```bash
+./tasks/split.sh
+./tasks/import_from_tsv.sh
+```
+
+Run an experiment locally:
+
+```bash
+uv run dvc exp run -S "operator=diagonal" -S "train.workers=16"
+```
+
+Run on SLURM:
+
+```bash
+sbatch sbatch_tasks/operator_diagonal.sh
+```
+
+## Outputs
+
+- Checkpoints: `results_*/`
+- Metrics: `metrics_*/`
+
+
+Delete/recreate `dvc.lock` only if you intentionally want to rebuild lock state for the whole pipeline.

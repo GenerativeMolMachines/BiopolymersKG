@@ -2,11 +2,11 @@
 
 set -euo pipefail
 
-BIN="/mnt/tank/scratch/pbogdanov/graph/.venv/bin"
+PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$PROJECT_ROOT"
 
-"$BIN/torchbiggraph_import_from_tsv" \
+uv run torchbiggraph_import_from_tsv \
     --lhs-col=0 --rel-col=1 --rhs-col=2 \
-    configs/import_data.py \
-    data/resources/train.tsv \
-    data/resources/test.tsv \
-    data/resources/val.tsv
+    "$PROJECT_ROOT/pbg_configs/import_from_tsv.py" \
+    "$PROJECT_ROOT/resources/train.tsv" \
+    "$PROJECT_ROOT/resources/test.tsv"

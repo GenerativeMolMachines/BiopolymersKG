@@ -181,3 +181,11 @@ slurm-*.out
 *.h5
 *.ckpt
 
+# similarity_counts: keep code, ignore heavy local artifacts
+similarity_counts/.venv/
+similarity_counts/data/
+similarity_counts/**/*.out
+similarity_counts/**/__pycache__/
+similarity_counts/**/*.ipynb_checkpoints/
+
+
